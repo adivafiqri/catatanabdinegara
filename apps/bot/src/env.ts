@@ -51,7 +51,14 @@ const EnvSchema = z
 export type Env = z.infer<typeof EnvSchema>;
 
 export function loadEnv(source: NodeJS.ProcessEnv = process.env): Env {
-  const r = EnvSchema.safeParse(source);
+  // Baris "NAMA=" (kosong) di .env berarti "tidak diisi", bukan string kosong.
+  // Spasi di tepi nilai juga dibuang (mis. "TOKEN= 123:abc").
+  const cleaned = Object.fromEntries(
+    Object.entries(source)
+      .map(([k, v]) => [k, typeof v === "string" ? v.trim() : v] as const)
+      .filter(([, v]) => v !== ""),
+  );
+  const r = EnvSchema.safeParse(cleaned);
   if (!r.success) {
     // Hanya nama variabel & alasan yang dicetak, tidak pernah nilainya.
     const lines = r.error.issues.map((i) => `- ${i.path.join(".")}: ${i.message}`).join("\n");
