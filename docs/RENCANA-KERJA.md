@@ -39,7 +39,7 @@ Catatan pelaksanaan: Turborepo ditunda (cukup `pnpm -r` selama baru ada 2 paket)
 10. [x] Perintah umum: `/start`, `/aturan`, `/tryout`, `/materi`, `/jadwal`
 11. [x] Pesan terjadwal (`bot_scheduled_posts`), termasuk anti-penipuan; tidak dobel walau restart (kunci baris `FOR UPDATE SKIP LOCKED`)
 12. [x] Layanan systemd + panduan deploy (`docs/runbook/deploy-bot.md`) + health check mode webhook. Dockerfile ditunda (VPS tanpa Docker)
-13. [ ] **(menunggu pemilik)** Uji coba 3 hari di grup uji dengan 3–5 akun → perbaikan
+13. [x] Diuji pemilik langsung di grup asli "Catatan Abdi Negara" (23 Nov 2026): anti-spam & tombol verifikasi berjalan. Bot berjalan sebagai layanan systemd di VPS (linger aktif). Pemantauan beberapa hari tetap dilakukan sambil M2 dikerjakan.
 **Tes:** unit test detektor spam & tangga peringatan (≥ 90% cakupan modul moderasi); tes integrasi handler dengan update Telegram tiruan; uji manual daftar periksa di grup uji.
 
 ## Milestone 2: Admin bank soal (target: awal Januari 2027)
