@@ -24,6 +24,10 @@ export function createBot(token: string, deps: Deps, config?: BotConfig<Context>
   bot.use(async (ctx, next) => {
     const chat = ctx.chat;
     if (allowed.size === 0) {
+      // Catat ID grup ke log agar pemilik bisa mengisi ALLOWED_CHAT_IDS tanpa harus mengetik /id.
+      if (chat && chat.type !== "private") {
+        console.info(`[persiapan] terlihat di grup "${chat.title ?? "-"}" dengan ID ${chat.id}`);
+      }
       if (/^\/id(@\w+)?(\s|$)/.test(ctx.msg?.text ?? "")) return next();
       return;
     }
