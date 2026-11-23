@@ -11,12 +11,15 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "bot:dev": "pnpm --filter @can/bot dev",
-    "db:generate": "pnpm --filter @can/db generate"
+    "db:generate": "pnpm --filter @can/db generate",
+    "soal:cek": "tsx scripts/soal-cek.ts"
   },
   "type": "module",
   "devDependencies": {
+    "@can/shared": "workspace:*",
     "eslint": "^10.14.0",
     "prettier": "^3.9.10",
+    "tsx": "4.23.15",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.72.1"
   }

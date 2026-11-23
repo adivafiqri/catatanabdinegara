@@ -1,6 +1,6 @@
 // Bot sungguhan + Postgres di memori (PGlite) + Telegram API tiruan yang merekam panggilan.
 import { PGlite } from "@electric-sql/pglite";
-import { migrationsFolder, schema, type Db } from "@can/db";
+import { botMigrationsFolder as migrationsFolder, schema, type Db } from "@can/db";
 import { drizzle } from "drizzle-orm/pglite";
 import { migrate } from "drizzle-orm/pglite/migrator";
 import type { Update, UserFromGetMe } from "grammy/types";

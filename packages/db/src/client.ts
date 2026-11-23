@@ -4,14 +4,15 @@ import { migrate as migratePglite } from "drizzle-orm/pglite/migrator";
 import { drizzle } from "drizzle-orm/postgres-js";
 import { migrate } from "drizzle-orm/postgres-js/migrator";
 import postgres from "postgres";
-import { migrationsFolder, schema, type Db } from "./index.js";
+import { botMigrationsFolder, schema, webMigrationsFolder, type Db } from "./index.js";
 
 export interface DbHandle {
   db: Db;
   close: () => Promise<void>;
 }
 
-const MIGRATE_OPTS = { migrationsFolder, migrationsSchema: "bot" };
+const BOT_MIGRATIONS = { migrationsFolder: botMigrationsFolder, migrationsSchema: "bot" };
+const WEB_MIGRATIONS = { migrationsFolder: webMigrationsFolder, migrationsSchema: "drizzle" };
 
 /**
  * Membuka database dari URL:
@@ -20,16 +21,20 @@ const MIGRATE_OPTS = { migrationsFolder, migrationsSchema: "bot" };
  *   sebelum ada Supabase. Pindah ke Supabase cukup dengan dump/restore schema `bot`.
  * Migrasi dijalankan otomatis.
  */
-export async function openDb(url: string): Promise<DbHandle> {
+export async function openDb(url: string, which: "bot" | "web" | "all" = "bot"): Promise<DbHandle> {
+  const sets =
+    which === "all"
+      ? [BOT_MIGRATIONS, WEB_MIGRATIONS]
+      : [which === "bot" ? BOT_MIGRATIONS : WEB_MIGRATIONS];
   if (url.startsWith("pglite://")) {
     const dir = url.slice("pglite://".length);
     const pg = new PGlite(dir);
-    await migratePglite(drizzlePglite(pg), MIGRATE_OPTS);
+    for (const m of sets) await migratePglite(drizzlePglite(pg), m);
     return { db: drizzlePglite(pg, { schema }) as unknown as Db, close: () => pg.close() };
   }
   const migrator = postgres(url, { prepare: false, max: 1 });
   try {
-    await migrate(drizzle(migrator), MIGRATE_OPTS);
+    for (const m of sets) await migrate(drizzle(migrator), m);
   } finally {
     await migrator.end({ timeout: 5 });
   }

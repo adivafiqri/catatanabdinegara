@@ -43,14 +43,17 @@ Catatan pelaksanaan: Turborepo ditunda (cukup `pnpm -r` selama baru ada 2 paket)
 **Tes:** unit test detektor spam & tangga peringatan (≥ 90% cakupan modul moderasi); tes integrasi handler dengan update Telegram tiruan; uji manual daftar periksa di grup uji.
 
 ## Milestone 2: Admin bank soal (target: awal Januari 2027)
-1. [ ] `packages/shared`: skema Zod soal, opsi, rule set, file impor
-2. [ ] Migrasi: subtests, sub_topics, rule_sets, questions, question_options, question_revisions, schools; seed subtes & sub-materi
+**Bagian A (selesai):** fondasi tanpa layanan luar: template CSV, `pnpm soal:cek`, skema & layanan bank soal (impor all-or-nothing, riwayat versi, alur status), panduan `docs/PANDUAN-ISI-SOAL.md`.
+**Bagian B (menunggu Supabase):** panel admin web, butir 3–7, 9, 10.
+
+1. [x] `packages/shared`: model & validator soal, aturan SKD (rule set) bawaan 110 soal/100 menit, impor CSV/JSON, ekspor, cek kelengkapan paket
+2. [x] Migrasi: subtests, sub_topics, rule_sets, questions, question_options, question_revisions, schools (+RLS); seed subtes, sub-materi, sekolah, aturan SKD
 3. [ ] `apps/web` kerangka Next.js + Supabase Auth + peran admin + MFA wajib
 4. [ ] Daftar soal (filter subtes/sub-materi/status/tingkat, cari)
 5. [ ] Form soal + pratinjau tampilan ujian + unggah gambar (WebP)
 6. [ ] Alur status draf → tinjau → terbit → arsip; riwayat revisi
 7. [ ] Impor CSV/ZIP & JSON: validasi → laporan per baris → simpan (transaksi)
-8. [ ] Ekspor JSON + job cadangan mingguan
+8. [~] Ekspor JSON/CSV (fungsi siap di `BankRepo.exportAll` + `toBankJson`/`toCsv`); job cadangan mingguan menyusul bersama panel web
 9. [ ] Editor rule set (versi) dengan penanda "ambang batas terverifikasi"
 10. [ ] Panel pengaturan bot (kata terlarang, whitelist, teks) di web
 **Tes:** unit validator impor (file benar, kunci ganda, bobot TKP kembar, kolom hilang, UTF-8 aneh); tes RLS (non-admin tidak bisa membaca soal); E2E admin membuat & menerbitkan 1 soal.
