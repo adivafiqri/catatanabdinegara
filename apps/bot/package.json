@@ -1,0 +1,26 @@
+{
+  "name": "@can/bot",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --env-file=../../.env src/main.ts",
+    "start": "tsx src/main.ts",
+    "set-webhook": "tsx src/set-webhook.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@can/db": "workspace:*",
+    "cron-parser": "^5.10.4",
+    "drizzle-orm": "^0.45.4",
+    "grammy": "^1.46.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.15",
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "vitest": "^5.1.0"
+  }
+}

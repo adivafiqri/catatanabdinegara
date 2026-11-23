@@ -1,6 +1,6 @@
 # Struktur Repo & Konvensi Kode
 
-Versi 0.1 · 23 November 2026 · Monorepo **pnpm workspaces + Turborepo**, Node 22 LTS.
+Versi 0.2 · 23 November 2026 · Monorepo **pnpm workspaces** (Turborepo ditambahkan saat `apps/web` hadir), Node 22 LTS.
 
 ---
 

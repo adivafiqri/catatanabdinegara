@@ -97,5 +97,8 @@ Satu momen saja per alur: **stempel jatuh** di halaman hasil (skala 1,4 → 1, r
 - **Mood:** seru dan kompetitif, cocok dipotong untuk konten TikTok/Reels.
 - **Risiko:** paling berat dirawat dan paling mudah menjadi terlalu ramai. Streak & lencana adalah fitur tahap 2, jadi di MVP beberapa slot harus diisi hal lain.
 
-### Rekomendasi saya
+### Keputusan pemilik (23 Nov 2026): **Arah C — Buku Tempel Misi**
+Catatan penerapan: halaman ujian tetap versi tenang. Slot streak/lencana di beranda MVP diganti "Riwayat tryout terakhir" sampai fitur tahap 2 siap.
+
+### Rekomendasi awal saya (sebelum keputusan)
 **B sebagai kerangka, dengan dua unsur C**: pita sinar + skor besar di halaman hasil, dan podium di leaderboard. Alasannya, B paling khas dengan cerita pemilik (mantan taruna, perwira) dan tidak mudah ditiru bimbel lain. B juga tetap tenang untuk orang tua dan pelamar CPNS. Unsur C memberi rasa "game" tepat di layar yang paling sering di-*screenshot*. A adalah cadangan jika ingin cepat dan aman.

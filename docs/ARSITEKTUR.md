@@ -16,7 +16,8 @@ Prioritas (dari brief): **murah**, **mudah dirawat satu orang**, **tahan lonjaka
 | Cache & rate limit | **Upstash Redis** (serverless, region Singapura) | Leaderboard pakai *sorted set*, rate limit per IP/akun, bayar per pemakaian. |
 | Hosting web | **Vercel** | Deploy dari GitHub, CDN, gratis untuk dev. **Catatan:** paket Hobby melarang pemakaian komersial → pindah ke Pro saat premium (Mei 2027) atau dari awal bila sudah ada iklan/afiliasi. |
 | Bot | **grammY** (Node/TS), **mode webhook**, layanan terpisah dalam container kecil | Bot moderasi harus tetap jalan walau web sedang deploy/diserbu trafik. Timer verifikasi & jadwal posting butuh proses yang selalu hidup. |
-| Hosting bot | VPS kecil (1 vCPU/1 GB) atau Railway/Fly — **keputusan pemilik** | ± US$5/bulan. Docker image yang sama bisa dipindah ke mana saja. |
+| Hosting bot | **VPS milik pemilik** (diputuskan 23 Nov 2026), mode polling, layanan systemd pengguna | Tanpa biaya tambahan; tidak perlu domain/HTTPS. Panduan: `docs/runbook/deploy-bot.md`. |
+| Database bot (M1) | **PGlite** berbasis file di VPS, schema `bot` | Postgres tertanam: kode & migrasi sama dengan Supabase, pindah cukup ganti `BOT_DATABASE_URL`. Batasan: hanya satu proses. |
 | ORM / migrasi | **Drizzle ORM** + migrasi SQL di repo | Skema terketik di TS, SQL tetap terbaca, cocok dengan Supabase. |
 | Validasi | **Zod** di `packages/shared` | Skema impor soal, input API, dan konfigurasi SKD divalidasi dengan kode yang sama di web & bot. |
 | Tes | **Vitest** (unit/integrasi), **Playwright** (E2E di viewport 390px) | |

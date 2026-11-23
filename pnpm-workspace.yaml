@@ -1,0 +1,5 @@
+packages:
+  - apps/*
+  - packages/*
+# Tolak paket yang dirilis < 14 hari (perlindungan rantai pasok)
+minimumReleaseAge: 20160

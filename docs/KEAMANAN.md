@@ -60,7 +60,9 @@ UU PDP Pasal 25 mewajibkan persetujuan orang tua/wali untuk memproses data priba
 3. Pengguna memasukkan email orang tua/wali → wali menerima tautan persetujuan (berlaku 7 hari) → akun menjadi penuh.
 4. Wali bisa mencabut persetujuan lewat tautan di email → akun kembali terbatas atau dihapus.
 
-Alternatif yang lebih sederhana tapi lebih berisiko: hanya centang "Saya sudah mendapat izin orang tua/wali". **Perlu keputusan Anda.**
+Alternatif yang lebih sederhana tapi lebih berisiko: hanya centang "Saya sudah mendapat izin orang tua/wali".
+
+**Keputusan pemilik (23 Nov 2026): memakai centang.** Penerapan di M3: centang wajib bagi pengguna yang tahun lahirnya menunjukkan < 18 tahun, terpisah dari centang kebijakan privasi, disimpan dengan waktu & versi teks (`guardian_ack_at`, `guardian_ack_version`). Tabel `guardian_consents` tidak dibuat. Risiko yang diterima: tidak ada bukti bahwa wali benar-benar setuju; bisa ditingkatkan ke verifikasi email wali kapan saja tanpa mengubah alur lain.
 
 ### 3.4 Insiden kebocoran
 Prosedur tertulis di `docs/runbook/insiden-data.md` (dibuat M3): putus akses → rotasi secret → nilai dampak → **pemberitahuan tertulis ke subjek data & lembaga paling lambat 3×24 jam** (Pasal 46 UU PDP) → catat pelajaran.

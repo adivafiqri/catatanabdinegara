@@ -1,0 +1,21 @@
+# Layanan systemd (level pengguna) untuk bot Telegram Catatan Abdi Negara.
+# Pasang: lihat docs/runbook/deploy-bot.md
+[Unit]
+Description=Bot Telegram Catatan Abdi Negara
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/catatanabdinegara/apps/bot
+ExecStart=%h/.local/node/bin/node --env-file=%h/catatanabdinegara/.env --import tsx src/main.ts
+Restart=always
+RestartSec=5
+# Berhenti dengan rapi (SIGTERM) dan beri waktu menutup database.
+TimeoutStopSec=20
+Environment=NODE_ENV=production
+# Batasi memori agar VPS tetap sehat.
+MemoryMax=512M
+
+[Install]
+WantedBy=default.target

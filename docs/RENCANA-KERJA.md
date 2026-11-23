@@ -10,24 +10,36 @@ Aturan: setiap milestone diakhiri dengan **tes lulus → code review (ECC `code-
 - [x] Pasang ECC & skill frontend-design
 - [x] Dokumen PRD, arsitektur, skema, keamanan, arah desain, rencana, struktur repo
 - [x] Mockup 3 arah visual (390px)
-- [ ] **Pemilik memilih arah desain & menjawab pertanyaan terbuka** ← gerbang
+- [x] **Pemilik memilih arah desain & menjawab pertanyaan terbuka**
+
+### Keputusan pemilik (23 Nov 2026)
+| Hal | Keputusan |
+| --- | --- |
+| Arah desain | **C. Buku Tempel Misi** |
+| Persetujuan < 18 tahun | Cukup **centang** "sudah mendapat izin orang tua/wali" (lihat KEAMANAN.md §3.3) |
+| Domain | **abdinegara.site** |
+| Grup Telegram | Sudah ada |
+| Hosting bot | **VPS milik pemilik** (mode polling, database PGlite berbasis file) |
+| Target soal sebelum peluncuran | "100 soal" → perlu konfirmasi: 1 paket SKD penuh = **110** soal (30+35+45) |
 
 ## Milestone 1: Bot Telegram dasar (target: pertengahan Desember 2026)
-Prasyarat dari pemilik: token bot dari @BotFather (disimpan sendiri di env, **tidak dikirim lewat chat**), grup uji, grup asli, ID moderator, pilihan hosting bot.
+Prasyarat dari pemilik: token bot dari @BotFather (disimpan sendiri di `.env`, **tidak dikirim lewat chat**), grup uji, grup asli. Panduan: `docs/runbook/deploy-bot.md`.
 
-1. [ ] Inisialisasi monorepo pnpm + Turborepo, TS strict, ESLint, Prettier, Vitest, `.env.example`, `.gitignore`, gitleaks, CI dasar
-2. [ ] `packages/db`: Drizzle + migrasi tabel `bot_*`; Supabase lokal via CLI
-3. [ ] `apps/bot`: kerangka grammY, mode polling (lokal) & webhook (prod) + verifikasi secret header
-4. [ ] Pemuat `bot_settings` dengan cache 60 dtk + nilai default
-5. [ ] Sapaan anggota baru: bisukan → kirim sapaan bertombol → hapus sapaan sebelumnya
-6. [ ] Verifikasi: klik tombol → buka bisu; penjadwal per menit memindai `bot_pending_verifications` → kick + hapus sapaan
-7. [ ] Detektor spam (fungsi murni, diuji unit): link non-whitelist, undangan grup, kata terlarang (normalisasi huruf/angka pengganti, mis. "j0kI"), flood, pesan media/link dari anggota baru
-8. [ ] Tangga peringatan 1 → 2 → bisu 24 jam → kirim notifikasi ke moderator
-9. [ ] Perintah moderator: `/warn` (balas pesan), `/unwarn`, `/mute`, `/unmute`, `/kata tambah|hapus`, `/domain tambah|hapus`, `/riwayat @user`
-10. [ ] Perintah umum: `/start`, `/aturan`, `/tryout`, `/materi`, `/jadwal`
-11. [ ] Pesan terjadwal (`bot_scheduled_posts`), termasuk anti-penipuan; tidak dobel walau restart (kunci baris `FOR UPDATE SKIP LOCKED`)
-12. [ ] Dockerfile + panduan deploy + health check
-13. [ ] Uji coba 3 hari di grup uji dengan 3–5 akun → perbaikan
+Catatan pelaksanaan: Turborepo ditunda (cukup `pnpm -r` selama baru ada 2 paket). Tabel bot ada di schema Postgres `bot`. Database di VPS memakai PGlite berbasis file; pindah ke Supabase di M2/M3.
+
+1. [x] Inisialisasi monorepo pnpm (Turborepo ditunda), TS strict, ESLint, Prettier, Vitest, `.env.example`, `.gitignore`, gitleaks, CI dasar
+2. [x] `packages/db`: Drizzle + migrasi tabel schema `bot` + RLS; tes & VPS memakai PGlite (Supabase CLI butuh Docker, tidak ada di VPS)
+3. [x] `apps/bot`: kerangka grammY, mode polling (lokal) & webhook (prod) + verifikasi secret header
+4. [x] Pemuat `bot_settings` dengan cache 60 dtk + nilai default
+5. [x] Sapaan anggota baru: bisukan → kirim sapaan bertombol → hapus sapaan sebelumnya
+6. [x] Verifikasi: klik tombol → buka bisu; penjadwal per menit memindai `bot_pending_verifications` → kick + hapus sapaan
+7. [x] Detektor spam (fungsi murni, diuji unit): link non-whitelist, undangan grup, kata terlarang (normalisasi huruf/angka pengganti, mis. "j0kI"), flood, pesan media/link dari anggota baru
+8. [x] Tangga peringatan 1 → 2 → bisu 24 jam → kirim notifikasi ke moderator
+9. [x] Perintah moderator: `/warn` (balas pesan), `/unwarn`, `/mute`, `/unmute`, `/kata tambah|hapus`, `/domain tambah|hapus`, `/riwayat @user`
+10. [x] Perintah umum: `/start`, `/aturan`, `/tryout`, `/materi`, `/jadwal`
+11. [x] Pesan terjadwal (`bot_scheduled_posts`), termasuk anti-penipuan; tidak dobel walau restart (kunci baris `FOR UPDATE SKIP LOCKED`)
+12. [x] Layanan systemd + panduan deploy (`docs/runbook/deploy-bot.md`) + health check mode webhook. Dockerfile ditunda (VPS tanpa Docker)
+13. [ ] **(menunggu pemilik)** Uji coba 3 hari di grup uji dengan 3–5 akun → perbaikan
 **Tes:** unit test detektor spam & tangga peringatan (≥ 90% cakupan modul moderasi); tes integrasi handler dengan update Telegram tiruan; uji manual daftar periksa di grup uji.
 
 ## Milestone 2: Admin bank soal (target: awal Januari 2027)
