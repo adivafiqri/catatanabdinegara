@@ -20,7 +20,7 @@ Aturan: setiap milestone diakhiri dengan **tes lulus → code review (ECC `code-
 | Domain | **abdinegara.site** |
 | Grup Telegram | Sudah ada |
 | Hosting bot | **VPS milik pemilik** (mode polling, database PGlite berbasis file) |
-| Target soal sebelum peluncuran | "100 soal" → perlu konfirmasi: 1 paket SKD penuh = **110** soal (30+35+45) |
+| Target soal sebelum peluncuran | **1 paket SKD penuh = 110 soal** (30 TWK + 35 TIU + 45 TKP), dikonfirmasi pemilik |
 
 ## Milestone 1: Bot Telegram dasar (target: pertengahan Desember 2026)
 Prasyarat dari pemilik: token bot dari @BotFather (disimpan sendiri di `.env`, **tidak dikirim lewat chat**), grup uji, grup asli. Panduan: `docs/runbook/deploy-bot.md`.
