@@ -1,0 +1,653 @@
+<title>Mockup Catatan Abdi Negara</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Bowlby+One&family=Kalam:wght@700&family=Poppins:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap">
+<style>
+/* Tata letak: lembar presentasi krem; tiap arah = satu baris 4 bingkai HP 390px yang bisa digeser ke samping.
+   Mockup sengaja satu tema (kertas terang) sesuai identitas brief; mode malam dirancang terpisah di ARAH-DESAIN.md. */
+:root{
+  --bg:#EFE7D6; --grid:#E1D5BC; --ink:#2B2118; --card:#FFFBF2;
+  --brown:#7A5230; --brown-d:#5A3B20; --gold:#C9A13B; --gold-l:#F4E4B5; --gold-b:#DCC27E;
+  --red:#B8322A; --muted:#857A6A; --muted-text:#6B604F; --white:#FFFFFF; --ok:#3F6B3A;
+  --f-body:"Poppins", "Segoe UI", sans-serif;
+  --f-mono:"Space Mono", ui-monospace, "Courier New", monospace;
+  --f-hand:"Kalam", "Comic Sans MS", cursive;
+  --f-file:"Archivo", "Arial Narrow", sans-serif;
+  --f-chunky:"Bowlby One", "Arial Black", sans-serif;
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-block:24px 64px}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.wrap{max-width:1720px;margin:0 auto}
+
+/* ---------- halaman presentasi ---------- */
+.intro{max-width:68ch;display:grid;gap:10px;margin-bottom:28px}
+.intro h1{font-size:clamp(26px,4vw,40px);line-height:1.1;margin:0;font-weight:800;text-wrap:balance}
+.intro p{margin:0;color:var(--muted-text)}
+.jump{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+.jump a{font-weight:600;text-decoration:none;border:2px solid var(--ink);background:var(--card);padding:6px 14px;border-radius:999px;box-shadow:2px 2px 0 var(--ink)}
+.dir{margin-top:44px;display:grid;gap:14px}
+.dir-head{display:grid;gap:6px;max-width:80ch}
+.dir-head h2{margin:0;font-size:24px;line-height:1.2;font-weight:800}
+.dir-head p{margin:0;color:var(--muted-text)}
+.tokens{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:13px;color:var(--muted-text)}
+.tokens b{color:var(--ink);font-weight:600}
+.rail{overflow-x:auto;padding:8px 4px 18px;margin:0 -4px}
+.row{display:flex;gap:28px;width:max-content}
+figure{margin:0;display:grid;gap:10px;justify-items:start}
+figcaption{font-weight:600;font-size:14px}
+.phone{width:390px;height:800px;overflow-y:auto;overflow-x:hidden;border:3px solid var(--ink);border-radius:30px;position:relative;background:var(--bg);scrollbar-width:thin}
+
+/* ---------- komponen bersama ---------- */
+.ic{width:18px;height:18px;flex:none}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;font:700 16px/1 var(--f-body);padding:15px 18px;border:2.5px solid var(--ink);border-radius:12px;background:var(--brown);color:var(--card);box-shadow:3px 3px 0 var(--ink);text-decoration:none;width:100%;cursor:pointer}
+.btn.alt{background:var(--card);color:var(--ink)}
+.btn.gold{background:var(--gold);color:var(--ink)}
+.muted{color:var(--muted-text)}
+.mono{font-family:var(--f-mono)}
+.num{font-variant-numeric:tabular-nums}
+.foot{font-size:12px;color:var(--muted-text);padding:18px 18px 28px;border-top:2px dashed var(--grid);line-height:1.5}
+.mascot{display:block}
+
+/* ---------- ujian (dipakai semua arah, sengaja tenang) ---------- */
+.exam{background:#F7F3EA;min-height:100%;display:flex;flex-direction:column}
+.ex-top{position:sticky;top:0;z-index:2;background:var(--card);border-bottom:2px solid var(--ink);padding:10px 14px;display:grid;grid-template-columns:1fr auto;gap:4px 10px;align-items:center}
+.ex-sub{font-weight:700;font-size:14px}
+.ex-timer{font:700 20px/1 var(--f-mono);font-variant-numeric:tabular-nums;padding:6px 10px;border:2px solid var(--ink);border-radius:8px;background:var(--white)}
+.ex-save{font-size:12px;color:var(--ok);display:flex;align-items:center;gap:6px}
+.ex-body{padding:18px 16px;display:grid;gap:14px;flex:1;align-content:start}
+.ex-stem{font-size:17px;line-height:1.6;font-weight:500;margin:0}
+.opts{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.opt{display:grid;grid-template-columns:34px 1fr;gap:12px;align-items:center;padding:12px;border:2px solid #CFC3AA;border-radius:10px;background:var(--white);font-size:16px}
+.opt .k{width:34px;height:34px;border-radius:50%;border:2px solid var(--ink);display:grid;place-items:center;font-weight:700;font-size:15px}
+.opt.on{border-color:var(--ink);background:var(--gold-l)}
+.opt.on .k{background:var(--ink);color:var(--card)}
+.ex-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.ex-actions .btn{font-size:15px;padding:13px 10px;box-shadow:none}
+.flag{display:flex;align-items:center;gap:10px;padding:12px;border:2px dashed var(--gold);border-radius:10px;font-weight:600;background:transparent;width:100%;font:600 15px var(--f-body);color:var(--ink)}
+.flag .box{width:22px;height:22px;border:2px solid var(--ink);border-radius:5px}
+.ex-nav{border-top:2px solid var(--ink);background:var(--card);padding:12px 14px 16px;display:grid;gap:10px}
+.ex-nav-h{display:flex;justify-content:space-between;align-items:center;font-size:13px;font-weight:600}
+.legend{display:flex;gap:12px;font-size:12px;color:var(--muted-text);flex-wrap:wrap}
+.legend span{display:flex;align-items:center;gap:5px}
+.legend i{width:12px;height:12px;border-radius:3px;border:1.5px solid var(--ink);display:inline-block}
+.grid-n{display:grid;grid-template-columns:repeat(10,1fr);gap:5px}
+.grid-n b{font:600 12px/1 var(--f-body);height:28px;border-radius:6px;border:1.5px solid #CFC3AA;display:grid;place-items:center;background:var(--white);font-variant-numeric:tabular-nums}
+.grid-n b.a{background:var(--brown);border-color:var(--brown);color:var(--card)}
+.grid-n b.r{background:var(--gold-l);border-color:var(--gold);color:var(--ink)}
+.grid-n b.c{outline:2.5px solid var(--ink);outline-offset:1px}
+.i-done{background:var(--brown)}.i-flag{background:var(--gold-l)}.i-empty{background:var(--white)}
+.finish{font:600 14px var(--f-body);color:var(--red);background:none;border:2px solid var(--red);border-radius:10px;padding:10px;width:100%}
+
+/* =================================================================
+   ARAH A — Buku Catatan Rapi
+   ================================================================= */
+.A{background-color:var(--bg);background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:22px 22px}
+.A .top{display:flex;align-items:center;justify-content:space-between;padding:14px 16px}
+.A .brand{display:flex;align-items:center;gap:8px;font-weight:800;font-size:15px;line-height:1.1}
+.A .brand img{width:38px;height:40px}
+.A .menu{font:700 13px var(--f-mono);border:2px solid var(--ink);border-radius:8px;padding:6px 10px;background:var(--card)}
+.A .sec{padding:8px 16px 18px;display:grid;gap:14px}
+.A h1{font-size:31px;line-height:1.15;font-weight:800;margin:0;letter-spacing:-.01em;text-wrap:balance}
+.A .wavy{text-decoration:underline wavy var(--gold);text-decoration-thickness:3px;text-underline-offset:7px}
+.A .card{background:var(--card);border:2.5px solid var(--ink);border-radius:12px;box-shadow:4px 4px 0 var(--ink);padding:16px}
+.A .sticker{display:inline-block;font:700 12px/1.2 var(--f-mono);background:var(--gold-l);border:2px solid var(--ink);border-radius:6px;padding:5px 9px;transform:rotate(-3deg)}
+.A .hand{font-family:var(--f-hand);color:var(--brown);font-size:19px;line-height:1.2}
+.A .hero{position:relative}
+.A .hero .mascot{position:absolute;right:-6px;top:-8px;width:112px}
+.A .hero h1{padding-right:96px}
+.A .stamp{display:inline-block;font:700 13px/1 var(--f-mono);color:var(--red);border:2.5px solid var(--red);border-radius:6px;padding:6px 9px;transform:rotate(-7deg);letter-spacing:.06em;background:rgba(255,251,242,.6)}
+.A .ev{display:grid;gap:10px;position:relative}
+.A .ev .stamp{position:absolute;top:-12px;right:12px}
+.A .ev h3{margin:0;font-size:18px;line-height:1.25}
+.A .ev .when{display:flex;gap:8px;align-items:center;font-weight:600}
+.A .count{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center}
+.A .count div{border:2px solid var(--ink);border-radius:8px;padding:6px 0;background:var(--white)}
+.A .count b{display:block;font:700 22px/1.1 var(--f-mono);font-variant-numeric:tabular-nums}
+.A .count span{font-size:11px;color:var(--muted-text)}
+.A .subs{display:grid;gap:10px}
+.A .subs .card{display:grid;grid-template-columns:62px 1fr;gap:12px;align-items:center;padding:12px 14px;box-shadow:3px 3px 0 var(--ink)}
+.A .subs .code{font:700 15px var(--f-mono);background:var(--gold-l);border:2px solid var(--ink);border-radius:8px;text-align:center;padding:8px 0}
+.A .subs h4{margin:0;font-size:15px}
+.A .subs p{margin:0;font-size:13px;color:var(--muted-text)}
+.A h2{font-size:20px;margin:0;font-weight:800}
+.A .tg{display:grid;gap:10px;background:var(--gold-l)}
+/* hasil A */
+.A .res-head{display:grid;justify-items:center;text-align:center;gap:6px;padding-top:6px}
+.A .res-head img{width:150px}
+.A .total{font:800 56px/1 var(--f-body);font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.A .total small{font-size:20px;color:var(--muted-text);font-weight:600}
+.A .bars{display:grid;gap:12px}
+.A .bar{display:grid;gap:5px}
+.A .bar-h{display:flex;justify-content:space-between;font-weight:600;font-size:14px}
+.A .bar-t{height:14px;border:2px solid var(--ink);border-radius:999px;background:var(--white);overflow:hidden}
+.A .bar-t i{display:block;height:100%;background:var(--brown)}
+.A .note{font-size:13px;border-left:4px solid var(--gold);padding:6px 10px;background:var(--card);color:var(--muted-text)}
+.A .kv{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.A .kv div{border:2px solid var(--ink);border-radius:10px;background:var(--card);padding:10px}
+.A .kv b{display:block;font-size:18px;font-variant-numeric:tabular-nums}
+.A .kv span{font-size:12px;color:var(--muted-text)}
+/* leaderboard A */
+.A .tabs{display:grid;grid-template-columns:1fr 1fr;border:2.5px solid var(--ink);border-radius:10px;overflow:hidden;background:var(--card)}
+.A .tabs span{text-align:center;padding:10px;font-weight:600;font-size:14px}
+.A .tabs .on{background:var(--ink);color:var(--card)}
+.A .filter{display:flex;align-items:center;justify-content:space-between;border:2px solid var(--ink);border-radius:10px;padding:10px 12px;background:var(--white);font-weight:600;font-size:14px}
+.A .lb{display:grid;gap:0;padding:0;overflow:hidden}
+.A .lb-row{display:grid;grid-template-columns:40px 1fr auto;gap:10px;align-items:center;padding:11px 14px;border-bottom:1.5px dashed var(--grid)}
+.A .lb-row:last-child{border-bottom:0}
+.A .lb-row .r{font:700 16px var(--f-mono);text-align:center}
+.A .lb-row .n{font-weight:600;font-size:15px;line-height:1.2}
+.A .lb-row .c{font-size:12px;color:var(--muted-text)}
+.A .lb-row .s{font:700 17px var(--f-body);font-variant-numeric:tabular-nums}
+.A .lb-row.top .r{background:var(--gold-l);border:2px solid var(--ink);border-radius:50%;width:34px;height:34px;display:grid;place-items:center;font-size:14px}
+.A .me{position:sticky;bottom:0;background:var(--brown);color:var(--card);border-top:2.5px solid var(--ink);display:grid;grid-template-columns:40px 1fr auto;gap:10px;align-items:center;padding:12px 16px}
+.A .me .r{font:700 16px var(--f-mono);text-align:center}
+.A .me .c{font-size:12px;opacity:.85}
+
+/* =================================================================
+   ARAH B — Map Arsip Taruna
+   ================================================================= */
+.B{background-color:var(--card);background-image:linear-gradient(90deg,transparent 30px,rgba(184,50,42,.35) 30px,rgba(184,50,42,.35) 32px,transparent 32px),repeating-linear-gradient(transparent 0 27px,#E6DCC6 27px 28px)}
+.B .top{display:flex;align-items:center;justify-content:space-between;padding:12px 16px 12px 44px;background:var(--brown-d);color:var(--card)}
+.B .brand{font:800 19px/1 var(--f-file);font-stretch:72%;letter-spacing:.01em}
+.B .brand small{display:block;font:400 11px/1.4 var(--f-mono);opacity:.8;letter-spacing:0}
+.B .top img{width:40px;height:42px;background:var(--card);border-radius:50%;border:2px solid var(--gold)}
+.B .sec{padding:18px 16px 18px 44px;display:grid;gap:16px}
+.B h1{font:900 40px/0.98 var(--f-file);font-stretch:68%;margin:0;letter-spacing:-.005em;text-wrap:balance}
+.B h2{font:800 24px/1 var(--f-file);font-stretch:70%;margin:0}
+.B .lead{margin:0;font-size:15px}
+.B .folder{position:relative;background:var(--gold-l);border:2.5px solid var(--ink);border-radius:0 10px 10px 10px;padding:18px 14px 14px;box-shadow:5px 5px 0 var(--brown-d);margin-top:16px}
+.B .folder>.tab{position:absolute;top:-28px;left:-2.5px;height:28px;padding:0 14px;display:flex;align-items:center;background:var(--gold-l);border:2.5px solid var(--ink);border-bottom:0;border-radius:10px 10px 0 0;font:700 12px var(--f-mono)}
+.B .folder.brown{background:var(--brown);color:var(--card)}
+.B .folder.brown>.tab{background:var(--brown);color:var(--card)}
+.B .folder.white{background:var(--white)}
+.B .folder.white>.tab{background:var(--white)}
+.B .clip{position:absolute;top:-14px;right:22px;width:18px;height:46px;border:3px solid #8C8C8C;border-radius:9px;background:transparent}
+.B .clip::after{content:"";position:absolute;inset:6px 3px 10px;border:3px solid #8C8C8C;border-radius:6px}
+.B .typed{font-family:var(--f-mono);font-size:13px;line-height:1.55}
+.B .hero-m{display:grid;grid-template-columns:1fr 104px;gap:6px;align-items:end}
+.B .hero-m img{width:104px}
+.B .idx{display:grid;gap:0;border:2px solid var(--ink);background:var(--white)}
+.B .idx div{display:grid;grid-template-columns:54px 1fr auto;gap:10px;align-items:center;padding:10px 12px;border-bottom:1.5px solid #E6DCC6}
+.B .idx div:last-child{border-bottom:0}
+.B .idx b{font:900 18px var(--f-file);font-stretch:70%}
+.B .idx span{font-size:13px}
+.B .idx em{font:700 12px var(--f-mono);font-style:normal;color:var(--brown)}
+.B .stampB{display:inline-block;font:900 20px/1 var(--f-file);font-stretch:75%;letter-spacing:.04em;color:var(--red);border:3px double var(--red);padding:6px 12px;transform:rotate(-9deg);border-radius:4px}
+.B .when{display:flex;justify-content:space-between;align-items:baseline;gap:10px;font-family:var(--f-mono);font-size:13px}
+.B .when b{font:900 30px/1 var(--f-file);font-stretch:70%;font-variant-numeric:tabular-nums}
+/* hasil B */
+.B .res{position:relative}
+.B .res .stampB{position:absolute;right:6px;top:4px}
+.B .res-score{font:900 78px/0.9 var(--f-file);font-stretch:62%;font-variant-numeric:tabular-nums}
+.B .res-score small{font-size:28px;color:var(--muted-text)}
+.B .ledger{width:100%;border-collapse:collapse;font-size:14px;background:var(--white);border:2px solid var(--ink)}
+.B .ledger th,.B .ledger td{padding:9px 10px;border-bottom:1.5px solid #E6DCC6;text-align:left}
+.B .ledger th{font:700 12px var(--f-mono);background:var(--gold-l);border-bottom:2px solid var(--ink)}
+.B .ledger td.n{text-align:right;font-variant-numeric:tabular-nums;font-weight:700}
+.B .ledger tr:last-child td{border-bottom:0;font-weight:700}
+.B .memo{font-family:var(--f-mono);font-size:12.5px;background:var(--white);border:2px dashed var(--brown);padding:10px 12px;line-height:1.5}
+/* leaderboard B */
+.B .chips{display:flex;gap:8px;flex-wrap:wrap}
+.B .chip{font:700 12px var(--f-mono);padding:7px 11px;border:2px solid var(--ink);background:var(--white)}
+.B .chip.on{background:var(--ink);color:var(--card)}
+.B .lbB{border:2.5px solid var(--ink);background:var(--white)}
+.B .lbB .h{display:grid;grid-template-columns:44px 1fr 56px;padding:8px 12px;font:700 11px var(--f-mono);background:var(--gold-l);border-bottom:2px solid var(--ink)}
+.B .lbB .row{display:grid;grid-template-columns:44px 1fr 56px;padding:10px 12px;align-items:center;border-bottom:1.5px solid #E6DCC6;width:auto}
+.B .lbB .row b{font:900 22px var(--f-file);font-stretch:68%}
+.B .lbB .row .s{text-align:right;font:700 16px var(--f-mono);font-variant-numeric:tabular-nums}
+.B .lbB .row .c{display:block;font-size:12px;color:var(--muted-text)}
+.B .lbB .row.me{background:var(--gold-l);border-top:2.5px solid var(--ink)}
+
+/* =================================================================
+   ARAH C — Buku Tempel Misi
+   ================================================================= */
+.C{background:var(--bg)}
+.C .band{position:relative;background:var(--brown-d);color:var(--card);padding:14px 16px 26px;overflow:hidden;border-bottom:3px solid var(--ink)}
+.C .band::before{content:"";position:absolute;inset:-60%;background:repeating-conic-gradient(from 0deg at 72% 58%,rgba(255,251,242,.0) 0 9deg,rgba(201,161,59,.22) 9deg 18deg);pointer-events:none}
+.C .band>*{position:relative}
+.C .top{display:flex;justify-content:space-between;align-items:center}
+.C .brand{font:800 14px/1.1 var(--f-body)}
+.C .xp{font:700 12px var(--f-mono);background:var(--gold);color:var(--ink);border:2px solid var(--ink);border-radius:999px;padding:4px 10px}
+.C .hero{display:grid;grid-template-columns:1fr 126px;gap:4px;align-items:end;margin-top:14px}
+.C h1{font:400 33px/1.02 var(--f-chunky);margin:0;text-wrap:balance}
+.C .hero img{width:140px;margin-right:-14px;filter:drop-shadow(0 0 0 var(--card))}
+.C .hand{font:700 18px/1.2 var(--f-hand);color:var(--gold-l);margin-top:6px}
+.C .sec{padding:18px 16px;display:grid;gap:18px}
+.C h2{font:400 21px/1.1 var(--f-chunky);margin:0}
+.C .stk{background:var(--card);border:2.5px solid var(--ink);border-radius:14px;box-shadow:0 0 0 5px var(--white),0 0 0 7.5px var(--ink),6px 8px 0 7.5px rgba(43,33,24,.9);padding:14px}
+.C .tilt-l{transform:rotate(-1.6deg)}
+.C .tilt-r{transform:rotate(1.4deg)}
+.C .quest{display:grid;gap:10px;margin:8px 4px}
+.C .quest h3{margin:0;font-size:17px;line-height:1.25}
+.C .qmeta{display:flex;gap:8px;flex-wrap:wrap}
+.C .qmeta span{font:700 12px var(--f-mono);background:var(--gold-l);border:2px solid var(--ink);border-radius:999px;padding:3px 9px}
+.C .redstamp{position:absolute;right:10px;top:-16px;transform:rotate(9deg);font:400 14px/1 var(--f-chunky);color:var(--card);background:var(--red);border:2.5px solid var(--ink);border-radius:8px;padding:7px 10px}
+.C .rel{position:relative}
+.C .tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:6px 4px}
+.C .tile{border:2.5px solid var(--ink);border-radius:12px;padding:10px 6px;text-align:center;background:var(--card);box-shadow:3px 3px 0 var(--ink)}
+.C .tile:nth-child(1){transform:rotate(-3deg);background:var(--gold-l)}
+.C .tile:nth-child(2){transform:rotate(2deg)}
+.C .tile:nth-child(3){transform:rotate(-1deg);background:var(--gold-b)}
+.C .tile b{display:block;font:400 24px/1 var(--f-chunky)}
+.C .tile span{font-size:12px;font-weight:600}
+.C .streak{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.C .streak i{aspect-ratio:1;border:2px solid var(--ink);border-radius:8px;background:var(--white);display:grid;place-items:center;font:700 11px var(--f-mono);font-style:normal}
+.C .streak i.y{background:var(--gold)}
+/* hasil C */
+.C .rband{text-align:center;padding:16px 16px 22px}
+.C .rband img{width:170px;margin:0 auto}
+.C .bigscore{font:400 72px/0.95 var(--f-chunky);font-variant-numeric:tabular-nums;color:var(--gold-l);-webkit-text-stroke:2px var(--ink);paint-order:stroke fill;text-shadow:4px 4px 0 var(--ink)}
+.C .bigscore small{font-size:24px;color:var(--card);-webkit-text-stroke:0;text-shadow:none}
+.C .medals{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:6px 4px}
+.C .medal{display:grid;justify-items:center;gap:4px;text-align:center}
+.C .medal .disc{width:76px;height:76px;border-radius:50%;border:3px solid var(--ink);display:grid;place-items:center;background:var(--gold-l);box-shadow:3px 3px 0 var(--ink)}
+.C .medal .disc b{font:400 22px/1 var(--f-chunky)}
+.C .medal span{font-size:12px;font-weight:600}
+.C .newbadge{display:grid;grid-template-columns:52px 1fr;gap:12px;align-items:center}
+.C .badge-ic{width:52px;height:52px}
+/* leaderboard C */
+.C .podium{display:grid;grid-template-columns:1fr 1.1fr 1fr;align-items:end;gap:6px;margin-top:10px}
+.C .pod{display:grid;justify-items:center;gap:4px;text-align:center}
+.C .pod .av{width:58px;height:58px;border-radius:50%;background:var(--card);border:3px solid var(--ink);display:grid;place-items:center;font:400 20px var(--f-chunky);color:var(--ink)}
+.C .pod .nm{font-size:12px;font-weight:600;line-height:1.2}
+.C .pod .blk{width:100%;border:3px solid var(--ink);border-bottom:0;border-radius:10px 10px 0 0;display:grid;place-items:center;font:400 26px var(--f-chunky);color:var(--ink)}
+.C .pod.p1 .blk{height:96px;background:var(--gold)}
+.C .pod.p2 .blk{height:70px;background:var(--gold-b)}
+.C .pod.p3 .blk{height:54px;background:var(--gold-l)}
+.C .pod .sc{font:700 13px var(--f-mono)}
+.C .lbC{display:grid;gap:10px}
+.C .lbC .r{display:grid;grid-template-columns:38px 1fr auto;gap:10px;align-items:center;background:var(--card);border:2.5px solid var(--ink);border-radius:12px;padding:9px 12px}
+.C .lbC .r b{font:400 17px var(--f-chunky);text-align:center}
+.C .lbC .r .s{font:400 18px var(--f-chunky);font-variant-numeric:tabular-nums}
+.C .lbC .r .c{display:block;font-size:12px;color:var(--muted-text)}
+.C .lbC .r.me{background:var(--gold);box-shadow:0 0 0 4px var(--white),0 0 0 6.5px var(--ink);transform:rotate(-1deg)}
+.C .seg{display:flex;gap:8px}
+.C .seg span{font:700 13px var(--f-body);padding:8px 14px;border:2.5px solid var(--ink);border-radius:999px;background:var(--card)}
+.C .seg .on{background:var(--ink);color:var(--card)}
+
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+  <header class="intro">
+    <h1>Tiga arah visual untuk Catatan Abdi Negara</h1>
+    <p>Mockup statis lebar 390px: beranda, ujian, hasil, dan leaderboard. Geser tiap baris ke samping untuk melihat keempat layar. Data, nama peserta, dan skor di sini hanya contoh.</p>
+    <p>Halaman ujian sengaja dibuat hampir sama di ketiga arah: tenang, kontras tinggi, dan mirip CAT. Yang berbeda hanya beranda, hasil, dan leaderboard.</p>
+    <nav class="jump" aria-label="Pilih arah">
+      <a href="#arah-a">A · Buku Catatan Rapi</a>
+      <a href="#arah-b">B · Map Arsip Taruna</a>
+      <a href="#arah-c">C · Buku Tempel Misi</a>
+    </nav>
+  </header>
+
+  <!-- ===================== ARAH A ===================== -->
+  <section class="dir" id="arah-a">
+    <div class="dir-head">
+      <h2>A. Buku Catatan Rapi (paling aman)</h2>
+      <p>Halaman buku petak yang bersih. Kartu bertepi tinta dengan bayangan tegas, satu stiker atau stempel per layar, coretan tangan hanya untuk catatan kecil dari "kakak tingkat".</p>
+      <div class="tokens"><span><b>Font:</b> Poppins 800 untuk judul, Poppins untuk isi, Space Mono untuk label, Kalam untuk coretan</span><span><b>Latar:</b> kertas petak 22px</span><span><b>Mood:</b> rapi, ramah, bisa dipercaya orang tua</span></div>
+    </div>
+    <div class="rail"><div class="row">
+
+      <figure><div class="phone A">
+        <div class="top">
+          <div class="brand"><img src="img/pet-senyum.svg" alt="">Catatan<br>Abdi Negara</div>
+          <span class="menu">Masuk</span>
+        </div>
+        <div class="sec">
+          <div class="hero">
+            <img class="mascot" src="img/pet-hormat.svg" alt="Maskot memberi hormat">
+            <span class="sticker">Gratis, 110 soal</span>
+            <h1 style="margin-top:12px">Latihan SKD yang <span class="wavy">rasanya mirip CAT</span></h1>
+          </div>
+          <p style="margin:0">TWK, TIU, dan TKP dalam 100 menit. Skor keluar begitu kamu selesai, lengkap dengan pembahasan tiap soal.</p>
+          <a class="btn" href="#arah-a">Mulai tryout</a>
+          <p class="hand" style="margin:0">psst, jawabanmu tersimpan otomatis. Sinyal hilang pun aman.</p>
+        </div>
+        <div class="sec">
+          <div class="card ev">
+            <span class="stamp">Serentak</span>
+            <h3>Tryout Serentak #3</h3>
+            <div class="when">Sabtu, 7 Desember · 19.00 WIB</div>
+            <div class="count"><div><b>02</b><span>hari</span></div><div><b>14</b><span>jam</span></div><div><b>36</b><span>menit</span></div></div>
+            <a class="btn gold" href="#arah-a">Ingatkan saya di Telegram</a>
+          </div>
+        </div>
+        <div class="sec">
+          <h2>Yang diujikan</h2>
+          <div class="subs">
+            <div class="card"><span class="code">TWK</span><div><h4>Wawasan Kebangsaan</h4><p>30 soal · Pancasila, UUD 1945, bela negara</p></div></div>
+            <div class="card"><span class="code">TIU</span><div><h4>Intelegensia Umum</h4><p>35 soal · analogi, deret, pola gambar</p></div></div>
+            <div class="card"><span class="code">TKP</span><div><h4>Karakteristik Pribadi</h4><p>45 soal · pelayanan publik, jejaring kerja</p></div></div>
+          </div>
+        </div>
+        <div class="sec">
+          <div class="card tg">
+            <h2>Belajar bareng di Telegram</h2>
+            <p style="margin:0">Kuis harian, info jadwal seleksi, dan pengumuman 10 besar tiap event.</p>
+            <a class="btn alt" href="#arah-a">Gabung grup</a>
+          </div>
+        </div>
+        <div class="foot">Akun pribadi edukasi, bukan kanal resmi instansi mana pun. Soal latihan dibuat sendiri dan formatnya dibuat mirip CAT. Tidak ada jaminan lulus.</div>
+      </div><figcaption>Beranda</figcaption></figure>
+
+      <figure><div class="phone">
+        <div class="exam">
+          <div class="ex-top">
+            <span class="ex-sub">TIU · Soal 34 dari 110</span>
+            <span class="ex-timer" aria-label="Sisa waktu">01:12:45</span>
+            <span class="ex-save"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>Tersimpan</span>
+          </div>
+          <div class="ex-body">
+            <p class="ex-stem">Lanjutkan deret berikut: 2, 5, 10, 17, 26, …</p>
+            <ul class="opts">
+              <li class="opt"><span class="k">A</span>35</li>
+              <li class="opt"><span class="k">B</span>36</li>
+              <li class="opt on"><span class="k">C</span>37</li>
+              <li class="opt"><span class="k">D</span>38</li>
+              <li class="opt"><span class="k">E</span>39</li>
+            </ul>
+            <button class="flag" type="button"><span class="box"></span>Tandai ragu-ragu</button>
+            <div class="ex-actions"><a class="btn alt" href="#arah-a">Sebelumnya</a><a class="btn" href="#arah-a">Berikutnya</a></div>
+          </div>
+          <div class="ex-nav">
+            <div class="ex-nav-h"><span>Nomor soal</span><span class="muted">31 dijawab · 2 ragu</span></div>
+            <div class="legend"><span><i class="i-done"></i>Dijawab</span><span><i class="i-flag"></i>Ragu</span><span><i class="i-empty"></i>Belum</span></div>
+            <div class="grid-n">
+              <b class="a">31</b><b class="a">32</b><b class="r">33</b><b class="a c">34</b><b>35</b><b>36</b><b>37</b><b>38</b><b>39</b><b>40</b>
+              <b>41</b><b>42</b><b>43</b><b>44</b><b>45</b><b>46</b><b>47</b><b>48</b><b>49</b><b>50</b>
+            </div>
+            <button class="finish" type="button">Selesai &amp; kumpulkan</button>
+          </div>
+        </div>
+      </div><figcaption>Ujian (sama untuk A, B, C)</figcaption></figure>
+
+      <figure><div class="phone A">
+        <div class="top"><div class="brand"><img src="img/pet-senyum.svg" alt="">Hasil tryout</div><span class="menu">Tutup</span></div>
+        <div class="sec">
+          <div class="res-head">
+            <img src="img/pet-ketawa.svg" alt="Maskot tertawa senang">
+            <span class="sticker">Tryout Serentak #3</span>
+            <div class="total">412<small> / 550</small></div>
+            <p class="hand" style="margin:0">TIU-mu naik 25 poin dari tryout lalu. Mantap!</p>
+          </div>
+        </div>
+        <div class="sec">
+          <div class="card bars">
+            <div class="bar"><div class="bar-h"><span>TWK</span><span class="num">95 / 150</span></div><div class="bar-t"><i style="width:63%"></i></div></div>
+            <div class="bar"><div class="bar-h"><span>TIU</span><span class="num">120 / 175</span></div><div class="bar-t"><i style="width:69%"></i></div></div>
+            <div class="bar"><div class="bar-h"><span>TKP</span><span class="num">197 / 225</span></div><div class="bar-t"><i style="width:88%"></i></div></div>
+          </div>
+          <p class="note">Status "aman/belum aman" belum ditampilkan karena ambang batas tahun ini belum diumumkan resmi.</p>
+          <div class="kv"><div><b>84 mnt 12 dtk</b><span>Waktu pengerjaan</span></div><div><b>#37 dari 1.284</b><span>Peringkat event</span></div></div>
+          <a class="btn" href="#arah-a">Lihat pembahasan</a>
+          <a class="btn alt" href="#arah-a">Lihat leaderboard</a>
+        </div>
+      </div><figcaption>Hasil</figcaption></figure>
+
+      <figure><div class="phone A">
+        <div class="top"><div class="brand"><img src="img/pet-tegas.svg" alt="">Peringkat</div><span class="menu">Menu</span></div>
+        <div class="sec">
+          <div class="tabs"><span class="on">Tryout Serentak #3</span><span>Minggu ini</span></div>
+          <div class="filter"><span>Sekolah tujuan: Semua</span><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></div>
+          <p class="muted" style="margin:0;font-size:13px">Hanya percobaan pertama yang dihitung. Diperbarui tiap menit.</p>
+          <div class="card lb">
+            <div class="lb-row top"><span class="r">1</span><div><div class="n">nayla.stis</div><div class="c">Kota Malang</div></div><span class="s">487</span></div>
+            <div class="lb-row top"><span class="r">2</span><div><div class="n">bagas_ipdn</div><div class="c">Kab. Sleman</div></div><span class="s">479</span></div>
+            <div class="lb-row top"><span class="r">3</span><div><div class="n">ayuputri</div><div class="c">Kota Medan</div></div><span class="s">476</span></div>
+            <div class="lb-row"><span class="r">4</span><div><div class="n">raka.stan</div><div class="c">Kota Makassar</div></div><span class="s">470</span></div>
+            <div class="lb-row"><span class="r">5</span><div><div class="n">dindaaa</div><div class="c">Kab. Banyumas</div></div><span class="s">468</span></div>
+            <div class="lb-row"><span class="r">6</span><div><div class="n">fajar_tkp5</div><div class="c">Kota Pontianak</div></div><span class="s">466</span></div>
+            <div class="lb-row"><span class="r">7</span><div><div class="n">salsa.r</div><div class="c">Kota Kupang</div></div><span class="s">461</span></div>
+            <div class="lb-row"><span class="r">8</span><div><div class="n">yogi_ssn</div><div class="c">Kab. Bandung</div></div><span class="s">459</span></div>
+          </div>
+        </div>
+        <div class="me"><span class="r">37</span><div><div style="font-weight:600">Kamu · rafi_stis</div><div class="c">Kab. Bogor</div></div><span style="font-weight:700" class="num">412</span></div>
+      </div><figcaption>Leaderboard</figcaption></figure>
+
+    </div></div>
+  </section>
+
+  <!-- ===================== ARAH B ===================== -->
+  <section class="dir" id="arah-b">
+    <div class="dir-head">
+      <h2>B. Map Arsip Taruna (tengah)</h2>
+      <p>Diambil dari dunia asrama dan administrasi: kertas bergaris dengan garis margin merah, map bertab, penjepit kertas, nilai ditulis seperti buku besar, dan stempel ganda. Judul memakai Archivo yang dipersempit sehingga mirip label map.</p>
+      <div class="tokens"><span><b>Font:</b> Archivo sempit 800–900 untuk judul (usulan), Poppins untuk isi, Space Mono untuk teks ketikan</span><span><b>Latar:</b> kertas folio bergaris</span><span><b>Mood:</b> serius, disiplin, khas kedinasan</span></div>
+    </div>
+    <div class="rail"><div class="row">
+
+      <figure><div class="phone B">
+        <div class="top"><div class="brand">CATATAN ABDI NEGARA<small>@catatan.abdinegara</small></div><img src="img/pet-kedip.svg" alt=""></div>
+        <div class="sec">
+          <div class="hero-m">
+            <h1>Tryout SKD gratis. Format mirip CAT, 100 menit.</h1>
+            <img src="img/pet-hormat.svg" alt="Maskot memberi hormat">
+          </div>
+          <p class="lead">Kerjakan 110 soal, lihat skor per subtes, lalu baca pembahasannya. Semua bisa dari HP.</p>
+          <a class="btn" href="#arah-b">Mulai tryout</a>
+        </div>
+        <div class="sec">
+          <div class="folder brown">
+            <span class="tab">Agenda terdekat</span>
+            <span class="clip" aria-hidden="true"></span>
+            <div style="display:grid;gap:10px">
+              <h2 style="color:var(--card)">Tryout Serentak #3</h2>
+              <div class="when" style="color:var(--gold-l)"><span>Sabtu, 7 Desember<br>pukul 19.00 WIB</span><b>02:14:36</b></div>
+              <a class="btn gold" href="#arah-b">Ingatkan saya di Telegram</a>
+            </div>
+          </div>
+          <div class="folder white">
+            <span class="tab">Isi berkas SKD</span>
+            <div class="idx">
+              <div><b>TWK</b><span>Wawasan Kebangsaan</span><em>30 soal</em></div>
+              <div><b>TIU</b><span>Intelegensia Umum</span><em>35 soal</em></div>
+              <div><b>TKP</b><span>Karakteristik Pribadi</span><em>45 soal</em></div>
+            </div>
+          </div>
+          <div class="folder">
+            <span class="tab">Grup belajar</span>
+            <p class="typed" style="margin:0 0 10px">Kuis harian, jadwal seleksi, dan 10 besar tiap event diumumkan di grup Telegram.</p>
+            <a class="btn alt" href="#arah-b">Gabung grup</a>
+          </div>
+        </div>
+        <div class="foot" style="padding-left:44px">Akun pribadi edukasi, bukan kanal resmi instansi mana pun. Soal latihan dibuat sendiri. Tidak ada jaminan lulus.</div>
+      </div><figcaption>Beranda</figcaption></figure>
+
+      <figure><div class="phone">
+        <div class="exam">
+          <div class="ex-top" style="background:var(--brown-d);color:var(--card)">
+            <span class="ex-sub">TIU · Soal 34 dari 110</span>
+            <span class="ex-timer" style="color:var(--ink)">01:12:45</span>
+            <span class="ex-save" style="color:var(--gold-l)"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>Tersimpan</span>
+          </div>
+          <div class="ex-body">
+            <p class="ex-stem">Lanjutkan deret berikut: 2, 5, 10, 17, 26, …</p>
+            <ul class="opts">
+              <li class="opt"><span class="k">A</span>35</li><li class="opt"><span class="k">B</span>36</li><li class="opt on"><span class="k">C</span>37</li><li class="opt"><span class="k">D</span>38</li><li class="opt"><span class="k">E</span>39</li>
+            </ul>
+            <button class="flag" type="button"><span class="box"></span>Tandai ragu-ragu</button>
+            <div class="ex-actions"><a class="btn alt" href="#arah-b">Sebelumnya</a><a class="btn" href="#arah-b">Berikutnya</a></div>
+          </div>
+          <div class="ex-nav">
+            <div class="ex-nav-h"><span>Nomor soal</span><span class="muted">31 dijawab · 2 ragu</span></div>
+            <div class="grid-n"><b class="a">31</b><b class="a">32</b><b class="r">33</b><b class="a c">34</b><b>35</b><b>36</b><b>37</b><b>38</b><b>39</b><b>40</b></div>
+            <button class="finish" type="button">Selesai &amp; kumpulkan</button>
+          </div>
+        </div>
+      </div><figcaption>Ujian (header cokelat tua)</figcaption></figure>
+
+      <figure><div class="phone B">
+        <div class="top"><div class="brand">HASIL TRYOUT<small>Tryout Serentak #3</small></div><img src="img/pet-senyum.svg" alt=""></div>
+        <div class="sec">
+          <div class="folder white res">
+            <span class="tab">Lembar nilai</span>
+            <span class="stampB">SELESAI</span>
+            <div class="res-score">412<small>/550</small></div>
+            <p class="typed muted" style="margin:6px 0 0">Dikerjakan 84 menit 12 detik</p>
+          </div>
+          <table class="ledger">
+            <thead><tr><th>Subtes</th><th style="text-align:right">Nilai</th><th style="text-align:right">Maks</th></tr></thead>
+            <tbody>
+              <tr><td>TWK</td><td class="n">95</td><td class="n muted">150</td></tr>
+              <tr><td>TIU</td><td class="n">120</td><td class="n muted">175</td></tr>
+              <tr><td>TKP</td><td class="n">197</td><td class="n muted">225</td></tr>
+              <tr><td>Total</td><td class="n">412</td><td class="n muted">550</td></tr>
+            </tbody>
+          </table>
+          <div style="display:grid;grid-template-columns:88px 1fr;gap:10px;align-items:center">
+            <img src="img/pet-mikir.svg" alt="Maskot berpikir">
+            <p class="memo" style="margin:0">Catatan: TWK paling rendah. Mulai dari sub-materi "pilar negara" di pembahasan.</p>
+          </div>
+          <p class="typed muted" style="margin:0">Ambang batas tahun ini belum diumumkan resmi, jadi status aman/belum aman belum ditampilkan.</p>
+          <a class="btn" href="#arah-b">Lihat pembahasan</a>
+          <a class="btn alt" href="#arah-b">Peringkat #37 dari 1.284</a>
+        </div>
+      </div><figcaption>Hasil</figcaption></figure>
+
+      <figure><div class="phone B">
+        <div class="top"><div class="brand">PAPAN PERINGKAT<small>diperbarui tiap menit</small></div><img src="img/pet-tegas.svg" alt=""></div>
+        <div class="sec">
+          <div class="chips"><span class="chip on">Serentak #3</span><span class="chip">Minggu ini</span><span class="chip">Semua sekolah</span></div>
+          <div class="lbB">
+            <div class="h"><span>NO.</span><span>PESERTA</span><span style="text-align:right">NILAI</span></div>
+            <div class="row"><b>1</b><span>nayla.stis<span class="c">Kota Malang</span></span><span class="s">487</span></div>
+            <div class="row"><b>2</b><span>bagas_ipdn<span class="c">Kab. Sleman</span></span><span class="s">479</span></div>
+            <div class="row"><b>3</b><span>ayuputri<span class="c">Kota Medan</span></span><span class="s">476</span></div>
+            <div class="row"><b>4</b><span>raka.stan<span class="c">Kota Makassar</span></span><span class="s">470</span></div>
+            <div class="row"><b>5</b><span>dindaaa<span class="c">Kab. Banyumas</span></span><span class="s">468</span></div>
+            <div class="row"><b>6</b><span>fajar_tkp5<span class="c">Kota Pontianak</span></span><span class="s">466</span></div>
+            <div class="row"><b>7</b><span>salsa.r<span class="c">Kota Kupang</span></span><span class="s">461</span></div>
+            <div class="row me"><b>37</b><span>Kamu · rafi_stis<span class="c">Kab. Bogor</span></span><span class="s">412</span></div>
+          </div>
+          <p class="typed muted" style="margin:0">Hanya percobaan pertama yang dihitung.</p>
+        </div>
+      </div><figcaption>Leaderboard</figcaption></figure>
+
+    </div></div>
+  </section>
+
+  <!-- ===================== ARAH C ===================== -->
+  <section class="dir" id="arah-c">
+    <div class="dir-head">
+      <h2>C. Buku Tempel Misi (paling berani)</h2>
+      <p>Seperti buku stiker atau papan misi game. Ada pita cokelat dengan sinar seperti foto profil B, stiker bertepi putih yang dimiringkan, angka skor besar dengan font Bowlby One, medali, dan streak. Keramaiannya berhenti di halaman ujian.</p>
+      <div class="tokens"><span><b>Font:</b> Bowlby One untuk judul dan angka (usulan), Poppins untuk isi, Space Mono untuk chip, Kalam untuk coretan</span><span><b>Latar:</b> krem polos + pita sinar</span><span><b>Mood:</b> seru, kompetitif, cocok untuk konten TikTok</span></div>
+    </div>
+    <div class="rail"><div class="row">
+
+      <figure><div class="phone C">
+        <div class="band">
+          <div class="top"><span class="brand">Catatan Abdi Negara</span><span class="xp">Masuk</span></div>
+          <div class="hero">
+            <div>
+              <h1>Tryout SKD gratis, ala CAT</h1>
+              <p class="hand">110 soal, 100 menit. Siap?</p>
+            </div>
+            <img src="img/pet-hormat.svg" alt="Maskot memberi hormat">
+          </div>
+          <a class="btn gold" style="margin-top:12px" href="#arah-c">Mulai tryout</a>
+        </div>
+        <div class="sec">
+          <h2>Misi minggu ini</h2>
+          <div class="stk quest tilt-l rel">
+            <span class="redstamp">Serentak</span>
+            <h3>Tryout Serentak #3</h3>
+            <div class="qmeta"><span>Sab, 7 Des</span><span>19.00 WIB</span><span>2 hari lagi</span></div>
+            <a class="btn" href="#arah-c">Ingatkan saya di Telegram</a>
+          </div>
+          <h2>Isi SKD</h2>
+          <div class="tiles">
+            <div class="tile"><b>TWK</b><span>30 soal</span></div>
+            <div class="tile"><b>TIU</b><span>35 soal</span></div>
+            <div class="tile"><b>TKP</b><span>45 soal</span></div>
+          </div>
+          <div class="stk tilt-r" style="margin:8px 4px;display:grid;gap:10px">
+            <h2>Latihan beruntun</h2>
+            <div class="streak"><i class="y">S</i><i class="y">S</i><i class="y">R</i><i class="y">K</i><i>J</i><i>S</i><i>M</i></div>
+            <p style="margin:0;font-size:14px">Latihan 3 hari lagi untuk membuka lencana "7 hari beruntun".</p>
+          </div>
+          <div class="stk" style="margin:8px 4px;display:grid;gap:10px;background:var(--gold-l)">
+            <h2>Grup belajar</h2>
+            <p style="margin:0;font-size:14px">Kuis harian dan pengumuman 10 besar ada di Telegram.</p>
+            <a class="btn alt" href="#arah-c">Gabung grup</a>
+          </div>
+        </div>
+        <div class="foot">Akun pribadi edukasi, bukan kanal resmi instansi mana pun. Soal latihan dibuat sendiri. Tidak ada jaminan lulus.</div>
+      </div><figcaption>Beranda</figcaption></figure>
+
+      <figure><div class="phone">
+        <div class="exam">
+          <div class="ex-top">
+            <span class="ex-sub">TIU · Soal 34 dari 110</span>
+            <span class="ex-timer">01:12:45</span>
+            <span class="ex-save"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>Tersimpan</span>
+          </div>
+          <div class="ex-body">
+            <p class="ex-stem">Lanjutkan deret berikut: 2, 5, 10, 17, 26, …</p>
+            <ul class="opts">
+              <li class="opt"><span class="k">A</span>35</li><li class="opt"><span class="k">B</span>36</li><li class="opt on"><span class="k">C</span>37</li><li class="opt"><span class="k">D</span>38</li><li class="opt"><span class="k">E</span>39</li>
+            </ul>
+            <button class="flag" type="button"><span class="box"></span>Tandai ragu-ragu</button>
+            <div class="ex-actions"><a class="btn alt" href="#arah-c">Sebelumnya</a><a class="btn" href="#arah-c">Berikutnya</a></div>
+          </div>
+          <div class="ex-nav">
+            <div class="ex-nav-h"><span>Nomor soal</span><span class="muted">31 dijawab · 2 ragu</span></div>
+            <div class="grid-n"><b class="a">31</b><b class="a">32</b><b class="r">33</b><b class="a c">34</b><b>35</b><b>36</b><b>37</b><b>38</b><b>39</b><b>40</b></div>
+            <button class="finish" type="button">Selesai &amp; kumpulkan</button>
+          </div>
+        </div>
+      </div><figcaption>Ujian (tanpa stiker)</figcaption></figure>
+
+      <figure><div class="phone C">
+        <div class="band rband">
+          <img src="img/pet-ketawa.svg" alt="Maskot tertawa senang">
+          <div class="bigscore">412<small> / 550</small></div>
+          <p class="hand" style="margin:6px 0 0">TIU naik 25 poin. Gas terus!</p>
+        </div>
+        <div class="sec">
+          <div class="medals">
+            <div class="medal"><div class="disc"><b>95</b></div><span>TWK / 150</span></div>
+            <div class="medal"><div class="disc" style="background:var(--gold-b)"><b>120</b></div><span>TIU / 175</span></div>
+            <div class="medal"><div class="disc" style="background:var(--gold)"><b>197</b></div><span>TKP / 225</span></div>
+          </div>
+          <div class="stk newbadge tilt-l">
+            <svg class="badge-ic" viewBox="0 0 52 52" aria-hidden="true"><path d="M26 3l6.5 6 8.8-.9 1.3 8.7 7.4 4.9-4.1 7.8 2.4 8.5-8.4 2.7-3.6 8.1-8.3-3.3-8.3 3.3-3.6-8.1-8.4-2.7 2.4-8.5-4.1-7.8 7.4-4.9 1.3-8.7 8.8.9z" fill="#C9A13B" stroke="#2B2118" stroke-width="2.5" stroke-linejoin="round"/><path d="M26 16l3 6.4 7 .8-5.2 4.8 1.4 6.9L26 31.4l-6.2 3.5 1.4-6.9-5.2-4.8 7-.8z" fill="#FFFBF2" stroke="#2B2118" stroke-width="2" stroke-linejoin="round"/></svg>
+            <div><b>Lencana baru: TKP di atas rata-rata</b><div style="font-size:13px" class="muted">Rata-rata TKP peserta event ini 171.</div></div>
+          </div>
+          <p class="muted" style="margin:0;font-size:13px">Dikerjakan 84 menit 12 detik. Status aman/belum aman belum ditampilkan karena ambang batas tahun ini belum diumumkan resmi.</p>
+          <a class="btn" href="#arah-c">Lihat pembahasan</a>
+          <a class="btn gold" href="#arah-c">Bagikan kartu hasil</a>
+        </div>
+      </div><figcaption>Hasil</figcaption></figure>
+
+      <figure><div class="phone C">
+        <div class="band" style="padding-bottom:0">
+          <div class="top"><span class="brand">Papan peringkat</span><span class="xp">Serentak #3</span></div>
+          <div class="podium">
+            <div class="pod p2"><div class="av">B</div><span class="nm">bagas_ipdn</span><span class="sc">479</span><div class="blk">2</div></div>
+            <div class="pod p1"><div class="av">N</div><span class="nm">nayla.stis</span><span class="sc">487</span><div class="blk">1</div></div>
+            <div class="pod p3"><div class="av">A</div><span class="nm">ayuputri</span><span class="sc">476</span><div class="blk">3</div></div>
+          </div>
+        </div>
+        <div class="sec">
+          <div class="seg"><span class="on">Event</span><span>Minggu ini</span><span>Semua sekolah</span></div>
+          <div class="lbC">
+            <div class="r"><b>4</b><span>raka.stan<span class="c">Kota Makassar</span></span><span class="s">470</span></div>
+            <div class="r"><b>5</b><span>dindaaa<span class="c">Kab. Banyumas</span></span><span class="s">468</span></div>
+            <div class="r"><b>6</b><span>fajar_tkp5<span class="c">Kota Pontianak</span></span><span class="s">466</span></div>
+            <div class="r me"><b>37</b><span>Kamu · rafi_stis<span class="c">Kab. Bogor</span></span><span class="s">412</span></div>
+            <div class="r"><b>38</b><span>tiaraa<span class="c">Kota Padang</span></span><span class="s">411</span></div>
+          </div>
+          <p class="muted" style="margin:0;font-size:13px">Hanya percobaan pertama yang dihitung. Diperbarui tiap menit.</p>
+        </div>
+      </div><figcaption>Leaderboard</figcaption></figure>
+
+    </div></div>
+  </section>
+</div>
