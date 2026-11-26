@@ -21,6 +21,11 @@ if [ -z "$TARGET_USER" ] || [ "$TARGET_USER" = "root" ]; then
   exit 1
 fi
 
+# Jangan pernah bertanya interaktif (needrestart Ubuntu 22.04 bisa membuat skrip tampak "macet").
+export DEBIAN_FRONTEND=noninteractive
+export NEEDRESTART_MODE=a
+export NEEDRESTART_SUSPEND=1
+
 # Sisa instalasi dari ISO: baris "file:/cdrom" membuat apt-get update selalu gagal
 # (dan server tidak mendapat pembaruan keamanan). Nonaktifkan dengan cadangan .bak.
 if grep -qE '^[[:space:]]*deb .*cdrom' /etc/apt/sources.list 2>/dev/null; then
