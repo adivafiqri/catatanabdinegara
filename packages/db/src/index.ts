@@ -17,3 +17,4 @@ export const webMigrationsFolder = new URL("../migrations/web", import.meta.url)
 /** @deprecated nama lama; sama dengan botMigrationsFolder. */
 export const migrationsFolder = botMigrationsFolder;
 export * from "./bank.js";
+export * from "./tryout.js";

@@ -15,6 +15,20 @@
       "when": 1795446501794,
       "tag": "0001_aktifkan_rls",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1795696178252,
+      "tag": "0002_tryout",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1795696178975,
+      "tag": "0003_rls_tryout",
+      "breakpoints": true
     }
   ]
 }
