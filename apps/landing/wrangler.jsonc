@@ -1,0 +1,10 @@
+// Halaman statis catatanabdinegara.site sebagai Cloudflare Worker + Static Assets.
+// Nama harus sama dengan nama proyek Worker di dashboard Cloudflare.
+{
+  "name": "catatanabdinegara",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": ".",
+    "not_found_handling": "404-page"
+  }
+}
