@@ -34,6 +34,31 @@ Perangkat (Mac) harus terhubung. Folder yang dipakai: `~/Movies` (berisi `pabrik
 
 ## 3. Urutan kerja setiap jalan
 
+### Kantor harus "hidup" selama bekerja
+
+Perbarui `apps/kantor/status.json` **di setiap pergantian tahap**, bukan hanya di akhir. Pemilik memantau kantor secara langsung di https://kantor.catatanabdinegara.site.
+
+Cara memperbarui:
+1. Ubah field karyawan yang bersangkutan (`status`, `tugas`, `bubble`, `hasil`, `update` dalam waktu WIB ISO) dan tambahkan satu notifikasi `{"dari", "teks", "waktu", "dibaca": false}`.
+2. Jalankan `git pull --rebase origin main`, lalu commit dengan pesan pendek (`kantor: <siapa> <apa>`) dan push ke `main`.
+
+Situs ter-deploy sendiri dalam sekitar 1 menit. Jangan menunggu deploy selesai, langsung lanjutkan pekerjaan.
+
+| Saat | Ubah status.json |
+| --- | --- |
+| Mulai jalan | `rena` = `kerja` ("Cek rencana hari ini"), `boss` tetap, notifikasi "mulai shift harian" |
+| Riset dan tulis naskah (B) | `nasa` = `kerja` ("Naskah Ep<A>–<B>"); `rena` = `selesai` |
+| Naskah selesai dan dikirim untuk dicek | `nasa` = `selesai` (hasil: tautan dokumen); `rena` = `tunggu` ("Menunggu Boss cek naskah") |
+| Menunggu suara (A.3–A.4) | `suara` (Vico) = `kerja` ("Suara Ep…") |
+| Render (A.5) | `suara` = `selesai`; `edo` = `kerja` ("Render Ep… x/5"), perbarui hitungan setiap satu episode selesai |
+| Periksa hasil (A.6) | `qiqi` = `kerja`; `edo` = `selesai` setelah semua episode ter-render |
+| Kirim ke Mac (A.7) | `qiqi` = `selesai`; `sosi` tetap `blokir` ("Upload manual oleh Boss") kecuali ada koneksi Instagram |
+| Ada kendala (Mac mati, build gagal, dan sebagainya) | karyawan terkait = `blokir`, `bubble` berisi masalahnya |
+| Selesai semua | `kantor.video_selesai` dan `kantor.episode_berikut` diperbarui, karyawan tanpa kerjaan = `selesai` |
+
+Karyawan berstatus `selesai` otomatis ke ruang istirahat; `kerja` dan `blokir` duduk di meja; `tunggu` berjalan keliling kantor.
+
+
 ### A. Buat video untuk naskah yang sudah disetujui (`Naskah OK`)
 
 Untuk setiap episode berstatus `Naskah OK`, urut dari nomor Ep terkecil:
@@ -74,7 +99,7 @@ Untuk setiap episode berstatus `Naskah OK`, urut dari nomor Ep terkecil:
    - bagian "Sumber".
 4. **Catat batch di `tools/pabrik/batch.json`** (nomor Ep → URL dokumen), commit dan push ke `main`, lalu ubah status di sheet menjadi `Naskah`.
 
-### C. Perbarui kantor dan kabari pemilik
+### C. Rapikan kantor dan kabari pemilik
 
 - Ubah `apps/kantor/status.json`, lalu push ke `main`; situs ter-deploy sendiri.
   - Karyawan yang bekerja berstatus `kerja`. Yang selesai berstatus `selesai` dengan `hasil` diisi.
