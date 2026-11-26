@@ -10,9 +10,9 @@ import {
   profiles,
   ruleSets,
   schema,
-  webMigrationsFolder,
   type Db,
 } from "../src/index.js";
+import { webMigrationsFolder } from "../src/migrations.js";
 
 const ADMIN = "00000000-0000-4000-8000-000000000001";
 const T0 = new Date("2026-12-07T12:00:00Z"); // 19.00 WIB
@@ -67,18 +67,16 @@ async function setup(opts: { publish?: number } = {}) {
     ["u2", "bagas"],
     ["u3", "ayu"],
   ] as const) {
-    await db
-      .insert(profiles)
-      .values({
-        userId: id,
-        nickname: nick,
-        city: "Kota Malang",
-        targetSchool: "STIS",
-        birthYear: 2008,
-        consentPrivacyVersion: "2026-12",
-        consentAt: T0,
-        guardianAckAt: T0,
-      });
+    await db.insert(profiles).values({
+      userId: id,
+      nickname: nick,
+      city: "Kota Malang",
+      targetSchool: "STIS",
+      birthYear: 2008,
+      consentPrivacyVersion: "2026-12",
+      consentAt: T0,
+      guardianAckAt: T0,
+    });
   }
   return { db, bank, tryout, ruleSetId: rs!.id, qs };
 }

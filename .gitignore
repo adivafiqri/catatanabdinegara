@@ -9,3 +9,6 @@ coverage/
 .turbo/
 apps/landing/.pratinjau.html
 .wrangler/
+.next/
+next-env.d.ts
+*.tsbuildinfo

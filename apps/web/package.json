@@ -1,0 +1,38 @@
+{
+  "name": "@can/web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --webpack -H 127.0.0.1 -p 3000",
+    "build": "next build --webpack",
+    "start": "next start -H 127.0.0.1 -p 3000",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "migrasi": "tsx scripts/migrasi.ts",
+    "admin:jadikan": "tsx scripts/jadikan-admin.ts"
+  },
+  "dependencies": {
+    "@can/db": "workspace:*",
+    "@can/shared": "workspace:*",
+    "better-auth": "^1.7.22",
+    "drizzle-orm": "0.45.4",
+    "next": "^16.4.6",
+    "pg": "^8.23.1",
+    "postgres": "4.1.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "server-only": "^0.0.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.15",
+    "@types/node": "^22.20.5",
+    "@types/pg": "^8.23.1",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tsx": "4.23.15",
+    "vitest": "5.1.0"
+  }
+}

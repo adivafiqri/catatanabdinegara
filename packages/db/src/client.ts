@@ -4,7 +4,8 @@ import { migrate as migratePglite } from "drizzle-orm/pglite/migrator";
 import { drizzle } from "drizzle-orm/postgres-js";
 import { migrate } from "drizzle-orm/postgres-js/migrator";
 import postgres from "postgres";
-import { botMigrationsFolder, schema, webMigrationsFolder, type Db } from "./index.js";
+import { schema, type Db } from "./index.js";
+import { botMigrationsFolder, webMigrationsFolder } from "./migrations.js";
 
 export interface DbHandle {
   db: Db;
@@ -41,3 +42,5 @@ export async function openDb(url: string, which: "bot" | "web" | "all" = "bot"):
   const sql = postgres(url, { prepare: false, max: 5, onnotice: () => {} });
   return { db: drizzle(sql, { schema }) as unknown as Db, close: () => sql.end({ timeout: 5 }) };
 }
+
+export { connectDb } from "./connect.js";

@@ -114,16 +114,14 @@ export class TryoutRepo {
         .insert(packages)
         .values({ slug: p.slug, name: p.name, ruleSetId: p.ruleSetId, status: "published" })
         .returning();
-      await tx
-        .insert(packageQuestions)
-        .values(
-          chosen.map((q, i) => ({
-            packageId: pkg!.id,
-            questionId: q.id,
-            questionVersion: q.version,
-            position: i + 1,
-          })),
-        );
+      await tx.insert(packageQuestions).values(
+        chosen.map((q, i) => ({
+          packageId: pkg!.id,
+          questionId: q.id,
+          questionVersion: q.version,
+          position: i + 1,
+        })),
+      );
       return pkg!;
     });
   }

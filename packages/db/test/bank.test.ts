@@ -4,15 +4,8 @@ import { DEFAULT_SUB_TOPICS, contextFromTopics, importCsv, type Question } from 
 import { drizzle } from "drizzle-orm/pglite";
 import { migrate } from "drizzle-orm/pglite/migrator";
 import { describe, expect, it } from "vitest";
-import {
-  BankError,
-  BankRepo,
-  questions,
-  ruleSets,
-  schema,
-  webMigrationsFolder,
-  type Db,
-} from "../src/index.js";
+import { BankError, BankRepo, questions, ruleSets, schema, type Db } from "../src/index.js";
+import { webMigrationsFolder } from "../src/migrations.js";
 
 const template = readFileSync(
   new URL("../../../docs/templat/templat-soal.csv", import.meta.url),

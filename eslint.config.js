@@ -2,7 +2,15 @@ import tseslint from "typescript-eslint";
 
 export default tseslint.config(
   {
-    ignores: ["**/dist/**", "**/node_modules/**", "docs/**", "maskot-adiva/**", "**/migrations/**"],
+    ignores: [
+      "**/dist/**",
+      "**/node_modules/**",
+      "docs/**",
+      "maskot-adiva/**",
+      "**/migrations/**",
+      "**/.next/**",
+      "**/next-env.d.ts",
+    ],
   },
   ...tseslint.configs.recommended,
   {
