@@ -144,7 +144,7 @@ CI (GitHub Actions): lint → typecheck → unit test → build → pemindai sec
 
 ## 6. Kesiapan lonjakan trafik (event serentak)
 
-Asumsi beban puncak (perlu dikonfirmasi): **2.000 peserta** mulai bersamaan.
+Asumsi beban puncak: **tryout pertama ±200 peserta** (konfirmasi pemilik 26 Nov 2026) → uji beban target 400 (cadangan 2×). Menjelang musim seleksi (Jul–Okt 2027) diuji ulang untuk **2.000 peserta** bersamaan; angka di tabel di bawah memakai skenario 2.000.
 
 | Titik rawan | Beban | Strategi |
 | --- | --- | --- |
