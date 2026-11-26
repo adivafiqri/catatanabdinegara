@@ -1,0 +1,23 @@
+# Web tryout & panel admin (Next.js). Hanya mendengarkan di 127.0.0.1:3000;
+# diakses dari internet lewat Cloudflare Tunnel (deploy/can-tunnel.service).
+[Unit]
+Description=Web tryout Catatan Abdi Negara
+After=network-online.target postgresql.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/catatanabdinegara/apps/web
+EnvironmentFile=%h/catatanabdinegara/.env
+Environment=NODE_ENV=production
+Environment=NEXT_TELEMETRY_DISABLED=1
+Environment=PATH=%h/.local/node/bin:%h/.local/bin:/usr/bin:/bin
+ExecStartPre=%h/.local/node/bin/node --import tsx scripts/migrasi.ts
+ExecStart=%h/.local/node/bin/node node_modules/next/dist/bin/next start -H 127.0.0.1 -p 3000
+Restart=always
+RestartSec=5
+TimeoutStopSec=20
+MemoryMax=1500M
+
+[Install]
+WantedBy=default.target
