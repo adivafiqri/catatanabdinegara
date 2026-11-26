@@ -1,0 +1,177 @@
+{
+ "judul": "Ep 13 — Soal TKP",
+ "sampul": {
+  "ep": "EP 13",
+  "atas": [
+   "soal TKP"
+  ],
+  "hl": "nggak ada salahnya?",
+  "bawah": [
+   "cara mikir",
+   "biar skornya tinggi"
+  ],
+  "stiker": "SKD",
+  "maskot": "mikir"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "SKD",
+   "teks": [
+    "katanya soal TKP"
+   ],
+   "hl": "nggak ada salahnya?",
+   "maskot": "mikir",
+   "narasi": "Katanya soal TKP nggak ada jawaban salah. Bener nggak?",
+   "ucapan": "Katanya soal TKP nggak ada jawaban salah. [curious] Bener nggak?",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "card",
+   "label": "TKP",
+   "ikon": "17-ikon-medali",
+   "baris": [
+    "Tes Karakteristik",
+    "Pribadi"
+   ],
+   "sub": [
+    "bagian ketiga SKD"
+   ],
+   "maskot": "senyum",
+   "narasi": "TKP itu Tes Karakteristik Pribadi, bagian ketiga dari SKD.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "TKP itu Tes Karakteristik Pribadi, bagian ketiga dari SKD."
+  },
+  {
+   "tipe": "big",
+   "label": "jumlah soal",
+   "angka": "45 soal",
+   "sub": "paling banyak di SKD",
+   "maskot": "kaget",
+   "narasi": "Jumlahnya empat puluh lima soal, paling banyak di SKD.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Jumlahnya empat puluh lima soal, paling banyak di SKD."
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "satu",
+    "lima",
+    "nol"
+   ],
+   "maskot": "tegas",
+   "narasi": "Bedanya, tiap pilihan punya nilai satu sampai lima. Nggak ada yang nol.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Bedanya, tiap pilihan punya nilai satu sampai lima. Nggak ada yang nol."
+  },
+  {
+   "tipe": "ilustrasi",
+   "ilus": "layanan",
+   "judul": "contohnya:",
+   "maskot": "senyum",
+   "narasi": "Contohnya soal pelayanan publik.",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Contohnya soal pelayanan publik."
+  },
+  {
+   "tipe": "skala",
+   "label": "CONTOH TKP",
+   "soal": "Warga datang 5 menit sebelum loket tutup. Kamu...",
+   "opsi": [
+    [
+     "langsung tolak",
+     1
+    ],
+    [
+     "suruh datang besok",
+     2
+    ],
+    [
+     "layani sampai selesai",
+     5
+    ]
+   ],
+   "maskot": "mikir",
+   "narasi": "Warga datang lima menit sebelum loket tutup. Langsung tolak, nilainya kecil. Suruh datang besok, masih kecil. Layani sampai selesai, nilainya paling tinggi.",
+   "id": 6,
+   "durasi": 3.0,
+   "ucapan": "Warga datang lima menit sebelum loket tutup. Langsung tolak, nilainya kecil. Suruh datang besok, masih kecil. Layani sampai selesai, nilainya paling tinggi."
+  },
+  {
+   "tipe": "tags",
+   "judul": "aspeknya:",
+   "item": [
+    "pelayanan publik",
+    "jejaring kerja",
+    "sosial budaya"
+   ],
+   "maskot": "senyum",
+   "narasi": "Aspeknya ada pelayanan publik, jejaring kerja, sosial budaya,",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Aspeknya ada pelayanan publik, jejaring kerja, sosial budaya,"
+  },
+  {
+   "tipe": "tags",
+   "judul": "lalu:",
+   "item": [
+    "teknologi informasi",
+    "profesionalisme"
+   ],
+   "maskot": "senyum",
+   "narasi": "teknologi informasi, dan profesionalisme.",
+   "id": 8,
+   "durasi": 3.0,
+   "ucapan": "teknologi informasi, dan profesionalisme."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "triknya: pilih yang"
+   ],
+   "hl": "paling ideal",
+   "maskot": "tegas",
+   "narasi": "Triknya, pilih sikap paling ideal sebagai pelayan masyarakat, bukan yang paling aman buat diri sendiri.",
+   "id": 9,
+   "durasi": 3.0,
+   "ucapan": "Triknya, pilih sikap paling ideal sebagai pelayan masyarakat, bukan yang paling aman buat diri sendiri."
+  },
+  {
+   "tipe": "kuis",
+   "label": "LATIHAN TKP",
+   "soal": "Atasan kasih tugas mendadak saat kamu sibuk. Sikap paling ideal?",
+   "opsi": [
+    "menolak halus",
+    "kerjakan asal jadi",
+    "atur prioritas, selesaikan",
+    "serahkan ke teman"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Coba: atasan kasih tugas mendadak saat kamu sibuk. Menolak halus, kerjakan asal jadi, atur prioritas lalu selesaikan, atau serahkan ke teman? Menurutmu mana yang paling ideal? Tulis jawabanmu di kolom komentar!",
+   "ucapan": "Coba: atasan kasih tugas mendadak saat kamu sibuk. Menolak halus, kerjakan asal jadi, atur prioritas lalu selesaikan, atau serahkan ke teman? [curious] Menurutmu mana yang paling ideal? [excited] Tulis jawabanmu di kolom komentar!",
+   "id": 10,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: ikatan dinas",
+   "label": "episode 14",
+   "baris": [
+    "kuliah gratis,",
+    "tapi ada ikatannya"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, apa itu ikatan dinas. Follow ya!",
+   "ucapan": "Next, apa itu ikatan dinas. [excited] Follow ya!",
+   "id": 11,
+   "durasi": 3.0
+  }
+ ]
+}

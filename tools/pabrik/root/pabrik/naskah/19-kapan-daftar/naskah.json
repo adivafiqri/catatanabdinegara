@@ -1,0 +1,144 @@
+{
+ "judul": "Ep 19 — Kapan pendaftaran dibuka?",
+ "sampul": {
+  "ep": "EP 19",
+  "atas": [
+   "daftar kedinasan"
+  ],
+  "hl": "kapan dibuka?",
+  "bawah": [
+   "catat biar",
+   "nggak ketinggalan"
+  ],
+  "stiker": "CATAT!",
+  "maskot": "tegas"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "CATAT!",
+   "teks": [
+    "pendaftaran kedinasan"
+   ],
+   "hl": "kapan dibuka?",
+   "maskot": "mikir",
+   "narasi": "Pendaftaran sekolah kedinasan biasanya dibuka kapan, sih?",
+   "ucapan": "[curious] Pendaftaran sekolah kedinasan biasanya dibuka kapan, sih?",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "big",
+   "label": "seleksi 2026",
+   "angka": "18-30 Agustus",
+   "sub": "lewat portal SSCASN BKN",
+   "maskot": "kaget",
+   "narasi": "Tahun ini, pendaftarannya dibuka delapan belas sampai tiga puluh Agustus, lewat SSCASN BKN.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "Tahun ini, pendaftarannya dibuka delapan belas sampai tiga puluh Agustus, lewat SSCASN BKN."
+  },
+  {
+   "tipe": "steps",
+   "judul": "alur seleksinya",
+   "item": [
+    "pengumuman resmi",
+    "daftar di SSCASN",
+    "seleksi administrasi",
+    "SKD",
+    "tes lanjutan sekolah"
+   ],
+   "maskot": "tegas",
+   "narasi": "Alurnya: pengumuman resmi, daftar di SSCASN, seleksi administrasi, SKD, lalu tes lanjutan dari tiap sekolah.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Alurnya: pengumuman resmi, daftar di SSCASN, seleksi administrasi, SKD, lalu tes lanjutan dari tiap sekolah."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "waktu daftarnya"
+   ],
+   "hl": "cuma 2 minggu!",
+   "maskot": "kaget",
+   "narasi": "Waktu daftarnya cuma sekitar dua minggu. Telat sehari, ya nunggu tahun depan.",
+   "ucapan": "Waktu daftarnya cuma sekitar dua minggu. [serious] Telat sehari, ya nunggu tahun depan.",
+   "id": 4,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "sekarang"
+   ],
+   "maskot": "tegas",
+   "narasi": "Makanya persiapan SKD harus mulai dari sekarang, bukan pas pendaftaran dibuka.",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Makanya persiapan SKD harus mulai dari sekarang, bukan pas pendaftaran dibuka."
+  },
+  {
+   "tipe": "checks",
+   "label": "siapkan dari sekarang",
+   "item": [
+    "KTP, KK, ijazah",
+    "pas foto sesuai aturan",
+    "latihan SKD rutin"
+   ],
+   "maskot": "senyum",
+   "narasi": "Siapkan dari sekarang: dokumen seperti KTP, KK, dan ijazah, pas foto sesuai aturan, dan latihan SKD rutin.",
+   "id": 6,
+   "durasi": 3.0,
+   "ucapan": "Siapkan dari sekarang: dokumen seperti KTP, KK, dan ijazah, pas foto sesuai aturan, dan latihan SKD rutin."
+  },
+  {
+   "tipe": "card",
+   "label": "pantau info resmi",
+   "ikon": "16-ikon-kalender",
+   "baris": [
+    "SSCASN +",
+    "laman sekolah"
+   ],
+   "sub": [
+    "jangan dari info hoaks"
+   ],
+   "maskot": "tegas",
+   "narasi": "Pantau infonya dari SSCASN dan laman resmi sekolah, jangan dari info hoaks.",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Pantau infonya dari SSCASN dan laman resmi sekolah, jangan dari info hoaks."
+  },
+  {
+   "tipe": "kuis",
+   "label": "TANYA KAMU",
+   "soal": "Kamu mau daftar seleksi tahun depan?",
+   "opsi": [
+    "sudah siap",
+    "masih bingung",
+    "kelas sepuluh atau sebelas",
+    "lagi mikir-mikir"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Kamu mau daftar seleksi tahun depan? Sudah siap, masih bingung, masih kelas sepuluh atau sebelas, atau lagi mikir-mikir? Tulis di kolom komentar!",
+   "ucapan": "[curious] Kamu mau daftar seleksi tahun depan? Sudah siap, masih bingung, masih kelas sepuluh atau sebelas, atau lagi mikir-mikir? [excited] Tulis di kolom komentar!",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: kenalan STMKG",
+   "label": "episode 20",
+   "baris": [
+    "sekolah cuaca,",
+    "iklim & gempa"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, kenalan sama STMKG. Follow ya!",
+   "ucapan": "Next, kenalan sama STMKG. [excited] Follow ya!",
+   "id": 9,
+   "durasi": 3.0
+  }
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "adegan": [
+  {
+   "id": 1,
+   "narasi": "Kuliah... tapi dibiayai negara?",
+   "subs": [
+    0.17,
+    0.958
+   ],
+   "durasi_lama": 1.8,
+   "cut": 0.0,
+   "durasi": 3.08,
+   "lead": 0.17,
+   "audio": 2.14
+  },
+  {
+   "id": 2,
+   "narasi": "Ada! Namanya sekolah kedinasan.",
+   "subs": [
+    0.08,
+    1.132
+   ],
+   "durasi_lama": 1.8,
+   "cut": 3.08,
+   "durasi": 2.37,
+   "lead": 0.08,
+   "audio": 2.22
+  },
+  {
+   "id": 3,
+   "narasi": "Ini kampus milik kementerian atau lembaga negara,",
+   "subs": [
+    0.08,
+    1.607,
+    2.333
+   ],
+   "durasi_lama": 2.5,
+   "cut": 5.45,
+   "durasi": 3.23,
+   "lead": 0.08,
+   "audio": 2.94
+  },
+  {
+   "id": 4,
+   "narasi": "yang tugasnya mencetak calon aparatur untuk instansinya sendiri.",
+   "subs": [
+    0.08,
+    1.403,
+    2.577
+   ],
+   "durasi_lama": 2.8,
+   "cut": 8.68,
+   "durasi": 4.23,
+   "lead": 0.08,
+   "audio": 3.53
+  },
+  {
+   "id": 5,
+   "narasi": "Contohnya Akpol, IPDN, PKN STAN, STIS, dan masih banyak lagi.",
+   "subs": [
+    0.08,
+    2.51,
+    3.69,
+    5.068
+   ],
+   "durasi_lama": 3.8,
+   "cut": 12.91,
+   "durasi": 6.83,
+   "lead": 0.08,
+   "audio": 5.58
+  },
+  {
+   "id": 6,
+   "narasi": "Terus, bedanya apa? Biaya pendidikannya umumnya ditanggung negara.",
+   "subs": [
+    0.08,
+    2.26,
+    3.547
+   ],
+   "durasi_lama": 2.6,
+   "cut": 19.740000000000002,
+   "durasi": 4.96,
+   "lead": 0.08,
+   "audio": 4.47
+  },
+  {
+   "id": 7,
+   "narasi": "Hidupnya disiplin, ala taruna.",
+   "subs": [
+    0.08,
+    1.406
+   ],
+   "durasi_lama": 1.8,
+   "cut": 24.700000000000003,
+   "durasi": 2.53,
+   "lead": 0.08,
+   "audio": 2.01
+  },
+  {
+   "id": 8,
+   "narasi": "Dan setelah lulus, kamu terikat dinas di instansi itu.",
+   "subs": [
+    0.08,
+    1.31,
+    2.54
+   ],
+   "durasi_lama": 2.5,
+   "cut": 27.23,
+   "durasi": 4.09,
+   "lead": 0.08,
+   "audio": 3.28
+  },
+  {
+   "id": 9,
+   "narasi": "Tapi ingat, seleksinya ketat.",
+   "subs": [
+    0.08,
+    0.78
+   ],
+   "durasi_lama": 1.7,
+   "cut": 31.32,
+   "durasi": 2.1,
+   "lead": 0.08,
+   "audio": 1.63
+  },
+  {
+   "id": 10,
+   "narasi": "Ada tes akademik, kesehatan, jasmani, sampai psikotes.",
+   "subs": [
+    0.08,
+    1.43,
+    2.45
+   ],
+   "durasi_lama": 2.6,
+   "cut": 33.42,
+   "durasi": 5.44,
+   "lead": 0.08,
+   "audio": 4.42
+  },
+  {
+   "id": 11,
+   "narasi": "Gimana cara masuknya? Tonton episode berikutnya, ya. Siap?",
+   "subs": [
+    0.08,
+    1.69,
+    3.94
+   ],
+   "durasi_lama": 2.6,
+   "cut": 38.86,
+   "durasi": 4.951,
+   "lead": 0.08,
+   "audio": 4.31
+  }
+ ]
+}

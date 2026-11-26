@@ -1,0 +1,103 @@
+{
+ "judul": "Ep 0 — Perkenalan",
+ "adegan": [
+  {
+   "tipe": "hook",
+   "teks": [
+    "calon"
+   ],
+   "hl": "abdi negara!",
+   "stiker": "HALO!",
+   "maskot": "hormat",
+   "narasi": "Halo, calon abdi negara!",
+   "ucapan": "[excited] Halo, calon abdi negara!",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "card",
+   "label": "kenalan dulu",
+   "ikon": "17-ikon-medali",
+   "baris": [
+    "mantan taruna"
+   ],
+   "sub": [
+    "sekarang abdi negara"
+   ],
+   "maskot": "senyum",
+   "narasi": "Kenalin, aku mantan taruna sekolah kedinasan, yang sekarang jadi abdi negara.",
+   "ucapan": "Kenalin, aku mantan taruna sekolah kedinasan, yang sekarang jadi abdi negara.",
+   "id": 2,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "card",
+   "label": "di akun ini",
+   "ikon": "21-ikon-dokumen-syarat",
+   "baris": [
+    "catatan seputar"
+   ],
+   "sub": [
+    "sekolah kedinasan"
+   ],
+   "maskot": "senyum",
+   "narasi": "Di akun ini, aku bagi catatan seputar sekolah kedinasan.",
+   "ucapan": "Di akun ini, aku bagi catatan seputar sekolah kedinasan.",
+   "id": 3,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "tags",
+   "judul": "isinya:",
+   "item": [
+    "info seleksi",
+    "tips tiap tes",
+    "latihan soal"
+   ],
+   "maskot": "tegas",
+   "narasi": "Mulai dari info seleksi, tips tiap tes, sampai latihan soal.",
+   "ucapan": "Mulai dari info seleksi, tips tiap tes, sampai latihan soal.",
+   "id": 4,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "hook",
+   "teks": [
+    "kamu lagi incar"
+   ],
+   "hl": "sekolah apa?",
+   "maskot": "mikir",
+   "narasi": "Kamu lagi incar sekolah kedinasan apa?",
+   "ucapan": "[curious] Kamu lagi incar sekolah kedinasan apa?",
+   "id": 5,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "tulis di komentar",
+   "label": "giliran kamu",
+   "baris": [
+    "nanti aku bahas",
+    "satu per satu"
+   ],
+   "stiker": "SIAP!",
+   "maskot": "hormat",
+   "narasi": "Tulis di komentar ya, nanti aku bahas satu per satu. Siap?",
+   "ucapan": "Tulis di komentar ya, nanti aku bahas satu per satu. [excited] Siap?",
+   "id": 6,
+   "durasi": 3.0
+  }
+ ],
+ "sampul": {
+  "ep": "EP 0",
+  "atas": [
+   "kenalan dulu!"
+  ],
+  "hl": "Catatan Abdi Negara",
+  "bawah": [
+   "info & tips sekolah kedinasan"
+  ],
+  "stiker": "HALO!",
+  "maskot": "hormat"
+ }
+}

@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="990" height="150" viewBox="0 0 990 150">
+<rect x="17" y="17" width="960" height="120" rx="18" fill="#2B2118"/><rect x="10" y="10" width="960" height="120" rx="18" fill="#FFFBF2" stroke="#2B2118" stroke-width="4"/><rect x="10" y="10" width="26" height="120" rx="13" fill="#7A5230"/><rect x="24" y="12" width="14" height="116" fill="#7A5230"/><text x="62" y="62" font-family="'Poppins','Inter',sans-serif" font-weight="800" font-size="40" fill="#2B2118">Teks subtitle muncul di sini</text><text x="62" y="102" font-family="'Space Mono','DejaVu Sans Mono','Courier New',monospace" font-size="20" fill="#857A6A">keterangan kecil / sumber</text>
+</svg>

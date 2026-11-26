@@ -1,0 +1,121 @@
+{
+ "judul": "Ep 3 — Bedah SKD",
+ "adegan": [
+  {
+   "tipe": "hook",
+   "teks": [
+    "tes pertama yang"
+   ],
+   "hl": "wajib lolos:",
+   "stiker": "SKD",
+   "maskot": "tegas",
+   "narasi": "Tes pertama yang wajib kamu lolosi: SKD.",
+   "ucapan": "Tes pertama yang wajib kamu lolosi: SKD.",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "card",
+   "label": "SKD itu",
+   "ikon": "20-ikon-jam",
+   "baris": [
+    "Seleksi Kompetensi"
+   ],
+   "sub": [
+    "Dasar, pakai komputer"
+   ],
+   "maskot": "senyum",
+   "narasi": "SKD itu Seleksi Kompetensi Dasar, dikerjakan di komputer dengan sistem CAT BKN.",
+   "ucapan": "SKD itu Seleksi Kompetensi Dasar, dikerjakan di komputer dengan sistem CAT BKN.",
+   "id": 2,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "chips",
+   "judul": "isinya tiga tes",
+   "item": [
+    [
+     "TWK",
+     "wawasan kebangsaan"
+    ],
+    [
+     "TIU",
+     "intelegensia umum"
+    ],
+    [
+     "TKP",
+     "karakteristik pribadi"
+    ]
+   ],
+   "maskot": "senyum",
+   "narasi": "Isinya tiga tes: TWK, wawasan kebangsaan. TIU, intelegensia umum. Dan TKP, karakteristik pribadi.",
+   "ucapan": "Isinya tiga tes: TWK, wawasan kebangsaan. TIU, intelegensia umum. Dan TKP, karakteristik pribadi.",
+   "id": 3,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "big",
+   "label": "totalnya",
+   "angka": "110 soal",
+   "sub": "dalam 100 menit",
+   "maskot": "kaget",
+   "narasi": "Totalnya seratus sepuluh soal, dalam seratus menit.",
+   "ucapan": "Totalnya seratus sepuluh soal, dalam seratus menit.",
+   "id": 4,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "tiap bagian ada"
+   ],
+   "hl": "batas nilai",
+   "maskot": "kaget",
+   "narasi": "Tiap bagian punya nilai ambang batas. Satu saja kurang, kamu tidak lolos.",
+   "ucapan": "[serious] Tiap bagian punya nilai ambang batas. Satu saja kurang, kamu tidak lolos.",
+   "id": 5,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "checks",
+   "label": "tipsnya",
+   "item": [
+    "latihan pakai timer",
+    "kenali tipe soalnya",
+    "jangan habis di satu soal"
+   ],
+   "maskot": "tegas",
+   "narasi": "Tipsnya: latihan pakai timer, kenali tipe soalnya, dan jangan kehabisan waktu di satu soal.",
+   "ucapan": "Tipsnya: latihan pakai timer, kenali tipe soalnya, dan jangan kehabisan waktu di satu soal.",
+   "id": 6,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "mau latihan SKD?",
+   "label": "segera",
+   "baris": [
+    "latihan soal gratis",
+    "di akun ini"
+   ],
+   "stiker": "SIAP!",
+   "maskot": "hormat",
+   "narasi": "Mau latihan soal SKD gratis? Pantengin terus akun ini. Siap?",
+   "ucapan": "[curious] Mau latihan soal SKD gratis? Pantengin terus akun ini. [excited] Siap?",
+   "id": 7,
+   "durasi": 3.0
+  }
+ ],
+ "sampul": {
+  "ep": "EP 3",
+  "atas": [
+   "bedah tuntas"
+  ],
+  "hl": "tes SKD",
+  "bawah": [
+   "TWK · TIU · TKP"
+  ],
+  "stiker": "WAJIB LOLOS",
+  "maskot": "tegas"
+ }
+}

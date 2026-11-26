@@ -1,0 +1,153 @@
+{
+ "judul": "Ep 27 — Kesalahan paling sering saat SKD",
+ "sampul": {
+  "ep": "EP 27",
+  "atas": [
+   "jangan sampai"
+  ],
+  "hl": "gagal SKD!",
+  "bawah": [
+   "4 kesalahan",
+   "paling sering"
+  ],
+  "stiker": "SAVE!",
+  "maskot": "kaget"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "SAVE!",
+   "teks": [
+    "jangan sampai"
+   ],
+   "hl": "gagal SKD karena ini",
+   "maskot": "kaget",
+   "narasi": "Jangan sampai gagal SKD karena kesalahan ini.",
+   "ucapan": "[serious] Jangan sampai gagal SKD karena kesalahan ini.",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "big",
+   "label": "SKD",
+   "angka": "110 soal",
+   "sub": "100 menit, kurang dari 1 menit per soal",
+   "maskot": "kaget",
+   "narasi": "SKD itu seratus sepuluh soal dalam seratus menit. Kurang dari satu menit per soal.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "SKD itu seratus sepuluh soal dalam seratus menit. Kurang dari satu menit per soal."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "kesalahan 1:"
+   ],
+   "hl": "terjebak 1 soal",
+   "maskot": "mikir",
+   "narasi": "Kesalahan pertama: terjebak lama di satu soal hitungan. Lewati dulu, balik lagi nanti.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Kesalahan pertama: terjebak lama di satu soal hitungan. Lewati dulu, balik lagi nanti."
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "dikosongkan",
+    "semua"
+   ],
+   "maskot": "tegas",
+   "narasi": "Kedua: ada soal yang dikosongkan. Jawaban salah tidak mengurangi nilai, jadi isi semua.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Kedua: ada soal yang dikosongkan. Jawaban salah tidak mengurangi nilai, jadi isi semua."
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "KELIHATAN BAIK",
+    "item": [
+     "terdengar bijak"
+    ]
+   },
+   "kanan": {
+    "judul": "PALING TEPAT",
+    "item": [
+     "sesuai situasi soal",
+     "skor 1 sampai 5"
+    ]
+   },
+   "maskot": "mikir",
+   "narasi": "Ketiga: di TKP pilih jawaban yang kelihatan baik, bukan yang paling tepat. Padahal tiap pilihan punya skor satu sampai lima.",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Ketiga: di TKP pilih jawaban yang kelihatan baik, bukan yang paling tepat. Padahal tiap pilihan punya skor satu sampai lima."
+  },
+  {
+   "tipe": "chat",
+   "item": [
+    [
+     "kiri",
+     "Boleh ganti-ganti jawaban?"
+    ],
+    [
+     "kanan",
+     "Boleh kalau yakin ada yang salah. Kalau cuma ragu, lanjut biar waktu nggak habis."
+    ]
+   ],
+   "wajah": "mikir",
+   "maskot": "senyum",
+   "narasi": "Boleh ganti-ganti jawaban? Boleh kalau yakin ada yang salah. Kalau cuma ragu, lanjut biar waktu nggak habis.",
+   "ucapan": "[curious] Boleh ganti-ganti jawaban? Boleh kalau yakin ada yang salah. Kalau cuma ragu, lanjut biar waktu nggak habis.",
+   "id": 6,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "checks",
+   "label": "4. latihan pakai timer",
+   "item": [
+    "lewati soal sulit",
+    "isi semua jawaban",
+    "pahami skor TKP",
+    "latihan pakai timer"
+   ],
+   "maskot": "tegas",
+   "narasi": "Keempat: nggak pernah latihan pakai timer. Jadi, lewati soal sulit, isi semua, pahami skor TKP, dan latihan pakai timer.",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Keempat: nggak pernah latihan pakai timer. Jadi, lewati soal sulit, isi semua, pahami skor TKP, dan latihan pakai timer."
+  },
+  {
+   "tipe": "kuis",
+   "label": "TANYA KAMU",
+   "soal": "Kesalahan mana yang paling sering kamu alami?",
+   "opsi": [
+    "terjebak satu soal",
+    "ada yang kosong",
+    "salah pilih di TKP",
+    "waktu habis"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Kesalahan mana yang paling sering kamu alami? Terjebak satu soal, ada yang kosong, salah pilih di TKP, atau waktu habis? Tulis di kolom komentar!",
+   "ucapan": "[curious] Kesalahan mana yang paling sering kamu alami? Terjebak satu soal, ada yang kosong, salah pilih di TKP, atau waktu habis? [excited] Tulis di kolom komentar!",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: senior–junior",
+   "label": "episode 28",
+   "baris": [
+    "senior & junior",
+    "sebenarnya gimana?"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, senior dan junior di asrama, sebenarnya gimana. Follow ya!",
+   "ucapan": "Next, senior dan junior di asrama, sebenarnya gimana. [excited] Follow ya!",
+   "id": 9,
+   "durasi": 3.0
+  }
+ ]
+}

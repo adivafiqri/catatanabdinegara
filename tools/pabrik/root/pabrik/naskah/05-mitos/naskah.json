@@ -1,0 +1,214 @@
+{
+ "judul": "Ep 5 — 5 mitos sekolah kedinasan",
+ "sampul": {
+  "ep": "EP 5",
+  "atas": [
+   "5 mitos"
+  ],
+  "hl": "sekolah kedinasan",
+  "bawah": [
+   "yang masih",
+   "banyak dipercaya"
+  ],
+  "stiker": "MITOS?",
+  "maskot": "mikir"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "MITOS?",
+   "teks": [
+    "5 mitos kedinasan"
+   ],
+   "hl": "yang masih dipercaya",
+   "maskot": "mikir",
+   "narasi": "Ini lima mitos sekolah kedinasan yang masih banyak dipercaya. Kamu percaya yang mana?",
+   "ucapan": "Ini lima mitos sekolah kedinasan yang masih banyak dipercaya. [curious] Kamu percaya yang mana?",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "hook",
+   "stiker": "MITOS #1",
+   "teks": [
+    "kedinasan itu"
+   ],
+   "hl": "gratis total?",
+   "maskot": "mikir",
+   "narasi": "Mitos pertama: sekolah kedinasan gratis total.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "Mitos pertama: sekolah kedinasan gratis total."
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "MITOS",
+    "item": [
+     "gratis total",
+     "nggak keluar uang"
+    ]
+   },
+   "kanan": {
+    "judul": "FAKTA",
+    "item": [
+     "kuliah ditanggung negara",
+     "persiapan bayar sendiri"
+    ]
+   },
+   "maskot": "tegas",
+   "narasi": "Faktanya, biaya kuliah memang ditanggung negara, tapi persiapan, perlengkapan, dan ongkos tetap dari kantong sendiri.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Faktanya, biaya kuliah memang ditanggung negara, tapi persiapan, perlengkapan, dan ongkos tetap dari kantong sendiri."
+  },
+  {
+   "tipe": "card",
+   "label": "mitos #2",
+   "ikon": "15-ikon-toga",
+   "baris": [
+    "cuma buat",
+    "anak ranking"
+   ],
+   "sub": [
+    "ranking satu?"
+   ],
+   "maskot": "kaget",
+   "narasi": "Mitos kedua: cuma buat anak ranking satu.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Mitos kedua: cuma buat anak ranking satu."
+  },
+  {
+   "tipe": "tags",
+   "judul": "yang nentuin:",
+   "item": [
+    "nilai SKD",
+    "tes lanjutan",
+    "persiapanmu"
+   ],
+   "maskot": "senyum",
+   "narasi": "Padahal yang menentukan itu nilai SKD dan tes lanjutan, jadi persiapan kamu yang paling penting.",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Padahal yang menentukan itu nilai SKD dan tes lanjutan, jadi persiapan kamu yang paling penting."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "mitos #3: harus punya"
+   ],
+   "hl": "orang dalam?",
+   "maskot": "kaget",
+   "narasi": "Mitos ketiga: harus punya orang dalam.",
+   "id": 6,
+   "durasi": 3.0,
+   "ucapan": "Mitos ketiga: harus punya orang dalam."
+  },
+  {
+   "tipe": "checks",
+   "label": "faktanya",
+   "item": [
+    "SKD pakai komputer (CAT)",
+    "nilai langsung muncul"
+   ],
+   "maskot": "tegas",
+   "narasi": "Faktanya, SKD dikerjakan pakai komputer, nilainya langsung muncul begitu selesai.",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Faktanya, SKD dikerjakan pakai komputer, nilainya langsung muncul begitu selesai."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "hati-hati sama"
+   ],
+   "hl": "calo!",
+   "maskot": "tegas",
+   "narasi": "Jadi hati-hati sama calo yang janji bisa meloloskan.",
+   "id": 8,
+   "durasi": 3.0,
+   "ucapan": "Jadi hati-hati sama calo yang janji bisa meloloskan."
+  },
+  {
+   "tipe": "hook",
+   "stiker": "MITOS #4",
+   "teks": [
+    "lulus nanti"
+   ],
+   "hl": "bebas pilih tempat?",
+   "maskot": "mikir",
+   "narasi": "Mitos keempat: lulus nanti bebas pilih tempat kerja.",
+   "id": 9,
+   "durasi": 3.0,
+   "ucapan": "Mitos keempat: lulus nanti bebas pilih tempat kerja."
+  },
+  {
+   "tipe": "ilustrasi",
+   "ilus": "peta",
+   "judul": "faktanya:",
+   "maskot": "tegas",
+   "narasi": "Faktanya, penempatan ditentukan instansi, dan bisa di mana saja di Indonesia.",
+   "id": 10,
+   "durasi": 3.0,
+   "ucapan": "Faktanya, penempatan ditentukan instansi, dan bisa di mana saja di Indonesia."
+  },
+  {
+   "tipe": "hook",
+   "stiker": "MITOS #5",
+   "teks": [
+    "bisa daftar"
+   ],
+   "hl": "banyak sekolah?",
+   "maskot": "mikir",
+   "narasi": "Mitos kelima: bisa daftar beberapa sekolah sekaligus biar aman.",
+   "id": 11,
+   "durasi": 3.0,
+   "ucapan": "Mitos kelima: bisa daftar beberapa sekolah sekaligus biar aman."
+  },
+  {
+   "tipe": "big",
+   "label": "faktanya",
+   "angka": "1 sekolah",
+   "sub": "cuma boleh pilih satu",
+   "maskot": "kaget",
+   "narasi": "Faktanya, di seleksi terakhir kamu cuma boleh pilih satu sekolah.",
+   "id": 12,
+   "durasi": 3.0,
+   "ucapan": "Faktanya, di seleksi terakhir kamu cuma boleh pilih satu sekolah."
+  },
+  {
+   "tipe": "kuis",
+   "label": "CEK PAHAM",
+   "soal": "Dari empat ini, mana yang FAKTA?",
+   "opsi": [
+    "kedinasan gratis total",
+    "wajib punya orang dalam",
+    "cuma boleh pilih 1 sekolah",
+    "bebas pilih penempatan"
+   ],
+   "jawab": 2,
+   "kunci_kata": "jawabannya",
+   "maskot": "mikir",
+   "narasi": "Sekarang cek, mana yang fakta? Gratis total, wajib punya orang dalam, cuma boleh pilih satu sekolah, atau bebas pilih penempatan? Jawabannya: C.",
+   "ucapan": "Sekarang cek, [curious] mana yang fakta? Gratis total, wajib punya orang dalam, cuma boleh pilih satu sekolah, atau bebas pilih penempatan? ... Jawabannya: Ce!",
+   "id": 13,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: bedah STIS",
+   "label": "episode 6",
+   "baris": [
+    "kuliah statistik,",
+    "kerja di BPS"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Episode berikutnya kita bedah STIS. Follow biar nggak ketinggalan!",
+   "ucapan": "Episode berikutnya kita bedah Stis. [excited] Follow biar nggak ketinggalan!",
+   "id": 14,
+   "durasi": 3.0
+  }
+ ]
+}

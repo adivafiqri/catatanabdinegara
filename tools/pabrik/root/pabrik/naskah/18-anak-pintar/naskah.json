@@ -1,0 +1,153 @@
+{
+ "judul": "Ep 18 — Kedinasan cuma buat anak pintar?",
+ "sampul": {
+  "ep": "EP 18",
+  "atas": [
+   "cuma buat"
+  ],
+  "hl": "anak pintar?",
+  "bawah": [
+   "yang sebenarnya",
+   "menentukan lolos"
+  ],
+  "stiker": "MITOS?",
+  "maskot": "mikir"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "MITOS?",
+   "teks": [
+    "kedinasan cuma buat"
+   ],
+   "hl": "anak pintar?",
+   "maskot": "mikir",
+   "narasi": "Kedinasan cuma buat anak pintar? Belum tentu.",
+   "ucapan": "[curious] Kedinasan cuma buat anak pintar? Belum tentu.",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "SKD",
+    "lanjutan"
+   ],
+   "maskot": "tegas",
+   "narasi": "Yang menentukan itu nilai SKD dan tes lanjutan, bukan ranking di kelas.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "Yang menentukan itu nilai SKD dan tes lanjutan, bukan ranking di kelas."
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "YANG DIKIRA",
+    "item": [
+     "harus ranking satu",
+     "harus jenius"
+    ]
+   },
+   "kanan": {
+    "judul": "YANG PERLU",
+    "item": [
+     "latihan rutin",
+     "fisik siap"
+    ]
+   },
+   "maskot": "senyum",
+   "narasi": "Bukan harus ranking satu atau jenius, tapi latihan rutin dan fisik yang siap.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Bukan harus ranking satu atau jenius, tapi latihan rutin dan fisik yang siap."
+  },
+  {
+   "tipe": "chat",
+   "item": [
+    [
+     "kiri",
+     "Nilaiku biasa aja, bisa nggak?"
+    ],
+    [
+     "kanan",
+     "Bisa. Soal SKD itu bisa dilatih, polanya berulang."
+    ]
+   ],
+   "wajah": "senyum",
+   "maskot": "senyum",
+   "narasi": "Nilaiku biasa aja, bisa nggak? Bisa. Soal SKD itu bisa dilatih, polanya berulang.",
+   "ucapan": "[curious] Nilaiku biasa aja, bisa nggak? Bisa. Soal SKD itu bisa dilatih, polanya berulang.",
+   "id": 4,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "steps",
+   "judul": "yang bikin beda",
+   "item": [
+    "latihan soal tiap hari",
+    "pakai timer",
+    "evaluasi kesalahan",
+    "jaga fisik"
+   ],
+   "maskot": "tegas",
+   "narasi": "Yang bikin beda: latihan soal tiap hari, pakai timer, evaluasi kesalahan, dan jaga fisik.",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Yang bikin beda: latihan soal tiap hari, pakai timer, evaluasi kesalahan, dan jaga fisik."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "kuncinya bukan pintar,"
+   ],
+   "hl": "tapi konsisten!",
+   "maskot": "tegas",
+   "narasi": "Kuncinya bukan pintar, tapi konsisten.",
+   "ucapan": "Kuncinya bukan pintar, [serious] tapi konsisten.",
+   "id": 6,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "ilustrasi",
+   "ilus": "kampus",
+   "judul": "yang lolos itu",
+   "maskot": "senyum",
+   "narasi": "Banyak yang lolos bukan karena paling pintar, tapi karena paling siap.",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Banyak yang lolos bukan karena paling pintar, tapi karena paling siap."
+  },
+  {
+   "tipe": "kuis",
+   "label": "TANYA KAMU",
+   "soal": "Sekarang kamu latihan SKD berapa lama sehari?",
+   "opsi": [
+    "belum mulai",
+    "kurang dari satu jam",
+    "satu sampai dua jam",
+    "lebih dari dua jam"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Jujur, sekarang kamu latihan SKD berapa lama sehari? Belum mulai, kurang dari satu jam, satu sampai dua jam, atau lebih dari dua jam? Tulis di kolom komentar!",
+   "ucapan": "[curious] Jujur, sekarang kamu latihan SKD berapa lama sehari? Belum mulai, kurang dari satu jam, satu sampai dua jam, atau lebih dari dua jam? [excited] Tulis di kolom komentar!",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: kapan daftar?",
+   "label": "episode 19",
+   "baris": [
+    "pendaftaran kedinasan",
+    "biasanya kapan?"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, kapan pendaftaran kedinasan dibuka. Follow ya!",
+   "ucapan": "Next, kapan pendaftaran kedinasan dibuka. [excited] Follow ya!",
+   "id": 9,
+   "durasi": 3.0
+  }
+ ]
+}
