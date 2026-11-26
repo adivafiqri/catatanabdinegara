@@ -175,9 +175,15 @@ importers:
 
   .:
     devDependencies:
+      '@can/db':
+        specifier: workspace:*
+        version: link:packages/db
       '@can/shared':
         specifier: workspace:*
         version: link:packages/shared
+      drizzle-orm:
+        specifier: 0.45.4
+        version: 0.45.4(@electric-sql/pglite@0.5.15)(postgres@4.1.0)
       eslint:
         specifier: ^10.14.0
         version: 10.14.0

@@ -1,6 +1,6 @@
 # Runbook: Menjalankan Bot Telegram di VPS
 
-Berlaku untuk VPS ini (`/home/dipsy`), mode **polling**, database **PGlite** (berbasis file). Tidak perlu domain, HTTPS, Docker, atau sudo, kecuali satu perintah di langkah 6.
+Berlaku untuk server ini (`/home/dipsy`), mode **polling**. Database: **PostgreSQL lokal** (lihat `docs/runbook/database.md`); sebelum 26 Nov 2026 memakai PGlite berbasis file. Tidak perlu domain, HTTPS, Docker, atau sudo, kecuali satu perintah di langkah 6.
 
 ---
 
@@ -68,22 +68,7 @@ sudo loginctl enable-linger dipsy
 | Update kode | `cd ~/catatanabdinegara && git pull && pnpm install --frozen-lockfile && systemctl --user restart can-bot` |
 
 ## Cadangan database
-Data bot ada di `~/catatanabdinegara-data/bot`. Cadangan harian sederhana:
-```bash
-systemctl --user stop can-bot
-tar czf ~/cadangan-bot-$(date +%F).tgz -C ~/catatanabdinegara-data bot
-systemctl --user start can-bot
-```
-PGlite hanya boleh dibuka **satu proses**. Jangan menjalankan `pnpm dev` bersamaan dengan layanan.
-
-## Pindah ke Supabase (nanti, saat web dibangun)
-1. Di SQL editor Supabase:
-   ```sql
-   create role bot_rw login password '<password-kuat>';
-   create schema if not exists bot authorization bot_rw;
-   ```
-2. Ganti `BOT_DATABASE_URL=postgres://bot_rw:<password>@<host>:6543/postgres` → restart. Tabel dibuat otomatis oleh migrasi.
-3. Pindahkan data lama dengan `pg_dump --schema=bot` dari PGlite (lewat skrip yang disiapkan di Milestone 2).
+Lihat `docs/runbook/database.md` (cadangan otomatis harian).
 
 ## Rotasi token (jika bocor)
 BotFather → `/revoke` → pilih bot → ganti `TELEGRAM_BOT_TOKEN` di `.env` → `systemctl --user restart can-bot`.

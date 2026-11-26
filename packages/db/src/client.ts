@@ -32,12 +32,12 @@ export async function openDb(url: string, which: "bot" | "web" | "all" = "bot"):
     for (const m of sets) await migratePglite(drizzlePglite(pg), m);
     return { db: drizzlePglite(pg, { schema }) as unknown as Db, close: () => pg.close() };
   }
-  const migrator = postgres(url, { prepare: false, max: 1 });
+  const migrator = postgres(url, { prepare: false, max: 1, onnotice: () => {} });
   try {
     for (const m of sets) await migrate(drizzle(migrator), m);
   } finally {
     await migrator.end({ timeout: 5 });
   }
-  const sql = postgres(url, { prepare: false, max: 5 });
+  const sql = postgres(url, { prepare: false, max: 5, onnotice: () => {} });
   return { db: drizzle(sql, { schema }) as unknown as Db, close: () => sql.end({ timeout: 5 }) };
 }

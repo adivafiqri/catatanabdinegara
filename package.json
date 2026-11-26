@@ -12,11 +12,14 @@
     "format": "prettier --write .",
     "bot:dev": "pnpm --filter @can/bot dev",
     "db:generate": "pnpm --filter @can/db generate",
-    "soal:cek": "tsx scripts/soal-cek.ts"
+    "soal:cek": "tsx scripts/soal-cek.ts",
+    "db:cadangan": "bash scripts/cadangan-db.sh"
   },
   "type": "module",
   "devDependencies": {
+    "@can/db": "workspace:*",
     "@can/shared": "workspace:*",
+    "drizzle-orm": "0.45.4",
     "eslint": "^10.14.0",
     "prettier": "^3.9.10",
     "tsx": "4.23.15",

@@ -1,0 +1,10 @@
+[Unit]
+Description=Jadwal cadangan harian database (02.30 WIB)
+
+[Timer]
+OnCalendar=*-*-* 02:30:00 Asia/Jakarta
+Persistent=true
+RandomizedDelaySec=300
+
+[Install]
+WantedBy=timers.target

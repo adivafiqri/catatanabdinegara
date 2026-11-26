@@ -1,0 +1,7 @@
+[Unit]
+Description=Cadangan harian database Catatan Abdi Negara
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/bash %h/catatanabdinegara/scripts/cadangan-db.sh
+Nice=10
