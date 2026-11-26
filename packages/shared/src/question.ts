@@ -49,7 +49,7 @@ export const CODE_RE = /^(TWK|TIU|TKP)-[A-Z0-9]{2,8}-\d{3,5}$/;
 const IMAGE_RE = /^[\w.\-/]+\.(webp|png|jpe?g)$/i;
 
 /** Klaim yang dilarang brief §7.2 — muncul sebagai peringatan agar dicek manual. */
-const FORBIDDEN_CLAIMS = [/bocoran/i, /soal asli/i, /dijamin lulus/i, /pasti lulus/i];
+const FORBIDDEN_CLAIMS = [/\bbocoran\b/i, /\bsoal asli\b/i, /\bdijamin lulus\b/i, /\bpasti lulus\b/i];
 
 export interface ValidateContext {
   /** slug sub-materi yang dikenal, per subtes. */

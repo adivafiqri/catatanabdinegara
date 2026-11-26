@@ -193,3 +193,12 @@ describe("coverage", () => {
     ]);
   });
 });
+
+describe("klaim terlarang", () => {
+  it("hanya mencocokkan kata utuh: 'kebocoran data' bukan klaim bocoran", () => {
+    const r = importCsv(withField(3, "soal", "Bagaimana mencegah kebocoran data warga?"), ctx);
+    expect(r.issues.some((i) => i.message.includes("bocoran"))).toBe(false);
+    const r2 = importCsv(withField(3, "soal", "Ada bocoran soal SKD?"), ctx);
+    expect(r2.issues.some((i) => i.message.includes("bocoran"))).toBe(true);
+  });
+});
