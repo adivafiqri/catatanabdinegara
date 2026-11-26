@@ -14,7 +14,7 @@ describe("anggota baru & verifikasi", () => {
     expect((restrict.payload.permissions as Record<string, boolean>).can_send_messages).toBe(false);
     const welcome = t.called("sendMessage")[0]!;
     expect(String(welcome.payload.text)).toContain("Alice");
-    expect(String(welcome.payload.text)).toContain("https://abdinegara.site");
+    expect(String(welcome.payload.text)).toContain("https://catatanabdinegara.site");
     expect(JSON.stringify(welcome.payload.reply_markup)).toContain(`v:${ALICE.id}`);
     expect(await t.db.select().from(botPendingVerifications)).toHaveLength(1);
 
@@ -116,7 +116,7 @@ describe("anti-spam & tangga peringatan", () => {
     await t.join(ALICE);
     await t.click(ALICE, `v:${ALICE.id}`);
     t.reset();
-    await t.message(ALICE, "https://abdinegara.site");
+    await t.message(ALICE, "https://catatanabdinegara.site");
     await t.message(ALICE, "", {
       text: undefined,
       photo: [{ file_id: "x", file_unique_id: "y", width: 1, height: 1 }],
@@ -125,7 +125,7 @@ describe("anti-spam & tangga peringatan", () => {
     expect(await t.db.select().from(botWarnings)).toHaveLength(0);
     t.advance(25 * 60 * MIN);
     t.reset();
-    await t.message(ALICE, "https://abdinegara.site");
+    await t.message(ALICE, "https://catatanabdinegara.site");
     expect(t.called("deleteMessage")).toHaveLength(0);
   });
 

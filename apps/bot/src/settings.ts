@@ -36,7 +36,7 @@ export type SettingKey = keyof Settings;
 
 export const DEFAULT_SETTINGS: Settings = {
   ...DEFAULT_TEXTS,
-  tryoutUrl: "https://abdinegara.site",
+  tryoutUrl: "https://catatanabdinegara.site",
   // Hanya frasa khas spammer. Kata umum seperti "joki", "pinjol", "bocoran" sengaja tidak dimasukkan
   // karena anggota justru memakainya untuk saling memperingatkan ("awas joki", "ini bukan bocoran").
   bannedWords: [
@@ -58,7 +58,7 @@ export const DEFAULT_SETTINGS: Settings = {
     "airdrop",
   ],
   domainWhitelist: [
-    "abdinegara.site",
+    "catatanabdinegara.site",
     "sscasn.bkn.go.id",
     "tiktok.com/@catatan.abdinegara",
     "instagram.com/catatan.abdinegara",

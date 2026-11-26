@@ -17,7 +17,7 @@ Aturan: setiap milestone diakhiri dengan **tes lulus → code review (ECC `code-
 | --- | --- |
 | Arah desain | **C. Buku Tempel Misi** |
 | Persetujuan < 18 tahun | Cukup **centang** "sudah mendapat izin orang tua/wali" (lihat KEAMANAN.md §3.3) |
-| Domain | **abdinegara.site** |
+| Domain | **catatanabdinegara.site** |
 | Grup Telegram | Sudah ada |
 | Hosting bot | **VPS milik pemilik** (mode polling, database PGlite berbasis file) |
 | Target soal sebelum peluncuran | **1 paket SKD penuh = 110 soal** (30 TWK + 35 TIU + 45 TKP), dikonfirmasi pemilik |

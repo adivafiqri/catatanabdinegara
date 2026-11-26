@@ -380,7 +380,7 @@ export function registerCommands(bot: Composer<Context>, deps: Deps) {
     try {
       const probe = await ctx.api.sendMessage(
         ctx.chat.id,
-        fill(text, { nama: "Contoh", menit: 5, tryout_url: "https://abdinegara.site" }),
+        fill(text, { nama: "Contoh", menit: 5, tryout_url: "https://catatanabdinegara.site" }),
         {
           parse_mode: "HTML",
           link_preview_options: { is_disabled: true },

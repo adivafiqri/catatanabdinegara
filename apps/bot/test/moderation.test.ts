@@ -6,7 +6,7 @@ import { findBannedTerm, normalizeText } from "../src/moderation/normalize.js";
 
 const rules = {
   bannedWords: ["judi", "slot gacor", "judol*", "jual akun", "pinjol"],
-  domainWhitelist: ["abdinegara.site", "sscasn.bkn.go.id", "tiktok.com/@catatan.abdinegara"],
+  domainWhitelist: ["catatanabdinegara.site", "sscasn.bkn.go.id", "tiktok.com/@catatan.abdinegara"],
 };
 const base = { hasMedia: false, isForwarded: false, isNewbie: false };
 
@@ -34,19 +34,19 @@ describe("normalizeText & kata terlarang", () => {
 
 describe("tautan", () => {
   it("mengurai entity url dan text_link", () => {
-    const text = "cek abdinegara.site dan ini";
+    const text = "cek catatanabdinegara.site dan ini";
     const links = extractLinks(text, [
-      { type: "url", offset: 4, length: 15 },
-      { type: "text_link", offset: 24, length: 3, url: "https://evil.example.com/x" },
+      { type: "url", offset: 4, length: 22 },
+      { type: "text_link", offset: 31, length: 3, url: "https://evil.example.com/x" },
     ]);
-    expect(links.map((l) => l.host)).toEqual(["abdinegara.site", "evil.example.com"]);
+    expect(links.map((l) => l.host)).toEqual(["catatanabdinegara.site", "evil.example.com"]);
   });
   it("whitelist domain, subdomain, dan awalan path", () => {
     const wl = rules.domainWhitelist;
-    expect(isWhitelisted(parseLink("https://www.abdinegara.site/tryout")!, wl)).toBe(true);
+    expect(isWhitelisted(parseLink("https://www.catatanabdinegara.site/tryout")!, wl)).toBe(true);
     expect(isWhitelisted(parseLink("sscasn.bkn.go.id")!, wl)).toBe(true);
     expect(isWhitelisted(parseLink("bkn.go.id")!, wl)).toBe(false);
-    expect(isWhitelisted(parseLink("abdinegara.site.evil.com")!, wl)).toBe(false);
+    expect(isWhitelisted(parseLink("catatanabdinegara.site.evil.com")!, wl)).toBe(false);
     expect(isWhitelisted(parseLink("https://tiktok.com/@catatan.abdinegara/video/1")!, wl)).toBe(
       true,
     );
@@ -96,7 +96,7 @@ describe("detectViolation", () => {
   });
   it("anggota baru tidak boleh kirim link (meski whitelist) atau media, tanpa peringatan", () => {
     expect(
-      detectViolation({ ...base, isNewbie: true, text: "https://abdinegara.site" }, rules),
+      detectViolation({ ...base, isNewbie: true, text: "https://catatanabdinegara.site" }, rules),
     ).toMatchObject({
       reason: "newbie_link",
       warn: false,
@@ -161,5 +161,15 @@ describe("FloodGuard", () => {
     }
     t += 11_000;
     expect(g.check(1, 1, "lagi", fr)).toBe("ok");
+  });
+});
+
+describe("domain resmi", () => {
+  it("whitelist bawaan memuat catatanabdinegara.site dan TIDAK memuat abdinegara.site (milik orang lain)", async () => {
+    const { DEFAULT_SETTINGS } = await import("../src/settings.js");
+    expect(DEFAULT_SETTINGS.tryoutUrl).toBe("https://catatanabdinegara.site");
+    const wl = DEFAULT_SETTINGS.domainWhitelist;
+    expect(isWhitelisted(parseLink("https://catatanabdinegara.site/tryout")!, wl)).toBe(true);
+    expect(isWhitelisted(parseLink("https://abdinegara.site")!, wl)).toBe(false);
   });
 });

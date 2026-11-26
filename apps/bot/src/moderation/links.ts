@@ -90,7 +90,7 @@ export function isInviteLink(l: ParsedLink): boolean {
 }
 
 /**
- * Entri whitelist berupa domain ("abdinegara.site", berlaku juga untuk subdomain)
+ * Entri whitelist berupa domain ("catatanabdinegara.site", berlaku juga untuk subdomain)
  * atau domain + awalan path ("tiktok.com/@catatan.abdinegara").
  */
 export function isWhitelisted(l: ParsedLink, whitelist: readonly string[]): boolean {

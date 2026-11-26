@@ -89,7 +89,7 @@ describe("anti-spam", () => {
   });
 
   it("%-encoding rusak tidak meloloskan link (juga text_link tersembunyi)", () => {
-    const rules = { bannedWords: [], domainWhitelist: ["abdinegara.site"] };
+    const rules = { bannedWords: [], domainWhitelist: ["catatanabdinegara.site"] };
     const base = { hasMedia: false, isForwarded: false, isNewbie: false };
     expect(detectViolation({ ...base, text: "https://evil.com/%" }, rules).kind).toBe("violation");
     expect(
