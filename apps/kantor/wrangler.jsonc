@@ -1,0 +1,13 @@
+// Papan "Kantor Catatan Abdi Negara" (tim AI pembuat konten) sebagai Cloudflare Worker + Static Assets.
+// Nama harus sama dengan nama proyek Worker di dashboard Cloudflare.
+// Akses dibatasi Cloudflare Access (hanya email pemilik), lihat docs/runbook/kantor.md.
+{
+  "name": "kantor-catatanabdinegara",
+  "compatibility_date": "2026-11-01",
+  // Wajib untuk `wrangler preview` (build branch non-produksi di Workers Builds).
+  "previews": {},
+  "assets": {
+    "directory": ".",
+    "not_found_handling": "none"
+  }
+}
