@@ -58,6 +58,16 @@ Catatan pelaksanaan: Turborepo ditunda (cukup `pnpm -r` selama baru ada 2 paket)
 10. [ ] Panel pengaturan bot (kata terlarang, whitelist, teks) di web
 **Tes:** unit validator impor (file benar, kunci ganda, bobot TKP kembar, kolom hilang, UTF-8 aneh); tes RLS (non-admin tidak bisa membaca soal); E2E admin membuat & menerbitkan 1 soal.
 
+## Percepatan: Tryout perdana Senin, 7 Desember 2026, 19.00 WIB (keputusan 26 Nov 2026)
+Cakupan **ringkas** (gabungan M2 bagian B + inti M3), ±200 peserta:
+- [ ] Draf 110 soal orisinal dibantu AI (TWK 30, TIU 35 tanpa figural, TKP 45) → **ditinjau pemilik** sebelum terbit
+- [ ] Web Next.js di server + Cloudflare Tunnel: `tryout.catatanabdinegara.site` (peserta), `admin.catatanabdinegara.site` (admin, + Cloudflare Access)
+- [ ] Auth Better Auth: email+password, admin wajib TOTP
+- [ ] Admin: impor CSV, tinjau/terbitkan, paket otomatis 30/35/45, event
+- [ ] Peserta: daftar (nama panggilan, kota, sekolah tujuan, tahun lahir, persetujuan privasi, centang izin wali < 18), ujian mirip CAT, timer server, simpan otomatis, skor, pembahasan, peringkat event
+- [ ] Uji coba bersama pemilik ≥ 2 hari sebelum event; uji beban 400 peserta
+**Ditunda setelah 7 Des:** login Google, verifikasi email & reset password lewat email, peringkat mingguan, analitik, kartu hasil, soal figural.
+
 ## Milestone 3: Web tryout MVP (target: Februari 2027)
 1. [ ] Sistem desain (token, komponen) sesuai arah desain terpilih
 2. [ ] Beranda, materi, kebijakan privasi, syarat, disclaimer, footer wajib
