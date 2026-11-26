@@ -3,8 +3,6 @@
 {
   "name": "catatanabdinegara",
   "compatibility_date": "2026-11-01",
-  // Wajib untuk `wrangler preview` (build branch non-produksi di Workers Builds).
-  "previews": {},
   "assets": {
     "directory": ".",
     "not_found_handling": "404-page"
