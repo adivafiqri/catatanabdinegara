@@ -6,6 +6,24 @@ Prioritas (dari brief): **murah**, **mudah dirawat satu orang**, **tahan lonjaka
 
 ---
 
+## 0. Perubahan keputusan (26 Nov 2026): semua di server milik pemilik
+
+Pemilik memiliki server fisik sendiri (Ubuntu 22.04, 4 core, 7,7 GB RAM, Jakarta) dan memilih **semua berjalan di server ini** agar biaya tetap Rp0 dan pengerjaan bisa ditangani penuh. Ini **menggantikan** Supabase, Upstash, dan Vercel pada tabel di bawah.
+
+| Bagian | Sebelumnya | Sekarang |
+| --- | --- | --- |
+| Database | Supabase (Singapura) | **PostgreSQL 17** di server (repo resmi PGDG), hanya localhost |
+| Auth | Supabase Auth | **Better Auth** (open source): email+password, Google, TOTP untuk admin |
+| Hosting web | Vercel | **Next.js di server** (systemd), dibuka lewat **Cloudflare Tunnel** (tanpa membuka port) |
+| Halaman statis | — | Cloudflare Workers Static Assets (`apps/landing`) |
+| Cache/rate limit | Upstash Redis | Tabel Postgres + cache CDN Cloudflare; Valkey/Redis lokal bila uji beban membutuhkan |
+| Perlindungan admin | MFA | MFA **+ Cloudflare Access** (hanya email pemilik) |
+| Bot | PGlite file | Dipindah ke PostgreSQL yang sama (schema `bot`, role `bot_rw`) |
+| Email transaksional | Supabase | Penyedia SMTP (mis. Resend), dibutuhkan mulai M3 |
+| Cadangan | Otomatis Supabase | `pg_dump` harian terenkripsi ke luar server (wajib) |
+
+Kelebihan: data pribadi tersimpan di Indonesia, latensi rendah, tanpa biaya bulanan tambahan. Risiko yang diterima: server = satu titik gagal (listrik, internet, disk) → mitigasi: UPS, backup harian di luar server, pemantauan uptime, uji beban sebelum event besar (upgrade RAM/CPU bila perlu).
+
 ## 1. Ringkasan keputusan
 
 | Bagian | Pilihan | Alasan singkat |
