@@ -3,3 +3,6 @@ packages:
   - packages/*
 # Tolak paket yang dirilis < 14 hari (perlindungan rantai pasok)
 minimumReleaseAge: 20160
+# Hanya paket ini yang boleh menjalankan skrip saat dipasang (esbuild: dipakai tsx/vitest/drizzle-kit)
+allowBuilds:
+  esbuild: true
