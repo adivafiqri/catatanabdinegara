@@ -1,0 +1,183 @@
+{
+ "judul": "Ep 31 — Poltekip & Poltekim, sekarang Poltekimipas",
+ "sampul": {
+  "ep": "EP 31",
+  "atas": [
+   "dulu Poltekip"
+  ],
+  "hl": "sekarang?",
+  "bawah": [
+   "405 kursi D-IV",
+   "Kemenimipas"
+  ],
+  "stiker": "UPDATE!",
+  "maskot": "kaget"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "UPDATE!",
+   "teks": [
+    "Poltekip, Poltekim"
+   ],
+   "hl": "ganti nama",
+   "maskot": "kaget",
+   "narasi": "Poltekip, Poltekim, sekarang sudah ganti nama.",
+   "ucapan": "[excited] Poltekip, Poltekim, sekarang sudah ganti nama.",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "jadwal",
+   "label": "perjalanannya",
+   "item": [
+    [
+     "dulu",
+     "Poltekip dan Poltekim"
+    ],
+    [
+     "2024",
+     "digabung jadi Poltekpin"
+    ],
+    [
+     "kini",
+     "Poltekimipas"
+    ]
+   ],
+   "maskot": "mikir",
+   "narasi": "Dulu ada Poltekip dan Poltekim. Tahun 2024 digabung jadi Poltekpin. Kini namanya Poltekimipas.",
+   "ucapan": "Dulu ada Poltekip dan Poltekim. Tahun 2024 digabung jadi Poltekpin. Kini namanya Poltekimipas.",
+   "id": 2,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "card",
+   "label": "di bawah",
+   "ikon": "19-ikon-gedung-kampus",
+   "baris": [
+    "Kemenimipas"
+   ],
+   "sub": [
+    "Kementerian Imigrasi",
+    "dan Pemasyarakatan"
+   ],
+   "maskot": "senyum",
+   "narasi": "Sekarang di bawah Kemenimipas, Kementerian Imigrasi dan Pemasyarakatan.",
+   "ucapan": "Sekarang di bawah Kemenimipas, Kementerian Imigrasi dan Pemasyarakatan.",
+   "id": 3,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "big",
+   "label": "formasi 2026",
+   "angka": "405 kursi",
+   "sub": "semua D-IV, 4 tahun",
+   "maskot": "kaget",
+   "narasi": "Tahun ini ada empat ratus lima kursi. Semuanya D-IV, kuliah empat tahun.",
+   "ucapan": "Tahun ini ada empat ratus lima kursi. Semuanya D-IV, kuliah empat tahun.",
+   "id": 4,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "PEMASYARAKATAN",
+    "item": [
+     "270 kursi",
+     "3 prodi"
+    ]
+   },
+   "kanan": {
+    "judul": "IMIGRASI",
+    "item": [
+     "135 kursi",
+     "3 prodi"
+    ]
+   },
+   "maskot": "mikir",
+   "narasi": "Pemasyarakatan dapat dua ratus tujuh puluh kursi. Imigrasi seratus tiga puluh lima kursi.",
+   "ucapan": "Pemasyarakatan dapat dua ratus tujuh puluh kursi. Imigrasi seratus tiga puluh lima kursi.",
+   "id": 5,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "checks",
+   "label": "prodi pemasyarakatan",
+   "item": [
+    "Teknik Pemasyarakatan",
+    "Manajemen Pemasyarakatan",
+    "Bimbingan Kemasyarakatan"
+   ],
+   "maskot": "tegas",
+   "narasi": "Prodi pemasyarakatan: Teknik Pemasyarakatan, Manajemen Pemasyarakatan, dan Bimbingan Kemasyarakatan.",
+   "ucapan": "Prodi pemasyarakatan: Teknik Pemasyarakatan, Manajemen Pemasyarakatan, dan Bimbingan Kemasyarakatan.",
+   "id": 6,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "chips",
+   "judul": "prodi imigrasi",
+   "item": [
+    [
+     "Hukum",
+     "Keimigrasian"
+    ],
+    [
+     "Administrasi",
+     "Keimigrasian"
+    ],
+    [
+     "Manajemen Teknologi",
+     "Keimigrasian"
+    ]
+   ],
+   "maskot": "senyum",
+   "narasi": "Prodi imigrasi: Hukum, Administrasi, dan Manajemen Teknologi Keimigrasian.",
+   "ucapan": "Prodi imigrasi: Hukum, Administrasi, dan Manajemen Teknologi Keimigrasian.",
+   "id": 7,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "ilustrasi",
+   "ilus": "pemerintahan",
+   "judul": "setelah lulus",
+   "maskot": "hormat",
+   "narasi": "Lulusnya langsung diangkat jadi ASN, ditempatkan di unit imigrasi dan pemasyarakatan seluruh Indonesia.",
+   "ucapan": "Lulusnya langsung diangkat jadi ASN, ditempatkan di unit imigrasi dan pemasyarakatan seluruh Indonesia.",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kuis",
+   "label": "TANYA KAMU",
+   "soal": "Kalau masuk sini, pilih prodi apa?",
+   "opsi": [
+    "Bimbingan Kemasyarakatan",
+    "Teknik Pemasyarakatan",
+    "Hukum Keimigrasian",
+    "Teknologi Keimigrasian"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Kalau masuk sini, kamu pilih prodi apa? Bimbingan Kemasyarakatan, Teknik Pemasyarakatan, Hukum Keimigrasian, atau Teknologi Keimigrasian? Tulis di kolom komentar!",
+   "ucapan": "[curious] Kalau masuk sini, kamu pilih prodi apa? Bimbingan Kemasyarakatan, Teknik Pemasyarakatan, Hukum Keimigrasian, atau Teknologi Keimigrasian? [excited] Tulis di kolom komentar!",
+   "id": 9,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: deret angka",
+   "label": "episode 32",
+   "baris": [
+    "latihan TIU",
+    "deret angka"
+   ],
+   "stiker": "SAVE!",
+   "maskot": "hormat",
+   "narasi": "Next, latihan TIU deret angka. Save video ini, lalu follow ya!",
+   "ucapan": "Next, latihan TIU deret angka. [excited] Save video ini, lalu follow ya!",
+   "id": 10,
+   "durasi": 3.0
+  }
+ ]
+}

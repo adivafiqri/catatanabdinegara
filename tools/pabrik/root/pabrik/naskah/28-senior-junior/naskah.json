@@ -1,0 +1,165 @@
+{
+ "judul": "Ep 28 — Senior–junior: sebenarnya gimana?",
+ "sampul": {
+  "ep": "EP 28",
+  "atas": [
+   "senior junior"
+  ],
+  "hl": "beneran galak?",
+  "bawah": [
+   "cerita jujur,",
+   "tanpa dilebihkan"
+  ],
+  "stiker": "JUJUR!",
+  "maskot": "mikir"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "JUJUR!",
+   "teks": [
+    "senior junior"
+   ],
+   "hl": "beneran galak?",
+   "maskot": "kaget",
+   "narasi": "Senior junior di sekolah kedinasan, beneran galak?",
+   "ucapan": "[curious] Senior junior di sekolah kedinasan, beneran galak?",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "YANG DIBAYANGKAN",
+    "item": [
+     "dibentak terus",
+     "disuruh-suruh"
+    ]
+   },
+   "kanan": {
+    "judul": "YANG SEHARUSNYA",
+    "item": [
+     "contoh disiplin",
+     "teman belajar"
+    ]
+   },
+   "maskot": "mikir",
+   "narasi": "Banyak yang bayangin dibentak terus dan disuruh-suruh. Harusnya, senior itu contoh disiplin dan teman belajar.",
+   "ucapan": "Banyak yang bayangin dibentak terus dan disuruh-suruh. Harusnya, senior itu contoh disiplin dan teman belajar.",
+   "id": 2,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "chips",
+   "judul": "peran senior yang sehat",
+   "item": [
+    [
+     "contoh",
+     "rapi & tepat waktu"
+    ],
+    [
+     "kakak asuh",
+     "tempat tanya"
+    ],
+    [
+     "penerus tradisi",
+     "yang baik"
+    ]
+   ],
+   "maskot": "senyum",
+   "narasi": "Peran senior yang sehat: jadi contoh, jadi kakak asuh, dan penerus tradisi yang baik.",
+   "ucapan": "Peran senior yang sehat: jadi contoh, jadi kakak asuh, dan penerus tradisi yang baik.",
+   "id": 3,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "pengasuh",
+    "pembina"
+   ],
+   "maskot": "tegas",
+   "narasi": "Tapi yang resmi membina taruna adalah pengasuh dan pembina dari kampus.",
+   "ucapan": "Tapi yang resmi membina taruna adalah pengasuh dan pembina dari kampus.",
+   "id": 4,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "kekerasan?"
+   ],
+   "hl": "tidak ditoleransi",
+   "maskot": "tegas",
+   "narasi": "Kekerasan? Tidak ditoleransi. Pelakunya bisa dikeluarkan dari pendidikan.",
+   "ucapan": "[serious] Kekerasan? Tidak ditoleransi. Pelakunya bisa dikeluarkan dari pendidikan.",
+   "id": 5,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "chat",
+   "item": [
+    [
+     "kiri",
+     "Berarti senior nggak boleh negur?"
+    ],
+    [
+     "kanan",
+     "Boleh, soal aturan dan dengan sopan. Yang nggak boleh: main fisik dan merendahkan."
+    ]
+   ],
+   "wajah": "tegas",
+   "maskot": "senyum",
+   "narasi": "Berarti senior nggak boleh negur? Boleh, soal aturan dan dengan sopan. Yang nggak boleh: main fisik dan merendahkan.",
+   "ucapan": "[curious] Berarti senior nggak boleh negur? Boleh, soal aturan dan dengan sopan. Yang nggak boleh: main fisik dan merendahkan.",
+   "id": 6,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "steps",
+   "judul": "kalau ada yang nggak beres",
+   "item": [
+    "catat kejadiannya",
+    "lapor ke pengasuh",
+    "kabari orang tua"
+   ],
+   "maskot": "tegas",
+   "narasi": "Kalau ada yang nggak beres: catat kejadiannya, lapor ke pengasuh, dan kabari orang tua.",
+   "ucapan": "Kalau ada yang nggak beres: catat kejadiannya, lapor ke pengasuh, dan kabari orang tua.",
+   "id": 7,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kuis",
+   "label": "TANYA KAMU",
+   "soal": "Senior yang baik itu yang...?",
+   "opsi": [
+    "tegas tapi adil",
+    "banyak membantu",
+    "jadi contoh",
+    "asyik diajak ngobrol"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Menurut kamu, senior yang baik itu yang gimana? Tegas tapi adil, banyak membantu, jadi contoh, atau asyik diajak ngobrol? Tulis di kolom komentar!",
+   "ucapan": "[curious] Menurut kamu, senior yang baik itu yang gimana? Tegas tapi adil, banyak membantu, jadi contoh, atau asyik diajak ngobrol? [excited] Tulis di kolom komentar!",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: dibuat pakai AI",
+   "label": "episode 29",
+   "baris": [
+    "video ini",
+    "dibuat pakai AI"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, rahasia di balik video ini: dibuat pakai AI. Follow ya!",
+   "ucapan": "Next, rahasia di balik video ini: dibuat pakai AI. [excited] Follow ya!",
+   "id": 9,
+   "durasi": 3.0
+  }
+ ]
+}
