@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Halaman tidak ditemukan · Catatan Abdi Negara</title>
+<meta name="description" content="Tryout SKD gratis dengan format mirip CAT: 110 soal, 100 menit, skor TWK/TIU/TKP langsung keluar, lengkap dengan pembahasan. Buka Februari 2027.">
+<meta name="theme-color" content="#5A3B20">
+<meta property="og:title" content="Tryout SKD gratis · Catatan Abdi Negara">
+<meta property="og:description" content="110 soal, 100 menit, format mirip CAT. Buka Februari 2027.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://catatanabdinegara.site/">
+<link rel="icon" href="/img/pet-hormat.svg" type="image/svg+xml">
+<link rel="preload" href="/fonts/bowlby-one-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/poppins-400.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+/* Desain C "Buku Tempel Misi" (docs/ARAH-DESAIN.md). Satu tema terang (kertas) secara sengaja. */
+@font-face{font-family:"Bowlby One";src:url(/fonts/bowlby-one-400.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Kalam";src:url(/fonts/kalam-700.woff2) format("woff2");font-weight:700;font-display:swap}
+@font-face{font-family:"Poppins";src:url(/fonts/poppins-400.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Poppins";src:url(/fonts/poppins-500.woff2) format("woff2");font-weight:500;font-display:swap}
+@font-face{font-family:"Poppins";src:url(/fonts/poppins-600.woff2) format("woff2");font-weight:600;font-display:swap}
+@font-face{font-family:"Poppins";src:url(/fonts/poppins-700.woff2) format("woff2");font-weight:700;font-display:swap}
+
+:root{
+  --bg:#EFE7D6; --grid:#E1D5BC; --ink:#2B2118; --card:#FFFBF2; --white:#FFFFFF;
+  --brown:#7A5230; --brown-d:#5A3B20; --gold:#C9A13B; --gold-l:#F4E4B5; --gold-b:#DCC27E;
+  --red:#B8322A; --muted-text:#6B604F;
+  --f-body:"Poppins","Segoe UI",system-ui,sans-serif;
+  --f-chunky:"Bowlby One","Arial Black",sans-serif;
+  --f-hand:"Kalam","Comic Sans MS",cursive;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.55 var(--f-body);
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:24px 24px}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+.wrap{max-width:560px;margin:0 auto;padding-left:max(18px,env(safe-area-inset-left));padding-right:max(18px,env(safe-area-inset-right))}
+
+/* ---------- pita pembuka ---------- */
+.band{position:relative;overflow:hidden;background:var(--brown-d);color:var(--card);border-bottom:3px solid var(--ink);
+  padding-top:max(16px,env(safe-area-inset-top))}
+.band::before{content:"";position:absolute;inset:-60%;pointer-events:none;
+  background:repeating-conic-gradient(from 0deg at 74% 62%,rgba(255,251,242,0) 0 9deg,rgba(201,161,59,.22) 9deg 18deg)}
+.band .wrap{position:relative;padding-bottom:30px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:700;font-size:15px;letter-spacing:.01em}
+.handle{font-size:13px;opacity:.85}
+.hero{display:grid;grid-template-columns:1fr minmax(120px,42%);align-items:end;gap:6px;margin-top:22px}
+h1{font:400 clamp(34px,10vw,52px)/1.02 var(--f-chunky);margin:0;text-wrap:balance}
+.hero img{width:100%;max-width:220px;justify-self:end;margin-right:-10px;margin-bottom:-30px;filter:drop-shadow(4px 4px 0 rgba(43,33,24,.55))}
+.hand{font:700 20px/1.25 var(--f-hand);color:var(--gold-l);margin:12px 0 0}
+.stamp{display:inline-block;margin-top:18px;font:400 17px/1 var(--f-chunky);color:var(--card);background:var(--red);
+  border:3px solid var(--ink);border-radius:8px;padding:9px 14px;transform:rotate(-6deg);box-shadow:3px 3px 0 var(--ink)}
+@media (prefers-reduced-motion:no-preference){
+  .stamp{animation:drop .5s cubic-bezier(.2,1.4,.4,1) .2s both}
+  @keyframes drop{from{transform:scale(1.6) rotate(-14deg);opacity:0}to{transform:scale(1) rotate(-6deg);opacity:1}}
+}
+
+/* ---------- isi ---------- */
+main{padding:34px 0 10px}
+section{margin-bottom:34px}
+h2{font:400 22px/1.15 var(--f-chunky);margin:0 0 14px}
+.lead{margin:0 0 16px;font-size:17px}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:6px 2px 0}
+.tile{border:2.5px solid var(--ink);border-radius:12px;padding:12px 6px;text-align:center;background:var(--card);box-shadow:3px 3px 0 var(--ink)}
+.tile:nth-child(1){transform:rotate(-3deg);background:var(--gold-l)}
+.tile:nth-child(2){transform:rotate(2deg)}
+.tile:nth-child(3){transform:rotate(-1deg);background:var(--gold-b)}
+.tile b{display:block;font:400 26px/1 var(--f-chunky)}
+.tile span{display:block;font-size:13px;font-weight:600;margin-top:4px}
+.tile small{display:block;font-size:11px;color:var(--muted-text);margin-top:2px;line-height:1.3}
+.total{margin:16px 0 0;font-weight:600}
+
+.sticker{position:relative;background:var(--card);border:2.5px solid var(--ink);border-radius:14px;padding:18px 18px 14px;
+  box-shadow:0 0 0 5px var(--white),0 0 0 7.5px var(--ink),6px 8px 0 7.5px rgba(43,33,24,.9);margin:10px 8px}
+.list{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.list li{display:grid;grid-template-columns:26px 1fr;gap:10px;align-items:start}
+.check{width:26px;height:26px;border:2.5px solid var(--ink);border-radius:7px;background:var(--gold);display:grid;place-items:center}
+.check svg{width:16px;height:16px}
+.list b{font-weight:600}
+.later{margin:14px 0 0;font-size:14px;color:var(--muted-text)}
+
+.cta{display:grid;gap:12px}
+.btn{display:flex;align-items:center;justify-content:center;gap:10px;font:700 16px/1 var(--f-body);text-decoration:none;
+  padding:16px 18px;border:2.5px solid var(--ink);border-radius:12px;box-shadow:3px 3px 0 var(--ink);background:var(--card);color:var(--ink)}
+.btn.main{background:var(--gold)}
+.btn svg{width:20px;height:20px;flex:none}
+.btn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
+
+.warn{border:2.5px dashed var(--red);border-radius:12px;padding:14px 16px;background:rgba(255,251,242,.85)}
+.warn strong{color:var(--red)}
+.warn p{margin:0}
+
+footer{border-top:2px dashed var(--grid);padding:20px 0 max(28px,env(safe-area-inset-bottom));font-size:13px;color:var(--muted-text)}
+footer p{margin:0 0 8px}
+footer .who{display:flex;align-items:center;gap:10px;margin-bottom:12px;color:var(--ink);font-weight:600}
+footer .who img{width:40px;height:42px}
+</style>
+</head>
+<body>
+
+<header class="band">
+  <div class="wrap">
+    <div class="top"><span class="brand">Catatan Abdi Negara</span><span class="handle">@catatan.abdinegara</span></div>
+    <div class="hero">
+      <div>
+        <h1>Halamannya belum ada</h1>
+        <p class="hand">mungkin link-nya salah ketik, atau fiturnya belum dibuka</p>
+      </div>
+      <img src="/img/pet-kedip.svg" alt="Maskot mengedipkan mata" width="400" height="420">
+    </div>
+  </div>
+</header>
+<main class="wrap"><section><div class="cta"><a class="btn main" href="/">Kembali ke beranda</a></div></section></main>
+
+</body>
+</html>

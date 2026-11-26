@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Catatan Abdi Negara · Tryout SKD gratis</title>
+<meta name="description" content="Tryout SKD gratis dengan format mirip CAT: 110 soal, 100 menit, skor TWK/TIU/TKP langsung keluar, lengkap dengan pembahasan. Buka Februari 2027.">
+<meta name="theme-color" content="#5A3B20">
+<meta property="og:title" content="Tryout SKD gratis · Catatan Abdi Negara">
+<meta property="og:description" content="110 soal, 100 menit, format mirip CAT. Buka Februari 2027.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://catatanabdinegara.site/">
+<link rel="icon" href="img/pet-hormat.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/bowlby-one-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/poppins-400.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+/* Desain C "Buku Tempel Misi" (docs/ARAH-DESAIN.md). Satu tema terang (kertas) secara sengaja. */
+@font-face{font-family:"Bowlby One";src:url(fonts/bowlby-one-400.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Kalam";src:url(fonts/kalam-700.woff2) format("woff2");font-weight:700;font-display:swap}
+@font-face{font-family:"Poppins";src:url(fonts/poppins-400.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Poppins";src:url(fonts/poppins-500.woff2) format("woff2");font-weight:500;font-display:swap}
+@font-face{font-family:"Poppins";src:url(fonts/poppins-600.woff2) format("woff2");font-weight:600;font-display:swap}
+@font-face{font-family:"Poppins";src:url(fonts/poppins-700.woff2) format("woff2");font-weight:700;font-display:swap}
+
+:root{
+  --bg:#EFE7D6; --grid:#E1D5BC; --ink:#2B2118; --card:#FFFBF2; --white:#FFFFFF;
+  --brown:#7A5230; --brown-d:#5A3B20; --gold:#C9A13B; --gold-l:#F4E4B5; --gold-b:#DCC27E;
+  --red:#B8322A; --muted-text:#6B604F;
+  --f-body:"Poppins","Segoe UI",system-ui,sans-serif;
+  --f-chunky:"Bowlby One","Arial Black",sans-serif;
+  --f-hand:"Kalam","Comic Sans MS",cursive;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.55 var(--f-body);
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:24px 24px}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+.wrap{max-width:560px;margin:0 auto;padding-left:max(18px,env(safe-area-inset-left));padding-right:max(18px,env(safe-area-inset-right))}
+
+/* ---------- pita pembuka ---------- */
+.band{position:relative;overflow:hidden;background:var(--brown-d);color:var(--card);border-bottom:3px solid var(--ink);
+  padding-top:max(16px,env(safe-area-inset-top))}
+.band::before{content:"";position:absolute;inset:-60%;pointer-events:none;
+  background:repeating-conic-gradient(from 0deg at 74% 62%,rgba(255,251,242,0) 0 9deg,rgba(201,161,59,.22) 9deg 18deg)}
+.band .wrap{position:relative;padding-bottom:30px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-weight:700;font-size:15px;letter-spacing:.01em}
+.handle{font-size:13px;opacity:.85}
+.hero{display:grid;grid-template-columns:1fr minmax(120px,42%);align-items:end;gap:6px;margin-top:22px}
+h1{font:400 clamp(34px,10vw,52px)/1.02 var(--f-chunky);margin:0;text-wrap:balance}
+.hero img{width:100%;max-width:220px;justify-self:end;margin-right:-10px;margin-bottom:-30px;filter:drop-shadow(4px 4px 0 rgba(43,33,24,.55))}
+.hand{font:700 20px/1.25 var(--f-hand);color:var(--gold-l);margin:12px 0 0}
+.stamp{display:inline-block;margin-top:18px;font:400 17px/1 var(--f-chunky);color:var(--card);background:var(--red);
+  border:3px solid var(--ink);border-radius:8px;padding:9px 14px;transform:rotate(-6deg);box-shadow:3px 3px 0 var(--ink)}
+@media (prefers-reduced-motion:no-preference){
+  .stamp{animation:drop .5s cubic-bezier(.2,1.4,.4,1) .2s both}
+  @keyframes drop{from{transform:scale(1.6) rotate(-14deg);opacity:0}to{transform:scale(1) rotate(-6deg);opacity:1}}
+}
+
+/* ---------- isi ---------- */
+main{padding:34px 0 10px}
+section{margin-bottom:34px}
+h2{font:400 22px/1.15 var(--f-chunky);margin:0 0 14px}
+.lead{margin:0 0 16px;font-size:17px}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:6px 2px 0}
+.tile{border:2.5px solid var(--ink);border-radius:12px;padding:12px 6px;text-align:center;background:var(--card);box-shadow:3px 3px 0 var(--ink)}
+.tile:nth-child(1){transform:rotate(-3deg);background:var(--gold-l)}
+.tile:nth-child(2){transform:rotate(2deg)}
+.tile:nth-child(3){transform:rotate(-1deg);background:var(--gold-b)}
+.tile b{display:block;font:400 26px/1 var(--f-chunky)}
+.tile span{display:block;font-size:13px;font-weight:600;margin-top:4px}
+.tile small{display:block;font-size:11px;color:var(--muted-text);margin-top:2px;line-height:1.3}
+.total{margin:16px 0 0;font-weight:600}
+
+.sticker{position:relative;background:var(--card);border:2.5px solid var(--ink);border-radius:14px;padding:18px 18px 14px;
+  box-shadow:0 0 0 5px var(--white),0 0 0 7.5px var(--ink),6px 8px 0 7.5px rgba(43,33,24,.9);margin:10px 8px}
+.list{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.list li{display:grid;grid-template-columns:26px 1fr;gap:10px;align-items:start}
+.check{width:26px;height:26px;border:2.5px solid var(--ink);border-radius:7px;background:var(--gold);display:grid;place-items:center}
+.check svg{width:16px;height:16px}
+.list b{font-weight:600}
+.later{margin:14px 0 0;font-size:14px;color:var(--muted-text)}
+
+.cta{display:grid;gap:12px}
+.btn{display:flex;align-items:center;justify-content:center;gap:10px;font:700 16px/1 var(--f-body);text-decoration:none;
+  padding:16px 18px;border:2.5px solid var(--ink);border-radius:12px;box-shadow:3px 3px 0 var(--ink);background:var(--card);color:var(--ink)}
+.btn.main{background:var(--gold)}
+.btn svg{width:20px;height:20px;flex:none}
+.btn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
+
+.warn{border:2.5px dashed var(--red);border-radius:12px;padding:14px 16px;background:rgba(255,251,242,.85)}
+.warn strong{color:var(--red)}
+.warn p{margin:0}
+
+footer{border-top:2px dashed var(--grid);padding:20px 0 max(28px,env(safe-area-inset-bottom));font-size:13px;color:var(--muted-text)}
+footer p{margin:0 0 8px}
+footer .who{display:flex;align-items:center;gap:10px;margin-bottom:12px;color:var(--ink);font-weight:600}
+footer .who img{width:40px;height:42px}
+</style>
+</head>
+<body>
+
+<header class="band">
+  <div class="wrap">
+    <div class="top">
+      <span class="brand">Catatan Abdi Negara</span>
+      <span class="handle">@catatan.abdinegara</span>
+    </div>
+    <div class="hero">
+      <div>
+        <h1>Tryout SKD gratis, rasanya mirip CAT</h1>
+        <p class="hand">buka Februari 2027, siapkan dirimu dari sekarang</p>
+        <span class="stamp">Segera hadir</span>
+      </div>
+      <img src="img/pet-hormat.svg" alt="Maskot Catatan Abdi Negara memberi hormat" width="400" height="420">
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section aria-labelledby="isi">
+    <h2 id="isi">Satu paket SKD penuh</h2>
+    <p class="lead">Latihan untuk persiapan sekolah kedinasan seperti STIS, PKN STAN, IPDN, STMKG, dan Poltek SSN.</p>
+    <div class="tiles">
+      <div class="tile"><b>TWK</b><span>30 soal</span><small>wawasan kebangsaan</small></div>
+      <div class="tile"><b>TIU</b><span>35 soal</span><small>intelegensia umum</small></div>
+      <div class="tile"><b>TKP</b><span>45 soal</span><small>karakteristik pribadi</small></div>
+    </div>
+    <p class="total">110 soal, 100 menit, gratis.</p>
+  </section>
+
+  <section aria-labelledby="dapat">
+    <h2 id="dapat">Yang kamu dapat</h2>
+    <div class="sticker">
+      <ul class="list">
+        <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#2B2118" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span><b>Tampilan mirip CAT BKN</b>: nomor soal di panel, tandai ragu-ragu, timer berjalan.</span></li>
+        <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#2B2118" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span><b>Skor langsung keluar</b> per subtes begitu kamu selesai.</span></li>
+        <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#2B2118" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span><b>Pembahasan tiap soal</b>, supaya tahu salahnya di mana.</span></li>
+        <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#2B2118" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span><b>Papan peringkat</b> per event, hanya menampilkan nama panggilan dan kota.</span></li>
+        <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#2B2118" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span><b>Ramah HP &amp; sinyal putus-sambung</b>: jawaban tersimpan otomatis.</span></li>
+      </ul>
+      <p class="later">Semua soal dibuat sendiri, formatnya mengikuti CAT. Tidak ada "bocoran" dan tidak ada jaminan lulus.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="ikuti">
+    <h2 id="ikuti">Jangan sampai ketinggalan</h2>
+    <p class="lead">Tanggal buka, jadwal tryout serentak, dan kuis harian diumumkan duluan di sini:</p>
+    <div class="cta">
+      <a class="btn main" id="tg" href="https://t.me/catatanabdinegara_bot" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#2B2118" d="M21.5 4.3 2.9 11.5c-1.1.4-1.1 1.6 0 2l4.6 1.5 1.8 5.5c.3.8 1.3 1 1.9.4l2.6-2.5 4.7 3.5c.7.5 1.7.1 1.9-.7l3.1-14.6c.2-1-.8-1.8-1.9-1.3Zm-4 4.2-7.7 7-.3 3.3-1.4-4.4 9-6.2c.4-.2.7.1.4.3Z"/></svg>
+        Gabung lewat Telegram
+      </a>
+      <a class="btn" href="https://www.tiktok.com/@catatan.abdinegara" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#2B2118" d="M16.6 3c.4 2.2 1.8 3.7 4 4v3.2c-1.5 0-2.9-.4-4-1.1v6.4c0 3.2-2.6 5.5-5.7 5.5S5 18.6 5 15.5 7.6 10 10.9 10c.3 0 .6 0 .9.1v3.3c-.3-.1-.6-.2-.9-.2-1.3 0-2.4 1-2.4 2.3s1 2.3 2.4 2.3c1.3 0 2.4-1 2.4-2.4V3h3.3Z"/></svg>
+        Ikuti di TikTok
+      </a>
+      <a class="btn" href="https://www.instagram.com/catatan.abdinegara" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#2B2118" stroke-width="2.4"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.2" fill="#2B2118" stroke="none"/></svg>
+        Ikuti di Instagram
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <div class="warn">
+      <p><strong>Hati-hati penipuan.</strong> Kami tidak pernah meminta transfer, kode OTP, atau data pribadi lewat chat pribadi. Tidak ada "jalur khusus" atau "bocoran soal".</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="who"><img src="img/pet-kedip.svg" alt="" width="400" height="420">Catatan Abdi Negara</div>
+    <p>Akun pribadi edukasi, bukan kanal resmi instansi mana pun.</p>
+    <p>Info resmi pendaftaran sekolah kedinasan ada di sscasn.bkn.go.id.</p>
+    <p>Halaman ini tidak memakai cookie maupun pelacak.</p>
+  </div>
+</footer>
+
+</body>
+</html>
