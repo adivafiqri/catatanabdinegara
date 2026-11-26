@@ -1,0 +1,153 @@
+{
+ "judul": "Ep 26 — Cara pilih sekolah yang cocok",
+ "sampul": {
+  "ep": "EP 26",
+  "atas": [
+   "bingung pilih"
+  ],
+  "hl": "sekolah mana?",
+  "bawah": [
+   "pakai",
+   "4 cek ini"
+  ],
+  "stiker": "PILIH MANA?",
+  "maskot": "mikir"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "PILIH MANA?",
+   "teks": [
+    "bingung pilih"
+   ],
+   "hl": "sekolah kedinasan?",
+   "maskot": "mikir",
+   "narasi": "Bingung pilih sekolah kedinasan yang mana? Pakai empat cek ini.",
+   "ucapan": "[curious] Bingung pilih sekolah kedinasan yang mana? Pakai empat cek ini.",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "di SSCASN"
+   ],
+   "hl": "cuma 1 pilihan!",
+   "maskot": "kaget",
+   "narasi": "Ingat, di SSCASN kamu cuma bisa pilih satu sekolah kedinasan.",
+   "ucapan": "[serious] Ingat, di SSCASN kamu cuma bisa pilih satu sekolah kedinasan.",
+   "id": 2,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "steps",
+   "judul": "4 cek sebelum pilih",
+   "item": [
+    "minat",
+    "syarat fisik",
+    "penempatan",
+    "persaingan"
+   ],
+   "maskot": "tegas",
+   "narasi": "Cek minat, syarat fisik, penempatan, dan persaingan.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Cek minat, syarat fisik, penempatan, dan persaingan."
+  },
+  {
+   "tipe": "chips",
+   "judul": "1. minat",
+   "item": [
+    [
+     "STAN",
+     "keuangan"
+    ],
+    [
+     "STIS",
+     "statistik"
+    ],
+    [
+     "IPDN",
+     "pemerintahan"
+    ],
+    [
+     "STMKG",
+     "cuaca & gempa"
+    ]
+   ],
+   "maskot": "senyum",
+   "narasi": "Pertama, minat. Keuangan ke STAN, statistik ke STIS, pemerintahan ke IPDN, cuaca dan gempa ke STMKG.",
+   "ucapan": "Pertama, minat. Keuangan ke STAN, statistik ke Stis, pemerintahan ke IPDN, cuaca dan gempa ke STMKG.",
+   "id": 4,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "checks",
+   "label": "2. syarat fisik",
+   "item": [
+    "tinggi badan",
+    "kesehatan mata",
+    "tidak buta warna"
+   ],
+   "maskot": "tegas",
+   "narasi": "Kedua, syarat fisik. Beberapa sekolah mensyaratkan tinggi badan, kesehatan mata, dan tidak buta warna.",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Kedua, syarat fisik. Beberapa sekolah mensyaratkan tinggi badan, kesehatan mata, dan tidak buta warna."
+  },
+  {
+   "tipe": "ilustrasi",
+   "ilus": "peta",
+   "judul": "3. penempatan",
+   "maskot": "mikir",
+   "narasi": "Ketiga, penempatan. Lulusannya bisa ditempatkan di mana saja, termasuk jauh dari rumah.",
+   "id": 6,
+   "durasi": 3.0,
+   "ucapan": "Ketiga, penempatan. Lulusannya bisa ditempatkan di mana saja, termasuk jauh dari rumah."
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "formasi",
+    "peminat"
+   ],
+   "maskot": "tegas",
+   "narasi": "Keempat, persaingan. Bandingkan jumlah formasi dengan peminat tahun sebelumnya.",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Keempat, persaingan. Bandingkan jumlah formasi dengan peminat tahun sebelumnya."
+  },
+  {
+   "tipe": "kuis",
+   "label": "TANYA KAMU",
+   "soal": "Cek mana yang paling bikin kamu ragu?",
+   "opsi": [
+    "minat",
+    "syarat fisik",
+    "penempatan",
+    "persaingan"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Dari empat cek ini, mana yang paling bikin kamu ragu? Minat, syarat fisik, penempatan, atau persaingan? Tulis di kolom komentar!",
+   "ucapan": "[curious] Dari empat cek ini, mana yang paling bikin kamu ragu? Minat, syarat fisik, penempatan, atau persaingan? [excited] Tulis di kolom komentar!",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: kesalahan saat SKD",
+   "label": "episode 27",
+   "baris": [
+    "jangan sampai",
+    "gagal SKD"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, kesalahan paling sering saat SKD. Follow ya!",
+   "ucapan": "Next, kesalahan paling sering saat SKD. [excited] Follow ya!",
+   "id": 9,
+   "durasi": 3.0
+  }
+ ]
+}

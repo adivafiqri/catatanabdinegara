@@ -1,0 +1,120 @@
+{
+ "judul": "Ep 2 — Cara masuk sekolah kedinasan",
+ "adegan": [
+  {
+   "tipe": "hook",
+   "teks": [
+    "mau masuk kedinasan,"
+   ],
+   "hl": "mulai dari mana?",
+   "maskot": "mikir",
+   "narasi": "Mau masuk sekolah kedinasan, mulainya dari mana?",
+   "ucapan": "[curious] Mau masuk sekolah kedinasan, mulainya dari mana?",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "card",
+   "label": "satu pintu",
+   "ikon": "19-ikon-gedung-kampus",
+   "baris": [
+    "daftar lewat"
+   ],
+   "sub": [
+    "portal SSCASN BKN"
+   ],
+   "maskot": "senyum",
+   "narasi": "Untuk sekolah kedinasan di bawah kementerian dan lembaga, pendaftarannya lewat satu pintu: portal SSCASN milik BKN.",
+   "ucapan": "Untuk sekolah kedinasan di bawah kementerian dan lembaga, pendaftarannya lewat satu pintu: portal SSCASN milik BKN.",
+   "id": 2,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "card",
+   "label": "catatan",
+   "ikon": "18-ikon-bendera",
+   "baris": [
+    "Akpol & akademi TNI"
+   ],
+   "sub": [
+    "punya jalur sendiri"
+   ],
+   "maskot": "tegas",
+   "narasi": "Akpol dan akademi TNI punya jalur pendaftaran sendiri, ya.",
+   "ucapan": "Akpol dan akademi TNI punya jalur pendaftaran sendiri, ya.",
+   "id": 3,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "steps",
+   "judul": "alurnya",
+   "item": [
+    "daftar & unggah berkas",
+    "seleksi administrasi",
+    "SKD (CAT BKN)",
+    "seleksi lanjutan",
+    "pengumuman akhir"
+   ],
+   "maskot": "senyum",
+   "narasi": "Alurnya: daftar dan unggah berkas, lolos seleksi administrasi, ikut SKD berbasis komputer, lanjut seleksi khusus tiap sekolah, lalu pengumuman akhir.",
+   "ucapan": "Alurnya: daftar dan unggah berkas, lolos seleksi administrasi, ikut SKD berbasis komputer, lanjut seleksi khusus tiap sekolah, lalu pengumuman akhir.",
+   "id": 4,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "tags",
+   "judul": "seleksi lanjutan:",
+   "item": [
+    "kesehatan",
+    "jasmani",
+    "psikotes",
+    "wawancara"
+   ],
+   "maskot": "tegas",
+   "narasi": "Seleksi lanjutannya beda-beda tiap sekolah, misalnya tes kesehatan, jasmani, psikotes, atau wawancara.",
+   "ucapan": "Seleksi lanjutannya beda-beda tiap sekolah, misalnya tes kesehatan, jasmani, psikotes, atau wawancara.",
+   "id": 5,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "cuma boleh pilih"
+   ],
+   "hl": "SATU sekolah",
+   "maskot": "kaget",
+   "narasi": "Dan ingat, kamu cuma boleh pilih satu sekolah kedinasan. Jadi pilih yang paling cocok.",
+   "ucapan": "[serious] Dan ingat, kamu cuma boleh pilih satu sekolah kedinasan. Jadi pilih yang paling cocok.",
+   "id": 6,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: bedah SKD",
+   "label": "episode 3",
+   "baris": [
+    "tes yang wajib",
+    "kamu lewati"
+   ],
+   "stiker": "SIAP!",
+   "maskot": "hormat",
+   "narasi": "Di episode berikutnya, kita bedah SKD. Siap?",
+   "ucapan": "Di episode berikutnya, kita bedah SKD. [excited] Siap?",
+   "id": 7,
+   "durasi": 3.0
+  }
+ ],
+ "sampul": {
+  "ep": "EP 2",
+  "atas": [
+   "cara masuk"
+  ],
+  "hl": "sekolah kedinasan",
+  "bawah": [
+   "alurnya dari daftar",
+   "sampai pengumuman"
+  ],
+  "stiker": "STEP BY STEP",
+  "maskot": "tegas"
+ }
+}

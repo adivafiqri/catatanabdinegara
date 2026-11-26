@@ -1,0 +1,169 @@
+{
+ "judul": "Ep 12 — Kenalan TIU",
+ "sampul": {
+  "ep": "EP 12",
+  "atas": [
+   "TIU itu"
+  ],
+  "hl": "soalnya kayak apa?",
+  "bawah": [
+   "verbal, numerik,",
+   "dan figural"
+  ],
+  "stiker": "SKD",
+  "maskot": "mikir"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "SKD",
+   "teks": [
+    "TIU itu"
+   ],
+   "hl": "soalnya kayak apa?",
+   "maskot": "mikir",
+   "narasi": "TIU itu soalnya kayak apa, sih?",
+   "ucapan": "[curious] TIU itu soalnya kayak apa, sih?",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "card",
+   "label": "TIU",
+   "ikon": "17-ikon-medali",
+   "baris": [
+    "Tes Intelegensia",
+    "Umum"
+   ],
+   "sub": [
+    "bagian kedua SKD"
+   ],
+   "maskot": "senyum",
+   "narasi": "TIU itu Tes Intelegensia Umum, bagian kedua dari SKD.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "TIU itu Tes Intelegensia Umum, bagian kedua dari SKD."
+  },
+  {
+   "tipe": "big",
+   "label": "jumlah soal",
+   "angka": "35 soal",
+   "sub": "benar 5, salah atau kosong 0",
+   "maskot": "tegas",
+   "narasi": "Jumlahnya tiga puluh lima soal. Benar dapat lima, salah atau kosong nol.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Jumlahnya tiga puluh lima soal. Benar dapat lima, salah atau kosong nol."
+  },
+  {
+   "tipe": "chips",
+   "judul": "tiga jenisnya:",
+   "item": [
+    [
+     "Verbal",
+     "kata & logika"
+    ],
+    [
+     "Numerik",
+     "angka & hitungan"
+    ],
+    [
+     "Figural",
+     "gambar & pola"
+    ]
+   ],
+   "maskot": "senyum",
+   "narasi": "Jenisnya ada tiga: verbal, numerik, dan figural.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Jenisnya ada tiga: verbal, numerik, dan figural."
+  },
+  {
+   "tipe": "tags",
+   "judul": "verbal:",
+   "item": [
+    "analogi",
+    "silogisme",
+    "analitis"
+   ],
+   "maskot": "mikir",
+   "narasi": "Verbal itu soal analogi kata, silogisme, dan logika analitis.",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Verbal itu soal analogi kata, silogisme, dan logika analitis."
+  },
+  {
+   "tipe": "tags",
+   "judul": "numerik:",
+   "item": [
+    "deret angka",
+    "hitung cepat",
+    "soal cerita"
+   ],
+   "maskot": "tegas",
+   "narasi": "Numerik isinya deret angka, hitung cepat, dan soal cerita.",
+   "id": 6,
+   "durasi": 3.0,
+   "ucapan": "Numerik isinya deret angka, hitung cepat, dan soal cerita."
+  },
+  {
+   "tipe": "tags",
+   "judul": "figural:",
+   "item": [
+    "analogi gambar",
+    "cari yang beda",
+    "pola berurutan"
+   ],
+   "maskot": "mikir",
+   "narasi": "Figural itu analogi gambar, mencari gambar yang beda, dan pola berurutan.",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Figural itu analogi gambar, mencari gambar yang beda, dan pola berurutan."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "kuncinya:"
+   ],
+   "hl": "latihan + timer",
+   "maskot": "tegas",
+   "narasi": "Kuncinya latihan rutin pakai timer, karena waktunya mepet.",
+   "ucapan": "Kuncinya [serious] latihan rutin pakai timer, karena waktunya mepet.",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kuis",
+   "label": "LATIHAN TIU",
+   "soal": "3, 6, 12, 24, ... angka berikutnya?",
+   "opsi": [
+    "36",
+    "42",
+    "48",
+    "30"
+   ],
+   "jawab": 2,
+   "kunci_kata": "jawabannya",
+   "maskot": "mikir",
+   "narasi": "Coba: tiga, enam, dua belas, dua puluh empat, berikutnya? Tiga puluh enam, empat puluh dua, empat puluh delapan, atau tiga puluh? Jawabannya: C, empat puluh delapan, karena dikali dua!",
+   "ucapan": "Coba: [curious] tiga, enam, dua belas, dua puluh empat, berikutnya? Tiga puluh enam, empat puluh dua, empat puluh delapan, atau tiga puluh? ... Jawabannya: Ce, empat puluh delapan, karena dikali dua!",
+   "id": 9,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: soal TKP",
+   "label": "episode 13",
+   "baris": [
+    "soal tanpa",
+    "jawaban salah?"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, soal TKP yang katanya nggak ada jawaban salah. Follow ya!",
+   "ucapan": "Next, soal TKP yang katanya nggak ada jawaban salah. [excited] Follow ya!",
+   "id": 10,
+   "durasi": 3.0
+  }
+ ]
+}

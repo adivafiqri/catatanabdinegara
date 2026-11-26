@@ -1,0 +1,161 @@
+{
+ "judul": "Ep 25 — Orang tua wajib tahu: biaya yang tetap keluar",
+ "sampul": {
+  "ep": "EP 25",
+  "atas": [
+   "kuliahnya gratis"
+  ],
+  "hl": "tapi nol rupiah?",
+  "bawah": [
+   "biaya yang",
+   "tetap keluar"
+  ],
+  "stiker": "UNTUK ORTU",
+  "maskot": "mikir"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "UNTUK ORTU",
+   "teks": [
+    "kuliahnya gratis"
+   ],
+   "hl": "tapi nol rupiah?",
+   "maskot": "mikir",
+   "narasi": "Sekolah kedinasan memang gratis kuliahnya. Tapi apakah benar nol rupiah?",
+   "ucapan": "Sekolah kedinasan memang gratis kuliahnya. [curious] Tapi apakah benar nol rupiah?",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "ditanggung",
+    "pengeluaran"
+   ],
+   "maskot": "tegas",
+   "narasi": "Biaya pendidikan ditanggung negara, tapi ada pengeluaran lain yang tetap perlu disiapkan.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "Biaya pendidikan ditanggung negara, tapi ada pengeluaran lain yang tetap perlu disiapkan."
+  },
+  {
+   "tipe": "steps",
+   "judul": "biaya yang sering muncul",
+   "item": [
+    "persiapan belajar & fisik",
+    "ongkos & menginap saat tes",
+    "cek kesehatan & dokumen",
+    "perlengkapan awal masuk",
+    "uang saku & ongkos pulang"
+   ],
+   "maskot": "tegas",
+   "narasi": "Yang sering muncul: persiapan belajar dan latihan fisik, ongkos dan menginap saat tes, cek kesehatan dan dokumen, perlengkapan awal masuk, serta uang saku dan ongkos pulang.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Yang sering muncul: persiapan belajar dan latihan fisik, ongkos dan menginap saat tes, cek kesehatan dan dokumen, perlengkapan awal masuk, serta uang saku dan ongkos pulang."
+  },
+  {
+   "tipe": "chat",
+   "item": [
+    [
+     "kiri",
+     "Bu, aku mau daftar kedinasan."
+    ],
+    [
+     "kanan",
+     "Ibu dukung. Yuk hitung bareng biayanya."
+    ]
+   ],
+   "wajah": "senyum",
+   "maskot": "senyum",
+   "narasi": "Bu, aku mau daftar kedinasan. Ibu dukung. Yuk hitung bareng biayanya.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Bu, aku mau daftar kedinasan. Ibu dukung. Yuk hitung bareng biayanya."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "daftar di SSCASN"
+   ],
+   "hl": "gratis!",
+   "maskot": "senyum",
+   "narasi": "Pendaftaran di SSCASN sendiri tidak dipungut biaya.",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Pendaftaran di SSCASN sendiri tidak dipungut biaya."
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "WASPADA",
+    "item": [
+     "janji pasti lulus",
+     "minta uang jalur dalam"
+    ]
+   },
+   "kanan": {
+    "judul": "AMAN",
+    "item": [
+     "info laman resmi",
+     "bayar sesuai aturan resmi"
+    ]
+   },
+   "maskot": "tegas",
+   "narasi": "Waspadai yang janji pasti lulus atau minta uang lewat jalur dalam. Pegang info dari laman resmi saja.",
+   "ucapan": "[serious] Waspadai yang janji pasti lulus atau minta uang lewat jalur dalam. Pegang info dari laman resmi saja.",
+   "id": 6,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "card",
+   "label": "tips",
+   "ikon": "16-ikon-kalender",
+   "baris": [
+    "siapkan tabungan",
+    "kecil"
+   ],
+   "sub": [
+    "tanya rincian ke panitia resmi"
+   ],
+   "maskot": "senyum",
+   "narasi": "Tipsnya, siapkan tabungan kecil dari sekarang, dan tanyakan rincian biaya ke panitia resmi sekolahnya.",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Tipsnya, siapkan tabungan kecil dari sekarang, dan tanyakan rincian biaya ke panitia resmi sekolahnya."
+  },
+  {
+   "tipe": "kuis",
+   "label": "TANYA KAMU",
+   "soal": "Orang tuamu sudah tahu rencanamu?",
+   "opsi": [
+    "sudah, mendukung",
+    "sudah, masih ragu",
+    "belum cerita",
+    "mau share video ini"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Orang tuamu sudah tahu rencanamu? Sudah dan mendukung, sudah tapi masih ragu, belum cerita, atau mau share video ini dulu? Tulis di kolom komentar!",
+   "ucapan": "[curious] Orang tuamu sudah tahu rencanamu? Sudah dan mendukung, sudah tapi masih ragu, belum cerita, atau mau share video ini dulu? [excited] Tulis di kolom komentar!",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: cara pilih sekolah",
+   "label": "episode 26",
+   "baris": [
+    "sekolah kedinasan",
+    "mana yang cocok?"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, cara pilih sekolah kedinasan yang cocok. Follow ya!",
+   "ucapan": "Next, cara pilih sekolah kedinasan yang cocok. [excited] Follow ya!",
+   "id": 9,
+   "durasi": 3.0
+  }
+ ]
+}

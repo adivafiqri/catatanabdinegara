@@ -1,0 +1,144 @@
+{
+ "judul": "Ep 8 — Hari pertama masuk asrama",
+ "sampul": {
+  "ep": "EP 8",
+  "atas": [
+   "hari pertama"
+  ],
+  "hl": "masuk asrama",
+  "bawah": [
+   "yang biasanya",
+   "bikin kaget"
+  ],
+  "stiker": "TARUNA",
+  "maskot": "kaget"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "TARUNA",
+   "teks": [
+    "hari pertama"
+   ],
+   "hl": "masuk asrama",
+   "maskot": "kaget",
+   "narasi": "Hari pertama masuk asrama, apa yang paling bikin kaget?",
+   "ucapan": "Hari pertama masuk asrama, [curious] apa yang paling bikin kaget?",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "ilustrasi",
+   "ilus": "kampus",
+   "judul": "minggu pertama",
+   "maskot": "mikir",
+   "narasi": "Minggu pertama biasanya jadi yang paling berat.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "Minggu pertama biasanya jadi yang paling berat."
+  },
+  {
+   "tipe": "jadwal",
+   "label": "contoh jadwal pagi",
+   "item": [
+    [
+     "04.30",
+     "bangun & rapikan kamar"
+    ],
+    [
+     "05.00",
+     "olahraga pagi"
+    ],
+    [
+     "06.30",
+     "apel pagi"
+    ]
+   ],
+   "maskot": "tegas",
+   "narasi": "Bangun sebelum subuh, rapikan kamar, olahraga pagi, lalu apel.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Bangun sebelum subuh, rapikan kamar, olahraga pagi, lalu apel."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "semua serba"
+   ],
+   "hl": "tepat waktu!",
+   "maskot": "tegas",
+   "narasi": "Semua serba tepat waktu. Telat sedikit, ada konsekuensinya.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Semua serba tepat waktu. Telat sedikit, ada konsekuensinya."
+  },
+  {
+   "tipe": "checks",
+   "label": "yang bikin kaget",
+   "item": [
+    "rambut dipotong pendek",
+    "kamar wajib rapi",
+    "HP dibatasi"
+   ],
+   "maskot": "kaget",
+   "narasi": "Rambut dipotong pendek, kamar harus rapi sesuai standar, dan di banyak sekolah, HP dibatasi.",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Rambut dipotong pendek, kamar harus rapi sesuai standar, dan di banyak sekolah, HP dibatasi."
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "di rumah",
+    "item": [
+     "bangun siang",
+     "bebas main HP"
+    ]
+   },
+   "kanan": {
+    "judul": "di asrama",
+    "item": [
+     "bangun subuh",
+     "semua terjadwal"
+    ]
+   },
+   "maskot": "mikir",
+   "narasi": "Beda jauh sama di rumah. Yang tadinya bebas, sekarang semua terjadwal.",
+   "id": 6,
+   "durasi": 3.0,
+   "ucapan": "Beda jauh sama di rumah. Yang tadinya bebas, sekarang semua terjadwal."
+  },
+  {
+   "tipe": "card",
+   "label": "tipsnya",
+   "ikon": "20-ikon-jam",
+   "baris": [
+    "latih bangun pagi",
+    "dari sekarang"
+   ],
+   "sub": [
+    "biar nggak kaget"
+   ],
+   "maskot": "senyum",
+   "narasi": "Tipsnya, latih bangun pagi dan olahraga dari sekarang, biar nggak kaget.",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Tipsnya, latih bangun pagi dan olahraga dari sekarang, biar nggak kaget."
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: kedinasan vs kuliah",
+   "label": "episode 9",
+   "baris": [
+    "untung-ruginya",
+    "dibanding kuliah biasa"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, kedinasan versus kuliah biasa. Follow ya!",
+   "ucapan": "Next, kedinasan versus kuliah biasa. [excited] Follow ya!",
+   "id": 8,
+   "durasi": 3.0
+  }
+ ]
+}

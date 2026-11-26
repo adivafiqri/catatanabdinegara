@@ -1,0 +1,158 @@
+{
+ "judul": "Ep 23 — Kedinasan bidang transportasi",
+ "sampul": {
+  "ep": "EP 23",
+  "atas": [
+   "kapal, pesawat,"
+  ],
+  "hl": "atau kereta?",
+  "bawah": [
+   "sekolah kedinasan",
+   "Kemenhub"
+  ],
+  "stiker": "SAVE!",
+  "maskot": "senyum"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "SAVE!",
+   "teks": [
+    "suka kapal, pesawat,"
+   ],
+   "hl": "atau kereta?",
+   "maskot": "kaget",
+   "narasi": "Suka kapal, pesawat, atau kereta? Ada sekolah kedinasannya.",
+   "ucapan": "[curious] Suka kapal, pesawat, atau kereta? [excited] Ada sekolah kedinasannya.",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "ilustrasi",
+   "ilus": "transportasi",
+   "judul": "Kemenhub",
+   "maskot": "senyum",
+   "narasi": "Namanya sekolah kedinasan Kemenhub, alias Kementerian Perhubungan.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "Namanya sekolah kedinasan Kemenhub, alias Kementerian Perhubungan."
+  },
+  {
+   "tipe": "chips",
+   "judul": "3 matra:",
+   "item": [
+    [
+     "Darat",
+     "jalan, kereta, sungai-danau"
+    ],
+    [
+     "Laut",
+     "pelayaran"
+    ],
+    [
+     "Udara",
+     "penerbangan"
+    ]
+   ],
+   "maskot": "tegas",
+   "narasi": "Dibagi tiga matra: darat, termasuk perkeretaapian, lalu laut, dan udara.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Dibagi tiga matra: darat, termasuk perkeretaapian, lalu laut, dan udara."
+  },
+  {
+   "tipe": "big",
+   "label": "pola pembibitan 2026/2027",
+   "angka": "891 kursi",
+   "sub": "di 12 kampus Kemenhub",
+   "maskot": "kaget",
+   "narasi": "Di seleksi pola pembibitan tahun ini, ada delapan ratus sembilan puluh satu kursi.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Di seleksi pola pembibitan tahun ini, ada delapan ratus sembilan puluh satu kursi."
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "PUSAT",
+    "item": [
+     "225 formasi",
+     "Kemenhub"
+    ]
+   },
+   "kanan": {
+    "judul": "DAERAH",
+    "item": [
+     "666 formasi",
+     "pemerintah daerah"
+    ]
+   },
+   "maskot": "mikir",
+   "narasi": "Dua ratus dua puluh lima untuk pusat, dan enam ratus enam puluh enam untuk pemerintah daerah.",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Dua ratus dua puluh lima untuk pusat, dan enam ratus enam puluh enam untuk pemerintah daerah."
+  },
+  {
+   "tipe": "card",
+   "label": "terbanyak",
+   "ikon": "19-ikon-gedung-kampus",
+   "baris": [
+    "PTDI-STTD",
+    "Bekasi"
+   ],
+   "sub": [
+    "679 kursi"
+   ],
+   "maskot": "senyum",
+   "narasi": "Paling banyak di PTDI-STTD Bekasi, enam ratus tujuh puluh sembilan kursi.",
+   "id": 6,
+   "durasi": 3.0,
+   "ucapan": "Paling banyak di PTDI-STTD Bekasi, enam ratus tujuh puluh sembilan kursi."
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "pembibitan",
+    "mandiri"
+   ],
+   "maskot": "tegas",
+   "narasi": "Jalur pola pembibitan ini yang disiapkan jadi ASN. Jalur mandiri, aturannya beda.",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Jalur pola pembibitan ini yang disiapkan jadi ASN. Jalur mandiri, aturannya beda."
+  },
+  {
+   "tipe": "kuis",
+   "label": "TANYA KAMU",
+   "soal": "Kalau masuk Kemenhub, pilih matra apa?",
+   "opsi": [
+    "darat",
+    "kereta",
+    "laut",
+    "udara"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Kalau kamu masuk Kemenhub, mau pilih yang mana? Darat, kereta, laut, atau udara? Tulis di kolom komentar!",
+   "ucapan": "[curious] Kalau kamu masuk Kemenhub, mau pilih yang mana? Darat, kereta, laut, atau udara? [excited] Tulis di kolom komentar!",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: Akpol vs Akmil",
+   "label": "episode 24",
+   "baris": [
+    "kedinasan, Akpol,",
+    "Akmil: apa bedanya?"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, bedanya kedinasan, Akpol, dan Akmil. Follow ya!",
+   "ucapan": "Next, bedanya kedinasan, Akpol, dan Akmil. [excited] Follow ya!",
+   "id": 9,
+   "durasi": 3.0
+  }
+ ]
+}

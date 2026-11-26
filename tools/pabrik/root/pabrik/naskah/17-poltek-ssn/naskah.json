@@ -1,0 +1,188 @@
+{
+ "judul": "Ep 17 — Poltek SSN",
+ "sampul": {
+  "ep": "EP 17",
+  "atas": [
+   "suka IT?"
+  ],
+  "hl": "kenalan Poltek SSN",
+  "bawah": [
+   "sekolah siber",
+   "dan sandi negara"
+  ],
+  "stiker": "PROFIL",
+  "maskot": "senyum"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "ANAK IT?",
+   "teks": [
+    "suka IT & keamanan siber?"
+   ],
+   "hl": "ada sekolahnya!",
+   "maskot": "kaget",
+   "narasi": "Suka IT dan keamanan siber? Ada sekolah kedinasannya!",
+   "ucapan": "[curious] Suka IT dan keamanan siber? [excited] Ada sekolah kedinasannya!",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "foto",
+   "foto": "foto/poltekssn.jpg",
+   "judul": "Poltek SSN",
+   "maskot": "senyum",
+   "narasi": "Namanya Politeknik Siber dan Sandi Negara, atau Poltek SSN.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "Namanya Politeknik Siber dan Sandi Negara, atau Poltek SSN."
+  },
+  {
+   "tipe": "card",
+   "label": "di bawah",
+   "ikon": "19-ikon-gedung-kampus",
+   "baris": [
+    "Badan Siber dan",
+    "Sandi Negara"
+   ],
+   "sub": [
+    "BSSN"
+   ],
+   "maskot": "senyum",
+   "narasi": "Di bawah Badan Siber dan Sandi Negara, atau BSSN.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Di bawah Badan Siber dan Sandi Negara, atau BSSN."
+  },
+  {
+   "tipe": "big",
+   "label": "formasi seleksi 2026",
+   "angka": "50 kursi",
+   "sub": "paling sedikit, persaingan ketat",
+   "maskot": "kaget",
+   "narasi": "Formasinya cuma lima puluh kursi, paling sedikit di seleksi 2026.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Formasinya cuma lima puluh kursi, paling sedikit di seleksi 2026."
+  },
+  {
+   "tipe": "tags",
+   "judul": "jurusannya:",
+   "item": [
+    "Keamanan Siber",
+    "Kriptografi"
+   ],
+   "maskot": "tegas",
+   "narasi": "Jurusannya ada dua: Keamanan Siber dan Kriptografi.",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Jurusannya ada dua: Keamanan Siber dan Kriptografi."
+  },
+  {
+   "tipe": "pohon",
+   "akar": [
+    "jurusan",
+    "Kriptografi"
+   ],
+   "anak": [
+    [
+     "prodi",
+     "Rekayasa Kriptografi",
+     [
+      [
+       "bidang minat",
+       "Perangkat Lunak Kriptografi"
+      ],
+      [
+       "bidang minat",
+       "Sistem Kriptografi"
+      ]
+     ]
+    ],
+    [
+     "prodi",
+     "Rekayasa Perangkat Keras Kriptografi"
+    ]
+   ],
+   "maskot": "mikir",
+   "narasi": "Kriptografi dibagi lagi jadi dua prodi: Rekayasa Kriptografi, dan Rekayasa Perangkat Keras Kriptografi. Rekayasa Kriptografi punya dua bidang minat: Perangkat Lunak Kriptografi, dan Sistem Kriptografi.",
+   "id": 6,
+   "durasi": 3.0,
+   "ucapan": "Kriptografi dibagi lagi jadi dua prodi: Rekayasa Kriptografi, dan Rekayasa Perangkat Keras Kriptografi. Rekayasa Kriptografi punya dua bidang minat: Perangkat Lunak Kriptografi, dan Sistem Kriptografi."
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "kriptografi",
+    "sandi"
+   ],
+   "maskot": "senyum",
+   "narasi": "Belajar kriptografi, keamanan jaringan, sampai rekayasa perangkat sandi.",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Belajar kriptografi, keamanan jaringan, sampai rekayasa perangkat sandi."
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "BUKAN",
+    "item": [
+     "hacker berandalan"
+    ]
+   },
+   "kanan": {
+    "judul": "TAPI",
+    "item": [
+     "white hacker",
+     "bobol secara sah"
+    ]
+   },
+   "maskot": "tegas",
+   "narasi": "Di sini kamu bukan jadi hacker berandalan, tapi white hacker. Membobol secara sah, demi mengamankan ruang digital negara.",
+   "ucapan": "Di sini kamu bukan jadi hacker berandalan, [serious] tapi white hacker. Membobol secara sah, demi mengamankan ruang digital negara.",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "ilustrasi",
+   "ilus": "peta",
+   "judul": "lulusannya",
+   "maskot": "senyum",
+   "narasi": "Lulusannya bisa jadi CPNS di BSSN atau instansi pemerintah lain.",
+   "id": 9,
+   "durasi": 3.0,
+   "ucapan": "Lulusannya bisa jadi CPNS di BSSN atau instansi pemerintah lain."
+  },
+  {
+   "tipe": "kuis",
+   "label": "TANYA KAMU",
+   "soal": "Kalau masuk Poltek SSN, kamu pilih yang mana?",
+   "opsi": [
+    "Rekayasa Keamanan Siber",
+    "Rekayasa Kriptografi",
+    "Perangkat Keras Kriptografi"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Kalau kamu masuk Poltek SSN, mau pilih yang mana? Rekayasa Keamanan Siber, Rekayasa Kriptografi, atau Perangkat Keras Kriptografi? Tulis jawabanmu di kolom komentar!",
+   "ucapan": "[curious] Kalau kamu masuk Poltek SSN, mau pilih yang mana? Rekayasa Keamanan Siber, Rekayasa Kriptografi, atau Perangkat Keras Kriptografi? [excited] Tulis jawabanmu di kolom komentar!",
+   "id": 10,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: harus pintar?",
+   "label": "episode 18",
+   "baris": [
+    "benar nggak sih",
+    "harus ranking 1?"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, kedinasan cuma buat anak pintar. Follow ya!",
+   "ucapan": "Next, kedinasan cuma buat anak pintar. [excited] Follow ya!",
+   "id": 11,
+   "durasi": 3.0
+  }
+ ]
+}

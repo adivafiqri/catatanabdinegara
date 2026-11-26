@@ -1,0 +1,151 @@
+{
+ "judul": "Ep 14 — Ikatan dinas",
+ "sampul": {
+  "ep": "EP 14",
+  "atas": [
+   "kuliah gratis,"
+  ],
+  "hl": "tapi ada ikatannya",
+  "bawah": [
+   "apa itu",
+   "ikatan dinas?"
+  ],
+  "stiker": "PENTING",
+  "maskot": "tegas"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "PENTING",
+   "teks": [
+    "kuliah gratis,"
+   ],
+   "hl": "tapi ada ikatannya",
+   "maskot": "tegas",
+   "narasi": "Kuliah gratis, tapi ada ikatannya. Namanya ikatan dinas.",
+   "ucapan": "Kuliah gratis, [serious] tapi ada ikatannya. Namanya ikatan dinas.",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "ilustrasi",
+   "ilus": "kontrak",
+   "judul": "ikatan dinas itu",
+   "maskot": "senyum",
+   "narasi": "Ikatan dinas itu kewajiban bekerja di instansi setelah lulus.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "Ikatan dinas itu kewajiban bekerja di instansi setelah lulus."
+  },
+  {
+   "tipe": "chat",
+   "item": [
+    [
+     "kiri",
+     "Berapa lama wajib kerjanya?"
+    ],
+    [
+     "kanan",
+     "Tergantung sekolahnya. Contohnya STIS, dua kali masa kuliah ditambah satu tahun."
+    ]
+   ],
+   "wajah": "senyum",
+   "maskot": "mikir",
+   "narasi": "Berapa lama wajib kerjanya? Tergantung sekolahnya. Contohnya STIS, dua kali masa kuliah ditambah satu tahun.",
+   "ucapan": "[curious] Berapa lama wajib kerjanya? Tergantung sekolahnya. Contohnya Stis, dua kali masa kuliah ditambah satu tahun.",
+   "id": 3,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "big",
+   "label": "contoh STIS",
+   "angka": "2n+1",
+   "sub": "kuliah 4 tahun, kerja 9 tahun",
+   "maskot": "kaget",
+   "narasi": "Kalau kuliah empat tahun, berarti wajib kerja sembilan tahun.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Kalau kuliah empat tahun, berarti wajib kerja sembilan tahun."
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "ditempatkan",
+    "instansi"
+   ],
+   "maskot": "tegas",
+   "narasi": "Selama ikatan dinas, kamu ditempatkan sesuai kebutuhan instansi.",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Selama ikatan dinas, kamu ditempatkan sesuai kebutuhan instansi."
+  },
+  {
+   "tipe": "ilustrasi",
+   "ilus": "peta",
+   "judul": "bisa di mana saja",
+   "maskot": "mikir",
+   "narasi": "Bisa di kota besar, bisa juga di daerah terpencil.",
+   "id": 6,
+   "durasi": 3.0,
+   "ucapan": "Bisa di kota besar, bisa juga di daerah terpencil."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "kalau mundur?"
+   ],
+   "hl": "ganti biaya!",
+   "maskot": "kaget",
+   "narasi": "Kalau mundur di tengah jalan? Umumnya wajib mengganti biaya pendidikan.",
+   "ucapan": "Kalau mundur di tengah jalan? [serious] Umumnya wajib mengganti biaya pendidikan.",
+   "id": 7,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "checks",
+   "label": "sebelum daftar, pastikan",
+   "item": [
+    "siap kerja jauh dari rumah",
+    "siap terikat bertahun-tahun",
+    "cek aturan tiap instansi"
+   ],
+   "maskot": "tegas",
+   "narasi": "Jadi sebelum daftar, pastikan kamu siap kerja jauh dari rumah, siap terikat bertahun-tahun, dan cek aturan tiap instansi.",
+   "id": 8,
+   "durasi": 3.0,
+   "ucapan": "Jadi sebelum daftar, pastikan kamu siap kerja jauh dari rumah, siap terikat bertahun-tahun, dan cek aturan tiap instansi."
+  },
+  {
+   "tipe": "kuis",
+   "label": "CEK PAHAM",
+   "soal": "Kalau mundur saat ikatan dinas, umumnya?",
+   "opsi": [
+    "bebas tanpa syarat",
+    "ganti biaya pendidikan",
+    "dapat bonus",
+    "pindah sekolah"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Cek: kalau mundur saat ikatan dinas, umumnya apa? Bebas tanpa syarat, ganti biaya pendidikan, dapat bonus, atau pindah sekolah? Tulis jawabanmu di kolom komentar!",
+   "ucapan": "Cek: kalau mundur saat ikatan dinas, umumnya apa? Bebas tanpa syarat, ganti biaya pendidikan, dapat bonus, atau pindah sekolah? [excited] Tulis jawabanmu di kolom komentar!",
+   "id": 9,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: aturan kecil taruna",
+   "label": "episode 15",
+   "baris": [
+    "rambut, seragam,",
+    "aturan kecil"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, aturan kecil kehidupan taruna. Follow ya!",
+   "ucapan": "Next, aturan kecil kehidupan taruna. [excited] Follow ya!",
+   "id": 10,
+   "durasi": 3.0
+  }
+ ]
+}

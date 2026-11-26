@@ -1,0 +1,168 @@
+{
+ "judul": "Ep 21 — Makan di asrama",
+ "sampul": {
+  "ep": "EP 21",
+  "atas": [
+   "makan di asrama"
+  ],
+  "hl": "ada aturannya?",
+  "bawah": [
+   "cerita",
+   "kehidupan taruna"
+  ],
+  "stiker": "TARUNA",
+  "maskot": "kaget"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "TARUNA",
+   "teks": [
+    "makan di asrama"
+   ],
+   "hl": "ada aturannya?",
+   "maskot": "kaget",
+   "narasi": "Makan di asrama aja ada aturannya? Ada!",
+   "ucapan": "[curious] Makan di asrama aja ada aturannya? [excited] Ada!",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "ilustrasi",
+   "ilus": "makan",
+   "judul": "ruang makan",
+   "maskot": "senyum",
+   "narasi": "Biasanya taruna makan bersama di ruang makan besar.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "Biasanya taruna makan bersama di ruang makan besar."
+  },
+  {
+   "tipe": "checks",
+   "label": "aturan yang sering ada",
+   "item": [
+    "masuk & duduk serentak",
+    "doa bersama",
+    "sikap duduk tegap"
+   ],
+   "maskot": "tegas",
+   "narasi": "Masuk dan duduk serentak, doa bersama, dan sikap duduk tegap.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Masuk dan duduk serentak, doa bersama, dan sikap duduk tegap."
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "singkat"
+   ],
+   "maskot": "kaget",
+   "narasi": "Waktunya juga singkat, jadi harus makan cepat tapi tetap rapi.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Waktunya juga singkat, jadi harus makan cepat tapi tetap rapi."
+  },
+  {
+   "tipe": "chat",
+   "item": [
+    [
+     "kiri",
+     "Kalau nggak suka menunya?"
+    ],
+    [
+     "kanan",
+     "Belajar bersyukur. Menunya disiapkan biar energimu cukup buat latihan."
+    ]
+   ],
+   "wajah": "senyum",
+   "maskot": "senyum",
+   "narasi": "Kalau nggak suka menunya? Belajar bersyukur. Menunya disiapkan biar energimu cukup buat latihan.",
+   "ucapan": "[curious] Kalau nggak suka menunya? Belajar bersyukur. Menunya disiapkan biar energimu cukup buat latihan.",
+   "id": 5,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "DI RUMAH",
+    "item": [
+     "sambil main HP",
+     "bebas jam berapa"
+    ]
+   },
+   "kanan": {
+    "judul": "DI ASRAMA",
+    "item": [
+     "serentak",
+     "sesuai jadwal"
+    ]
+   },
+   "maskot": "mikir",
+   "narasi": "Di rumah, makan sambil main HP dan bebas jam berapa. Di asrama, serentak dan sesuai jadwal.",
+   "id": 6,
+   "durasi": 3.0,
+   "ucapan": "Di rumah, makan sambil main HP dan bebas jam berapa. Di asrama, serentak dan sesuai jadwal."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "yang diajarkan: disiplin"
+   ],
+   "hl": "& kebersamaan",
+   "maskot": "tegas",
+   "narasi": "Yang diajarkan sebenarnya disiplin dan kebersamaan.",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Yang diajarkan sebenarnya disiplin dan kebersamaan."
+  },
+  {
+   "tipe": "card",
+   "label": "tips",
+   "ikon": "20-ikon-jam",
+   "baris": [
+    "biasakan makan",
+    "tanpa HP"
+   ],
+   "sub": [
+    "dan tepat waktu"
+   ],
+   "maskot": "senyum",
+   "narasi": "Tipsnya, biasakan makan tanpa HP dan tepat waktu mulai dari sekarang.",
+   "id": 8,
+   "durasi": 3.0,
+   "ucapan": "Tipsnya, biasakan makan tanpa HP dan tepat waktu mulai dari sekarang."
+  },
+  {
+   "tipe": "kuis",
+   "label": "TANYA KAMU",
+   "soal": "Kalau tinggal di asrama, paling kangen apa?",
+   "opsi": [
+    "masakan ibu",
+    "mi instan tengah malam",
+    "jajanan kaki lima",
+    "kopi buatan sendiri"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Kalau tinggal di asrama, kamu bakal paling kangen apa? Masakan ibu, mi instan tengah malam, jajanan kaki lima, atau kopi buatan sendiri? Tulis di kolom komentar!",
+   "ucapan": "[curious] Kalau tinggal di asrama, kamu bakal paling kangen apa? Masakan ibu, mi instan tengah malam, jajanan kaki lima, atau kopi buatan sendiri? [excited] Tulis di kolom komentar!",
+   "id": 9,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: jadwal belajar SKD",
+   "label": "episode 22",
+   "baris": [
+    "persiapan SKD",
+    "dalam 3 bulan"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, contoh jadwal belajar SKD. Follow ya!",
+   "ucapan": "Next, contoh jadwal belajar SKD. [excited] Follow ya!",
+   "id": 10,
+   "durasi": 3.0
+  }
+ ]
+}

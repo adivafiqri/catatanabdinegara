@@ -1,0 +1,151 @@
+{
+ "judul": "Ep 15 — Rambut, seragam, aturan kecil",
+ "sampul": {
+  "ep": "EP 15",
+  "atas": [
+   "rambut cepak,"
+  ],
+  "hl": "kenapa harus?",
+  "bawah": [
+   "aturan kecil",
+   "kehidupan taruna"
+  ],
+  "stiker": "TARUNA",
+  "maskot": "kaget"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "TARUNA",
+   "teks": [
+    "rambut cepak, seragam rapi."
+   ],
+   "hl": "kenapa harus?",
+   "maskot": "kaget",
+   "narasi": "Rambut cepak, seragam rapi. Kenapa sih aturannya sekecil itu?",
+   "ucapan": "Rambut cepak, seragam rapi. [curious] Kenapa sih aturannya sekecil itu?",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "ilustrasi",
+   "ilus": "cukur",
+   "judul": "hari pertama:",
+   "maskot": "kaget",
+   "narasi": "Hari pertama, biasanya rambut langsung dipotong pendek.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "Hari pertama, biasanya rambut langsung dipotong pendek."
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "sama"
+   ],
+   "maskot": "tegas",
+   "narasi": "Tujuannya bukan biar seram, tapi biar semua sama. Nggak ada yang beda.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Tujuannya bukan biar seram, tapi biar semua sama. Nggak ada yang beda."
+  },
+  {
+   "tipe": "checks",
+   "label": "aturan kecil yang sering ada",
+   "item": [
+    "sepatu disemir mengkilap",
+    "baju dilipat sesuai ukuran",
+    "kasur rapi tanpa kerutan"
+   ],
+   "maskot": "tegas",
+   "narasi": "Aturan kecil lainnya: sepatu disemir mengkilap, baju dilipat sesuai ukuran, kasur rapi tanpa kerutan.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Aturan kecil lainnya: sepatu disemir mengkilap, baju dilipat sesuai ukuran, kasur rapi tanpa kerutan."
+  },
+  {
+   "tipe": "chat",
+   "item": [
+    [
+     "kiri",
+     "Kalau lupa satu aja gimana?"
+    ],
+    [
+     "kanan",
+     "Biasanya ada teguran. Tujuannya melatih teliti."
+    ]
+   ],
+   "wajah": "kedip",
+   "maskot": "senyum",
+   "narasi": "Kalau lupa satu aja gimana? Biasanya ada teguran. Tujuannya melatih teliti.",
+   "ucapan": "[curious] Kalau lupa satu aja gimana? Biasanya ada teguran. Tujuannya melatih teliti.",
+   "id": 5,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "AWALNYA",
+    "item": [
+     "ribet",
+     "capek"
+    ]
+   },
+   "kanan": {
+    "judul": "LAMA-LAMA",
+    "item": [
+     "jadi kebiasaan",
+     "rapi otomatis"
+    ]
+   },
+   "maskot": "senyum",
+   "narasi": "Awalnya terasa ribet dan capek. Lama-lama jadi kebiasaan, rapi otomatis.",
+   "id": 6,
+   "durasi": 3.0,
+   "ucapan": "Awalnya terasa ribet dan capek. Lama-lama jadi kebiasaan, rapi otomatis."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "kebawa sampai"
+   ],
+   "hl": "dunia kerja!",
+   "maskot": "tegas",
+   "narasi": "Dan kebiasaan ini kebawa sampai dunia kerja.",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Dan kebiasaan ini kebawa sampai dunia kerja."
+  },
+  {
+   "tipe": "card",
+   "label": "tips",
+   "ikon": "20-ikon-jam",
+   "baris": [
+    "latih rapikan",
+    "kamar sendiri"
+   ],
+   "sub": [
+    "mulai dari sekarang"
+   ],
+   "maskot": "senyum",
+   "narasi": "Tipsnya, latih rapikan kamar sendiri tiap pagi, mulai dari sekarang.",
+   "id": 8,
+   "durasi": 3.0,
+   "ucapan": "Tipsnya, latih rapikan kamar sendiri tiap pagi, mulai dari sekarang."
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: kenalan IPDN",
+   "label": "episode 16",
+   "baris": [
+    "sekolah calon",
+    "aparatur pemerintahan"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, kenalan sama IPDN. Follow ya!",
+   "ucapan": "Next, kenalan sama IPDN. [excited] Follow ya!",
+   "id": 9,
+   "durasi": 3.0
+  }
+ ]
+}
