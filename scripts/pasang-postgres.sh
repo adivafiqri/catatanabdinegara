@@ -21,8 +21,16 @@ if [ -z "$TARGET_USER" ] || [ "$TARGET_USER" = "root" ]; then
   exit 1
 fi
 
+# Sisa instalasi dari ISO: baris "file:/cdrom" membuat apt-get update selalu gagal
+# (dan server tidak mendapat pembaruan keamanan). Nonaktifkan dengan cadangan .bak.
+if grep -qE '^[[:space:]]*deb .*cdrom' /etc/apt/sources.list 2>/dev/null; then
+  echo "==> Menonaktifkan sumber apt CD-ROM (cadangan: /etc/apt/sources.list.bak)"
+  cp -n /etc/apt/sources.list /etc/apt/sources.list.bak
+  sed -i -E 's|^([[:space:]]*deb .*cdrom.*)$|# \1|' /etc/apt/sources.list
+fi
+
 echo "==> Menambah repo resmi PostgreSQL (apt.postgresql.org)"
-apt-get update -qq
+apt-get update
 apt-get install -y -qq postgresql-common ca-certificates curl >/dev/null
 /usr/share/postgresql-common/pgdg/apt.postgresql.org.sh -y >/dev/null
 
