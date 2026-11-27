@@ -9,7 +9,10 @@
 | Admin | `https://admin.catatanabdinegara.site` (Cloudflare Access + login + TOTP) |
 | Database | PostgreSQL lokal, role `can_web` (lihat `database.md`) |
 
-## Pemasangan Cloudflare Tunnel (sekali, oleh pemilik)
+## Tunnel yang terpasang
+Tunnel `can-server` (dibuat 27 Nov 2026 lewat `cloudflared tunnel login` + `tunnel create` dari server). Konfigurasi: `~/.cloudflared/can-server.yml`, kredensial `~/.cloudflared/<id>.json` (izin 600). DNS `tryout`/`admin` = CNAME ke tunnel (dibuat `cloudflared tunnel route dns`). Di akun Cloudflare juga ada tunnel lain (`kermakresna`) milik proyek lain — jangan diubah.
+
+## (Alternatif) Pemasangan lewat token dashboard
 1. Cloudflare → **Zero Trust** (pilih paket Free; buat nama tim bila diminta) → **Networks → Tunnels → Create a tunnel** → **Cloudflared** → nama: `can-server`.
 2. Di layar "Install connector", salin **token** (teks panjang setelah `--token`). Jangan jalankan perintah instalasinya; cukup tokennya.
 3. Di server (terminal SSH Anda sendiri):
@@ -23,6 +26,10 @@
    - `tryout` . `catatanabdinegara.site` → Service **HTTP** `127.0.0.1:3000`
    - `admin` . `catatanabdinegara.site` → Service **HTTP** `127.0.0.1:3000`
    DNS dibuat otomatis oleh Cloudflare.
+
+## HSTS di Cloudflare
+Header HSTS dari aplikasi tidak selalu terkirim pada halaman yang membaca sesi, jadi HSTS diaktifkan di Cloudflare:
+domain `catatanabdinegara.site` → **SSL/TLS → Edge Certificates → HTTP Strict Transport Security (HSTS) → Enable** (max-age 6 bulan, include subdomains: on, preload: off, No-Sniff: on).
 
 ## Cloudflare Access untuk admin (lapis keamanan kedua)
 Zero Trust → **Access → Applications → Add an application → Self-hosted**:

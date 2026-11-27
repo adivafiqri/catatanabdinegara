@@ -1,6 +1,5 @@
-# Cloudflare Tunnel: menghubungkan web lokal (127.0.0.1:3000) ke internet tanpa membuka port.
-# Token disimpan di ~/.config/catatanabdinegara/tunnel.env (izin 600), BUKAN di .env utama,
-# agar proses tunnel tidak memegang password database.
+# Cloudflare Tunnel "can-server": tryout. & admin.catatanabdinegara.site → web lokal 127.0.0.1:3000.
+# Kredensial & konfigurasi di ~/.cloudflared/ (izin 600). Lihat docs/runbook/web.md.
 [Unit]
 Description=Cloudflare Tunnel Catatan Abdi Negara
 After=network-online.target can-web.service
@@ -8,8 +7,7 @@ Wants=network-online.target
 
 [Service]
 Type=simple
-EnvironmentFile=%h/.config/catatanabdinegara/tunnel.env
-ExecStart=%h/.local/bin/cloudflared --no-autoupdate tunnel run
+ExecStart=%h/.local/bin/cloudflared --no-autoupdate --config %h/.cloudflared/can-server.yml tunnel run
 Restart=always
 RestartSec=5
 
