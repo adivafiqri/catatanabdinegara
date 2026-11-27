@@ -1,0 +1,161 @@
+{
+ "judul": "Ep 22 — Jadwal belajar SKD 3 bulan",
+ "sampul": {
+  "ep": "EP 22",
+  "atas": [
+   "persiapan SKD"
+  ],
+  "hl": "dalam 3 bulan",
+  "bawah": [
+   "contoh jadwal",
+   "harian & mingguan"
+  ],
+  "stiker": "SAVE!",
+  "maskot": "tegas"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "SAVE!",
+   "teks": [
+    "persiapan SKD"
+   ],
+   "hl": "dalam 3 bulan?",
+   "maskot": "tegas",
+   "narasi": "Mau persiapan SKD dalam tiga bulan? Ini contoh jadwalnya.",
+   "ucapan": "[curious] Mau persiapan SKD dalam tiga bulan? Ini contoh jadwalnya.",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "steps",
+   "judul": "bagi jadi 3 tahap",
+   "item": [
+    "bulan 1: kuasai materi",
+    "bulan 2: latihan per tipe soal",
+    "bulan 3: tryout + evaluasi"
+   ],
+   "maskot": "tegas",
+   "narasi": "Bagi jadi tiga tahap. Bulan pertama kuasai materi, bulan kedua latihan per tipe soal, bulan ketiga tryout dan evaluasi.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "Bagi jadi tiga tahap. Bulan pertama kuasai materi, bulan kedua latihan per tipe soal, bulan ketiga tryout dan evaluasi."
+  },
+  {
+   "tipe": "jadwal",
+   "label": "contoh jadwal harian (90 menit)",
+   "item": [
+    [
+     "30 mnt",
+     "materi TWK"
+    ],
+    [
+     "30 mnt",
+     "latihan TIU"
+    ],
+    [
+     "20 mnt",
+     "soal TKP"
+    ],
+    [
+     "10 mnt",
+     "catat kesalahan"
+    ]
+   ],
+   "maskot": "senyum",
+   "narasi": "Sehari cukup sekitar satu setengah jam: tiga puluh menit materi TWK, tiga puluh menit latihan TIU, dua puluh menit soal TKP, dan sepuluh menit catat kesalahan.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Sehari cukup sekitar satu setengah jam: tiga puluh menit materi TWK, tiga puluh menit latihan TIU, dua puluh menit soal TKP, dan sepuluh menit catat kesalahan."
+  },
+  {
+   "tipe": "big",
+   "label": "tryout lengkap",
+   "angka": "1x seminggu",
+   "sub": "pakai timer 100 menit",
+   "maskot": "tegas",
+   "narasi": "Seminggu sekali, kerjakan tryout lengkap pakai timer seratus menit.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Seminggu sekali, kerjakan tryout lengkap pakai timer seratus menit."
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "kesalahan",
+    "ulangi"
+   ],
+   "maskot": "tegas",
+   "narasi": "Yang paling penting: catat setiap kesalahan, lalu ulangi soal yang salah.",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Yang paling penting: catat setiap kesalahan, lalu ulangi soal yang salah."
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "HINDARI",
+    "item": [
+     "kebut semalam",
+     "begadang"
+    ]
+   },
+   "kanan": {
+    "judul": "LAKUKAN",
+    "item": [
+     "sedikit tiap hari",
+     "tidur cukup"
+    ]
+   },
+   "maskot": "senyum",
+   "narasi": "Hindari kebut semalam dan begadang. Lebih baik sedikit tiap hari dan tidur cukup.",
+   "id": 6,
+   "durasi": 3.0,
+   "ucapan": "Hindari kebut semalam dan begadang. Lebih baik sedikit tiap hari dan tidur cukup."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "jangan lupa"
+   ],
+   "hl": "latihan fisik!",
+   "maskot": "tegas",
+   "narasi": "Jangan lupa latihan fisik, karena banyak sekolah juga ada tes jasmani.",
+   "ucapan": "Jangan lupa latihan fisik, [serious] karena banyak sekolah juga ada tes jasmani.",
+   "id": 7,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kuis",
+   "label": "TANYA KAMU",
+   "soal": "Sekarang kamu di tahap mana?",
+   "opsi": [
+    "belum mulai",
+    "kuasai materi",
+    "latihan per tipe",
+    "sudah rutin tryout"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Sekarang kamu di tahap mana? Belum mulai, kuasai materi, latihan per tipe, atau sudah rutin tryout? Tulis di kolom komentar!",
+   "ucapan": "[curious] Sekarang kamu di tahap mana? Belum mulai, kuasai materi, latihan per tipe, atau sudah rutin tryout? [excited] Tulis di kolom komentar!",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: sekolah transportasi",
+   "label": "episode 23",
+   "baris": [
+    "darat, laut,",
+    "dan udara"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, sekolah kedinasan bidang transportasi. Follow ya!",
+   "ucapan": "Next, sekolah kedinasan bidang transportasi. [excited] Follow ya!",
+   "id": 9,
+   "durasi": 3.0
+  }
+ ]
+}

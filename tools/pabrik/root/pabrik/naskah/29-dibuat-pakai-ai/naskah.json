@@ -1,0 +1,160 @@
+{
+ "judul": "Ep 29 — Video ini dibuat pakai AI",
+ "sampul": {
+  "ep": "EP 29",
+  "atas": [
+   "video ini"
+  ],
+  "hl": "dibuat pakai AI",
+  "bawah": [
+   "begini",
+   "proses aslinya"
+  ],
+  "stiker": "RAHASIA!",
+  "maskot": "senyum"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "RAHASIA!",
+   "teks": [
+    "video ini"
+   ],
+   "hl": "dibuat pakai AI",
+   "maskot": "kaget",
+   "narasi": "Jujur ya, video ini dibuat pakai AI.",
+   "ucapan": "[excited] Jujur ya, video ini dibuat pakai AI.",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "manusia",
+    "ngecek"
+   ],
+   "maskot": "tegas",
+   "narasi": "Tapi bukan asal jadi. Ada manusia yang ngecek tiap langkahnya.",
+   "ucapan": "Tapi bukan asal jadi. Ada manusia yang ngecek tiap langkahnya.",
+   "id": 2,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "steps",
+   "judul": "alur produksinya",
+   "item": [
+    "riset fakta",
+    "tulis naskah",
+    "dicek pemilik",
+    "suara AI",
+    "animasi dan render"
+   ],
+   "maskot": "senyum",
+   "narasi": "Alurnya: riset fakta, tulis naskah, dicek pemilik, lalu suara AI, terakhir animasi dan render.",
+   "ucapan": "Alurnya: riset fakta, tulis naskah, dicek pemilik, lalu suara AI, terakhir animasi dan render.",
+   "id": 3,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "checks",
+   "label": "riset fakta",
+   "item": [
+    "situs resmi",
+    "berita tepercaya",
+    "formasi bisa berubah"
+   ],
+   "maskot": "mikir",
+   "narasi": "Faktanya diambil dari situs resmi dan berita tepercaya. Soalnya formasi bisa berubah tiap tahun.",
+   "ucapan": "Faktanya diambil dari situs resmi dan berita tepercaya. Soalnya formasi bisa berubah tiap tahun.",
+   "id": 4,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "naskah wajib"
+   ],
+   "hl": "disetujui dulu",
+   "maskot": "tegas",
+   "narasi": "Setiap naskah wajib disetujui dulu sebelum jadi video.",
+   "ucapan": "[serious] Setiap naskah wajib disetujui dulu sebelum jadi video.",
+   "id": 5,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "AI BANTU",
+    "item": [
+     "menyusun draf",
+     "bikin suara",
+     "bikin animasi"
+    ]
+   },
+   "kanan": {
+    "judul": "MANUSIA",
+    "item": [
+     "pilih topik",
+     "cek fakta",
+     "setujui naskah"
+    ]
+   },
+   "maskot": "senyum",
+   "narasi": "AI bantu menyusun draf, bikin suara, dan bikin animasi. Manusia memilih topik, cek fakta, dan setujui naskah.",
+   "ucapan": "AI bantu menyusun draf, bikin suara, dan bikin animasi. Manusia memilih topik, cek fakta, dan setujui naskah.",
+   "id": 6,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "chat",
+   "item": [
+    [
+     "kiri",
+     "Terus, info di sini bisa dipercaya?"
+    ],
+    [
+     "kanan",
+     "Kami usahakan akurat. Tapi untuk syarat dan jadwal, tetap cek ulang di situs resmi ya."
+    ]
+   ],
+   "wajah": "senyum",
+   "maskot": "senyum",
+   "narasi": "Terus, info di sini bisa dipercaya? Kami usahakan akurat. Tapi untuk syarat dan jadwal, tetap cek ulang di situs resmi ya.",
+   "ucapan": "[curious] Terus, info di sini bisa dipercaya? Kami usahakan akurat. Tapi untuk syarat dan jadwal, tetap cek ulang di situs resmi ya.",
+   "id": 7,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kuis",
+   "label": "TANYA KAMU",
+   "soal": "Mau lihat di balik layar soal apa?",
+   "opsi": [
+    "cara riset",
+    "bikin suara",
+    "bikin animasi",
+    "tools yang dipakai"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Kamu mau lihat di balik layar soal apa lagi? Cara riset, bikin suara, bikin animasi, atau tools yang dipakai? Tulis di kolom komentar!",
+   "ucapan": "[curious] Kamu mau lihat di balik layar soal apa lagi? Cara riset, bikin suara, bikin animasi, atau tools yang dipakai? [excited] Tulis di kolom komentar!",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: latihan TWK",
+   "label": "episode 30",
+   "baris": [
+    "latihan TWK",
+    "soal Pancasila"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, latihan TWK soal Pancasila. Follow ya!",
+   "ucapan": "Next, latihan TWK soal Pancasila. [excited] Follow ya!",
+   "id": 9,
+   "durasi": 3.0
+  }
+ ]
+}

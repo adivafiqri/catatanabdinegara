@@ -1,0 +1,18 @@
+{
+  "judul": "Episode 1 - Apa itu Sekolah Kedinasan?",
+  "suara": "id-ID-ArdiNeural",
+  "adegan": [
+    {"id": 1, "durasi": 7.0,
+     "narasi": "Pernah dengar istilah sekolah kedinasan? Kali ini kita bahas singkat, apa sih sebenarnya sekolah kedinasan itu."},
+    {"id": 2, "durasi": 10.0,
+     "narasi": "Sekolah kedinasan adalah perguruan tinggi yang dikelola kementerian atau lembaga pemerintah, untuk mencetak calon aparatur bagi instansinya sendiri."},
+    {"id": 3, "durasi": 12.0,
+     "narasi": "Contohnya ada Akpol untuk calon perwira Polri, IPDN di bawah Kemendagri, PKN STAN di Kemenkeu, STIS di BPS, dan masih banyak lagi."},
+    {"id": 4, "durasi": 13.0,
+     "narasi": "Bedanya dengan kampus biasa? Biaya pendidikannya umumnya ditanggung negara, kehidupannya penuh disiplin ala taruna, dan setelah lulus kamu terikat dinas di instansi tersebut."},
+    {"id": 5, "durasi": 10.0,
+     "narasi": "Tapi jangan salah. Banyak yang mengira masuknya gampang. Faktanya, seleksinya ketat, mulai dari tes akademik, kesehatan, jasmani, sampai psikotes."},
+    {"id": 6, "durasi": 8.0,
+     "narasi": "Di episode berikutnya, kita bahas cara masuk dan tahapan seleksinya. Jadi, ikuti terus ya. Siap?"}
+  ]
+}

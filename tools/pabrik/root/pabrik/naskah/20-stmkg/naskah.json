@@ -1,0 +1,170 @@
+{
+ "judul": "Ep 20 — STMKG",
+ "sampul": {
+  "ep": "EP 20",
+  "atas": [
+   "suka cuaca?"
+  ],
+  "hl": "kenalan STMKG",
+  "bawah": [
+   "sekolah calon",
+   "pegawai BMKG"
+  ],
+  "stiker": "PROFIL",
+  "maskot": "senyum"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "PROFIL",
+   "teks": [
+    "penasaran cuaca & gempa?"
+   ],
+   "hl": "kenalan STMKG",
+   "maskot": "kaget",
+   "narasi": "Penasaran sama cuaca, iklim, dan gempa? Kenalan sama STMKG.",
+   "ucapan": "[curious] Penasaran sama cuaca, iklim, dan gempa? Kenalan sama STMKG.",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "ilustrasi",
+   "ilus": "cuaca",
+   "judul": "STMKG",
+   "maskot": "senyum",
+   "narasi": "Sekolah Tinggi Meteorologi, Klimatologi, dan Geofisika.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "Sekolah Tinggi Meteorologi, Klimatologi, dan Geofisika."
+  },
+  {
+   "tipe": "card",
+   "label": "di bawah",
+   "ikon": "19-ikon-gedung-kampus",
+   "baris": [
+    "BMKG"
+   ],
+   "sub": [
+    "Badan Meteorologi, Klimatologi, dan Geofisika"
+   ],
+   "maskot": "senyum",
+   "narasi": "Sekolah kedinasan di bawah BMKG.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Sekolah kedinasan di bawah BMKG."
+  },
+  {
+   "tipe": "big",
+   "label": "formasi seleksi 2026",
+   "angka": "130 kursi",
+   "sub": "60 nasional, 70 afirmasi",
+   "maskot": "kaget",
+   "narasi": "Di seleksi 2026, ada seratus tiga puluh kursi: enam puluh formasi nasional dan tujuh puluh afirmasi.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Di seleksi 2026, ada seratus tiga puluh kursi: enam puluh formasi nasional dan tujuh puluh afirmasi."
+  },
+  {
+   "tipe": "chips",
+   "judul": "4 prodi D4:",
+   "item": [
+    [
+     "Meteorologi",
+     "cuaca & atmosfer"
+    ],
+    [
+     "Klimatologi",
+     "iklim"
+    ],
+    [
+     "Geofisika",
+     "gempa & tsunami"
+    ],
+    [
+     "Instrumentasi MKG",
+     "alat ukur & sensor"
+    ]
+   ],
+   "maskot": "tegas",
+   "narasi": "Prodinya ada empat: Meteorologi untuk cuaca, Klimatologi untuk iklim, Geofisika untuk gempa, dan Instrumentasi MKG untuk alat ukurnya.",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Prodinya ada empat: Meteorologi untuk cuaca, Klimatologi untuk iklim, Geofisika untuk gempa, dan Instrumentasi MKG untuk alat ukurnya."
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "mitigasi",
+    "bencana"
+   ],
+   "maskot": "tegas",
+   "narasi": "Ilmunya penting buat mitigasi bencana di negara rawan gempa seperti Indonesia.",
+   "id": 6,
+   "durasi": 3.0,
+   "ucapan": "Ilmunya penting buat mitigasi bencana di negara rawan gempa seperti Indonesia."
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "NASIONAL",
+    "item": [
+     "semua wilayah"
+    ]
+   },
+   "kanan": {
+    "judul": "AFIRMASI",
+    "item": [
+     "daerah tertentu",
+     "termasuk OAP"
+    ]
+   },
+   "maskot": "mikir",
+   "narasi": "Formasi nasional terbuka untuk semua wilayah, sedangkan afirmasi untuk daerah tertentu, termasuk Orang Asli Papua.",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Formasi nasional terbuka untuk semua wilayah, sedangkan afirmasi untuk daerah tertentu, termasuk Orang Asli Papua."
+  },
+  {
+   "tipe": "ilustrasi",
+   "ilus": "peta",
+   "judul": "lulusannya",
+   "maskot": "senyum",
+   "narasi": "Lulusannya disiapkan jadi CPNS di BMKG.",
+   "id": 8,
+   "durasi": 3.0,
+   "ucapan": "Lulusannya disiapkan jadi CPNS di BMKG."
+  },
+  {
+   "tipe": "kuis",
+   "label": "TANYA KAMU",
+   "soal": "Kalau masuk STMKG, kamu pilih prodi apa?",
+   "opsi": [
+    "Meteorologi",
+    "Klimatologi",
+    "Geofisika",
+    "Instrumentasi MKG"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Kalau kamu masuk STMKG, mau pilih yang mana? Meteorologi, Klimatologi, Geofisika, atau Instrumentasi MKG? Tulis di kolom komentar!",
+   "ucapan": "[curious] Kalau kamu masuk STMKG, mau pilih yang mana? Meteorologi, Klimatologi, Geofisika, atau Instrumentasi MKG? [excited] Tulis di kolom komentar!",
+   "id": 9,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: makan di asrama",
+   "label": "episode 21",
+   "baris": [
+    "makan aja",
+    "ada aturannya?"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, cerita makan di asrama. Follow ya!",
+   "ucapan": "Next, cerita makan di asrama. [excited] Follow ya!",
+   "id": 10,
+   "durasi": 3.0
+  }
+ ]
+}

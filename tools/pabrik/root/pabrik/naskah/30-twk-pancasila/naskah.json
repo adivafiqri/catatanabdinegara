@@ -1,0 +1,158 @@
+{
+ "judul": "Ep 30 — Latihan TWK: Pancasila",
+ "sampul": {
+  "ep": "EP 30",
+  "atas": [
+   "latihan TWK"
+  ],
+  "hl": "Pancasila",
+  "bawah": [
+   "3 soal,",
+   "kamu bisa berapa?"
+  ],
+  "stiker": "LATIHAN!",
+  "maskot": "mikir"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "LATIHAN!",
+   "teks": [
+    "latihan TWK"
+   ],
+   "hl": "soal Pancasila",
+   "maskot": "kaget",
+   "narasi": "Latihan TWK soal Pancasila. Kamu bisa jawab berapa?",
+   "ucapan": "[excited] Latihan TWK soal Pancasila. [curious] Kamu bisa jawab berapa?",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "chat",
+   "item": [
+    [
+     "kiri",
+     "Pancasila keluar di TWK?"
+    ],
+    [
+     "kanan",
+     "Iya, masuk materi pilar negara. Jadi wajib dikuasai."
+    ]
+   ],
+   "wajah": "tegas",
+   "maskot": "senyum",
+   "narasi": "Pancasila keluar di TWK? Iya, masuk materi pilar negara. Jadi wajib dikuasai.",
+   "ucapan": "[curious] Pancasila keluar di TWK? Iya, masuk materi pilar negara. Jadi wajib dikuasai.",
+   "id": 2,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kuis",
+   "label": "LATIHAN TWK",
+   "soal": "Rumusan Pancasila yang sah tercantum di...",
+   "opsi": [
+    "Piagam Jakarta",
+    "Pembukaan UUD 1945",
+    "pidato 1 Juni",
+    "batang tubuh UUD"
+   ],
+   "jawab": 1,
+   "kunci_kata": "jawabannya",
+   "maskot": "mikir",
+   "narasi": "Soal pertama. Rumusan Pancasila yang sah tercantum di mana? Piagam Jakarta, Pembukaan UUD 1945, pidato 1 Juni, atau batang tubuh UUD? Jawabannya: B, Pembukaan UUD 1945.",
+   "ucapan": "[curious] Soal pertama. Rumusan Pancasila yang sah tercantum di mana? Piagam Jakarta, Pembukaan UUD 1945, pidato 1 Juni, atau batang tubuh UUD? ... Jawabannya: Be, Pembukaan UUD 1945.",
+   "id": 3,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "awal",
+    "diubah"
+   ],
+   "maskot": "tegas",
+   "narasi": "Piagam Jakarta itu rumusan awal. Sila pertamanya diubah sehari setelah merdeka.",
+   "ucapan": "Piagam Jakarta itu rumusan awal. Sila pertamanya diubah sehari setelah merdeka.",
+   "id": 4,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kuis",
+   "label": "LATIHAN TWK",
+   "soal": "Musyawarah untuk mufakat sesuai sila ke...",
+   "opsi": [
+    "kedua",
+    "ketiga",
+    "keempat",
+    "kelima"
+   ],
+   "jawab": 2,
+   "kunci_kata": "jawabannya",
+   "maskot": "mikir",
+   "narasi": "Soal berikutnya. Musyawarah untuk mufakat sesuai sila ke berapa? Kedua, ketiga, keempat, atau kelima? Jawabannya: C, sila keempat.",
+   "ucapan": "[curious] Soal berikutnya. Musyawarah untuk mufakat sesuai sila ke berapa? Kedua, ketiga, keempat, atau kelima? ... Jawabannya: Ce, sila keempat.",
+   "id": 5,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "steps",
+   "judul": "kata kunci tiap sila",
+   "item": [
+    "ketuhanan",
+    "kemanusiaan",
+    "persatuan",
+    "musyawarah",
+    "keadilan sosial"
+   ],
+   "maskot": "senyum",
+   "narasi": "Hafalkan kata kuncinya: ketuhanan, kemanusiaan, persatuan, musyawarah, dan keadilan sosial.",
+   "ucapan": "Hafalkan kata kuncinya: ketuhanan, kemanusiaan, persatuan, musyawarah, dan keadilan sosial.",
+   "id": 6,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "jangan cuma"
+   ],
+   "hl": "hafal sila",
+   "maskot": "tegas",
+   "narasi": "Jangan cuma hafal sila. Pahami contoh perilakunya.",
+   "ucapan": "[serious] Jangan cuma hafal sila. Pahami contoh perilakunya.",
+   "id": 7,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kuis",
+   "label": "GILIRAN KAMU",
+   "soal": "Menghormati teman yang beda agama saat beribadah sesuai sila ke...",
+   "opsi": [
+    "pertama",
+    "kedua",
+    "ketiga",
+    "kelima"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Soal terakhir, jawab sendiri. Menghormati teman yang beda agama saat beribadah, sesuai sila ke berapa? Pertama, kedua, ketiga, atau kelima? Tulis jawabanmu di kolom komentar!",
+   "ucapan": "[curious] Soal terakhir, jawab sendiri. Menghormati teman yang beda agama saat beribadah, sesuai sila ke berapa? Pertama, kedua, ketiga, atau kelima? [excited] Tulis jawabanmu di kolom komentar!",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: Poltekimipas",
+   "label": "episode 31",
+   "baris": [
+    "sekolah imigrasi",
+    "& pemasyarakatan"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, sekolah imigrasi dan pemasyarakatan. Follow ya!",
+   "ucapan": "Next, sekolah imigrasi dan pemasyarakatan. [excited] Follow ya!",
+   "id": 9,
+   "durasi": 3.0
+  }
+ ]
+}

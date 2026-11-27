@@ -1,0 +1,161 @@
+{
+ "judul": "Ep 24 — Kedinasan vs Akpol vs Akmil",
+ "sampul": {
+  "ep": "EP 24",
+  "atas": [
+   "Akpol, Akmil &"
+  ],
+  "hl": "kedinasan",
+  "bawah": [
+   "apa bedanya?"
+  ],
+  "stiker": "BEDA?",
+  "maskot": "mikir"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "BEDA?",
+   "teks": [
+    "kedinasan, Akpol, Akmil"
+   ],
+   "hl": "apa bedanya?",
+   "maskot": "mikir",
+   "narasi": "Kedinasan, Akpol, Akmil. Sama-sama berseragam, tapi apa bedanya?",
+   "ucapan": "[curious] Kedinasan, Akpol, Akmil. Sama-sama berseragam, tapi apa bedanya?",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "chips",
+   "judul": "lulusannya jadi:",
+   "item": [
+    [
+     "Kedinasan",
+     "ASN kementerian/lembaga"
+    ],
+    [
+     "Akpol",
+     "perwira Polri"
+    ],
+    [
+     "Akmil",
+     "perwira TNI AD"
+    ]
+   ],
+   "maskot": "tegas",
+   "narasi": "Lulusan sekolah kedinasan umumnya jadi ASN di kementerian atau lembaga. Lulusan Akpol jadi perwira Polri, dan lulusan Akmil jadi perwira TNI Angkatan Darat.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "Lulusan sekolah kedinasan umumnya jadi ASN di kementerian atau lembaga. Lulusan Akpol jadi perwira Polri, dan lulusan Akmil jadi perwira TNI Angkatan Darat."
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "KEDINASAN",
+    "item": [
+     "lewat SSCASN BKN",
+     "ikut SKD"
+    ]
+   },
+   "kanan": {
+    "judul": "AKPOL & AKMIL",
+    "item": [
+     "rekrutmen Polri & TNI",
+     "jalur sendiri"
+    ]
+   },
+   "maskot": "mikir",
+   "narasi": "Kedinasan daftar lewat SSCASN BKN dan ikut SKD. Akpol dan Akmil punya jalur rekrutmen sendiri dari Polri dan TNI.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Kedinasan daftar lewat SSCASN BKN dan ikut SKD. Akpol dan Akmil punya jalur rekrutmen sendiri dari Polri dan TNI."
+  },
+  {
+   "tipe": "foto",
+   "foto": "foto/akmil-akpol.jpg",
+   "kredit": "Sumber: @abdinegaraofficial",
+   "judul": "Akmil vs Akpol",
+   "maskot": "tegas",
+   "narasi": "Akmil di Magelang, Akpol di Semarang. Sama-sama empat tahun. Lulus Akmil jadi Letnan Dua, lulus Akpol jadi Inspektur Polisi Dua.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Akmil di Magelang, Akpol di Semarang. Sama-sama empat tahun. Lulus Akmil jadi Letnan Dua, lulus Akpol jadi Inspektur Polisi Dua."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "tes fisik"
+   ],
+   "hl": "lebih berat!",
+   "maskot": "kaget",
+   "narasi": "Tes fisik dan kesehatan Akpol dan Akmil biasanya jauh lebih berat.",
+   "ucapan": "Tes fisik dan kesehatan Akpol dan Akmil biasanya [serious] jauh lebih berat.",
+   "id": 5,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "chat",
+   "item": [
+    [
+     "kiri",
+     "Boleh daftar dua-duanya?"
+    ],
+    [
+     "kanan",
+     "Jadwal dan aturan tiap jalur beda. Cek pengumuman resminya dulu."
+    ]
+   ],
+   "wajah": "mikir",
+   "maskot": "senyum",
+   "narasi": "Boleh daftar dua-duanya? Jadwal dan aturan tiap jalur beda. Cek pengumuman resminya dulu.",
+   "ucapan": "[curious] Boleh daftar dua-duanya? Jadwal dan aturan tiap jalur beda. Cek pengumuman resminya dulu.",
+   "id": 6,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "seragamnya",
+    "pekerjaan"
+   ],
+   "maskot": "tegas",
+   "narasi": "Pilih bukan karena seragamnya, tapi karena pekerjaan yang mau kamu jalani.",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Pilih bukan karena seragamnya, tapi karena pekerjaan yang mau kamu jalani."
+  },
+  {
+   "tipe": "kuis",
+   "label": "TANYA KAMU",
+   "soal": "Kamu condong ke mana?",
+   "opsi": [
+    "kedinasan",
+    "Akpol",
+    "Akmil",
+    "masih bingung"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Kamu condong ke mana? Kedinasan, Akpol, Akmil, atau masih bingung? Tulis di kolom komentar!",
+   "ucapan": "[curious] Kamu condong ke mana? Kedinasan, Akpol, Akmil, atau masih bingung? [excited] Tulis di kolom komentar!",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: biaya kedinasan",
+   "label": "episode 25",
+   "baris": [
+    "kuliah gratis,",
+    "tapi nol rupiah?"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, biaya yang tetap keluar walau kuliahnya gratis. Follow ya!",
+   "ucapan": "Next, biaya yang tetap keluar walau kuliahnya gratis. [excited] Follow ya!",
+   "id": 9,
+   "durasi": 3.0
+  }
+ ]
+}

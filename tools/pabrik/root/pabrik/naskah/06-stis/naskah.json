@@ -1,0 +1,207 @@
+{
+ "judul": "Ep 6 — Polstat STIS",
+ "sampul": {
+  "ep": "EP 6",
+  "atas": [
+   "kuliah gratis,"
+  ],
+  "hl": "kerja di BPS",
+  "bawah": [
+   "kenalan sama",
+   "Polstat STIS"
+  ],
+  "stiker": "PROFIL",
+  "maskot": "senyum"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "KEDINASAN",
+   "teks": [
+    "kuliah gratis,"
+   ],
+   "hl": "kerja di BPS?",
+   "maskot": "kaget",
+   "narasi": "Kuliah gratis, lulus langsung kerja di BPS?",
+   "ucapan": "[curious] Kuliah gratis, lulus langsung kerja di BPS?",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "ilustrasi",
+   "ilus": "statistik",
+   "judul": "Polstat STIS",
+   "maskot": "senyum",
+   "narasi": "Kenalan sama Politeknik Statistika STIS.",
+   "ucapan": "Kenalan sama Politeknik Statistika Stis.",
+   "id": 2,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "card",
+   "label": "di bawah",
+   "ikon": "19-ikon-gedung-kampus",
+   "baris": [
+    "sekolah",
+    "kedinasan"
+   ],
+   "sub": [
+    "milik BPS"
+   ],
+   "maskot": "senyum",
+   "narasi": "Sekolah kedinasan di bawah Badan Pusat Statistik.",
+   "ucapan": "Sekolah kedinasan di bawah Badan Pusat Statistik.",
+   "id": 3,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "big",
+   "label": "program studi",
+   "angka": "3 prodi",
+   "sub": "pilih salah satu",
+   "maskot": "tegas",
+   "narasi": "Ada tiga program studi.",
+   "ucapan": "Ada tiga program studi.",
+   "id": 4,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "chips",
+   "judul": "pilihannya:",
+   "item": [
+    [
+     "D3 Statistika",
+     "3 tahun"
+    ],
+    [
+     "D4 Statistika",
+     "4 tahun"
+    ],
+    [
+     "D4 Komputasi",
+     "Komputasi Statistik"
+    ]
+   ],
+   "maskot": "senyum",
+   "narasi": "D3 Statistika, D4 Statistika, dan D4 Komputasi Statistik.",
+   "ucapan": "De tiga Statistika, De empat Statistika, dan De empat Komputasi Statistik.",
+   "id": 5,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "Statistika",
+    "item": [
+     "survei & sensus",
+     "analisis data"
+    ]
+   },
+   "kanan": {
+    "judul": "Komputasi",
+    "item": [
+     "pemrograman",
+     "sistem data"
+    ]
+   },
+   "maskot": "mikir",
+   "narasi": "Statistika fokus ke survei dan analisis data. Komputasi lebih ke pemrograman dan sistem data.",
+   "ucapan": "Statistika fokus ke survei dan analisis data. Komputasi lebih ke pemrograman dan sistem data.",
+   "id": 6,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "tags",
+   "judul": "kuliahnya:",
+   "item": [
+    "biaya ditanggung",
+    "tanpa uang saku"
+   ],
+   "maskot": "tegas",
+   "narasi": "Biaya kuliahnya ditanggung, tapi tanpa uang saku, ya.",
+   "ucapan": "Biaya kuliahnya ditanggung, tapi tanpa uang saku, ya.",
+   "id": 7,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "lulus, diangkat jadi"
+   ],
+   "hl": "CPNS di BPS",
+   "maskot": "kaget",
+   "narasi": "Lulus, kamu diangkat jadi CPNS di BPS.",
+   "ucapan": "Lulus, kamu diangkat jadi CPNS di BPS.",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "ilustrasi",
+   "ilus": "peta",
+   "judul": "penempatan",
+   "maskot": "mikir",
+   "narasi": "Penempatannya di BPS seluruh Indonesia.",
+   "ucapan": "Penempatannya di BPS seluruh Indonesia.",
+   "id": 9,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "big",
+   "label": "ikatan dinas",
+   "angka": "2n+1",
+   "sub": "2x masa kuliah + 1 tahun",
+   "maskot": "tegas",
+   "narasi": "Ikatan dinasnya dua n plus satu: dua kali masa kuliah, ditambah satu tahun.",
+   "ucapan": "Ikatan dinasnya dua en plus satu: dua kali masa kuliah, ditambah satu tahun.",
+   "id": 10,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "checks",
+   "label": "cocok buat kamu yang",
+   "item": [
+    "suka matematika",
+    "teliti sama data",
+    "siap ditempatkan jauh"
+   ],
+   "maskot": "senyum",
+   "narasi": "Cocok buat kamu yang suka matematika, teliti sama data, dan siap ditempatkan jauh dari rumah.",
+   "ucapan": "Cocok buat kamu yang suka matematika, teliti sama data, dan siap ditempatkan jauh dari rumah.",
+   "id": 11,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kuis",
+   "label": "CEK PAHAM",
+   "soal": "STIS ada di bawah instansi apa?",
+   "opsi": [
+    "Kemenkeu",
+    "BPS",
+    "BMKG",
+    "Kemendagri"
+   ],
+   "jawab": 1,
+   "kunci_kata": "jawabannya",
+   "maskot": "mikir",
+   "narasi": "Cek, STIS di bawah instansi apa? Kemenkeu, BPS, BMKG, atau Kemendagri? Jawabannya: B, BPS!",
+   "ucapan": "Cek, Stis di bawah instansi apa? Kemenkeu, BPS, BMKG, atau Kemendagri? ... Jawabannya: Be, BPS!",
+   "id": 12,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: isi TWK",
+   "label": "episode 7",
+   "baris": [
+    "apa aja yang",
+    "keluar di TWK"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, kita bongkar isi TWK. Follow biar nggak ketinggalan!",
+   "ucapan": "Next, kita bongkar isi TWK. [excited] Follow biar nggak ketinggalan!",
+   "id": 13,
+   "durasi": 3.0
+  }
+ ]
+}

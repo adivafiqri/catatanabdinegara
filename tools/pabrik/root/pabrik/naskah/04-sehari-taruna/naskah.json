@@ -1,0 +1,139 @@
+{
+ "judul": "Ep 4 — Sehari jadi taruna",
+ "adegan": [
+  {
+   "tipe": "hook",
+   "teks": [
+    "sehari jadi"
+   ],
+   "hl": "taruna?",
+   "maskot": "mikir",
+   "narasi": "Penasaran, sehari jadi taruna itu kayak apa?",
+   "ucapan": "[curious] Penasaran, sehari jadi taruna itu kayak apa?",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "jadwal",
+   "label": "pagi",
+   "item": [
+    [
+     "04.30",
+     "bangun & ibadah"
+    ],
+    [
+     "05.30",
+     "olahraga pagi"
+    ],
+    [
+     "06.30",
+     "apel pagi"
+    ],
+    [
+     "07.30",
+     "kuliah"
+    ]
+   ],
+   "maskot": "tegas",
+   "narasi": "Pagi dimulai subuh: bangun, ibadah, olahraga, lalu apel pagi sebelum kuliah.",
+   "ucapan": "Pagi dimulai subuh: bangun, ibadah, olahraga, lalu apel pagi sebelum kuliah.",
+   "id": 2,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "jadwal",
+   "label": "sore & malam",
+   "item": [
+    [
+     "15.30",
+     "latihan fisik"
+    ],
+    [
+     "19.00",
+     "wajib belajar"
+    ],
+    [
+     "22.00",
+     "apel malam"
+    ]
+   ],
+   "maskot": "senyum",
+   "narasi": "Sore latihan fisik, malam wajib belajar, lalu apel malam sebelum tidur.",
+   "ucapan": "Sore latihan fisik, malam wajib belajar, lalu apel malam sebelum tidur.",
+   "id": 3,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "card",
+   "label": "intinya",
+   "ikon": "20-ikon-jam",
+   "baris": [
+    "semua serba"
+   ],
+   "sub": [
+    "terjadwal"
+   ],
+   "maskot": "tegas",
+   "narasi": "Semua serba terjadwal, dari makan sampai tidur.",
+   "ucapan": "Semua serba terjadwal, dari makan sampai tidur.",
+   "id": 4,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "card",
+   "label": "catatan",
+   "ikon": "19-ikon-gedung-kampus",
+   "baris": [
+    "tiap sekolah beda"
+   ],
+   "sub": [
+    "ini gambaran umum"
+   ],
+   "maskot": "senyum",
+   "narasi": "Tiap sekolah beda, ini gambaran umumnya ya.",
+   "ucapan": "Tiap sekolah beda, ini gambaran umumnya ya.",
+   "id": 5,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "hook",
+   "teks": [
+    "berat? iya. tapi di situ"
+   ],
+   "hl": "karakter dibentuk",
+   "maskot": "tegas",
+   "narasi": "Berat? Iya. Tapi di situlah karakter kamu dibentuk.",
+   "ucapan": "[serious] Berat? Iya. Tapi di situlah karakter kamu dibentuk.",
+   "id": 6,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "kamu siap?",
+   "label": "giliran kamu",
+   "baris": [
+    "tulis jawabanmu",
+    "di komentar"
+   ],
+   "stiker": "SIAP!",
+   "maskot": "hormat",
+   "narasi": "Kamu siap jalani ini? Tulis di komentar!",
+   "ucapan": "[curious] Kamu siap jalani ini? [excited] Tulis di komentar!",
+   "id": 7,
+   "durasi": 3.0
+  }
+ ],
+ "sampul": {
+  "ep": "EP 4",
+  "atas": [
+   "sehari jadi"
+  ],
+  "hl": "TARUNA",
+  "bawah": [
+   "dari subuh",
+   "sampai apel malam"
+  ],
+  "stiker": "04.30!",
+  "maskot": "kaget"
+ }
+}

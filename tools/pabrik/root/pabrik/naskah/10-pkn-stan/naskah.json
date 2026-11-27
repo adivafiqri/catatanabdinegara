@@ -1,0 +1,181 @@
+{
+ "judul": "Ep 10 — PKN STAN",
+ "sampul": {
+  "ep": "EP 10",
+  "atas": [
+   "kuliah akuntansi,"
+  ],
+  "hl": "kerja di Kemenkeu",
+  "bawah": [
+   "kenalan sama",
+   "PKN STAN"
+  ],
+  "stiker": "PROFIL",
+  "maskot": "senyum"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "PROFIL",
+   "teks": [
+    "kuliah akuntansi,"
+   ],
+   "hl": "kerja di Kemenkeu?",
+   "maskot": "kaget",
+   "narasi": "Kuliah akuntansi, lulus kerja di Kemenkeu?",
+   "ucapan": "[curious] Kuliah akuntansi, lulus kerja di Kemenkeu?",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "ilustrasi",
+   "ilus": "stan",
+   "judul": "kenalan:",
+   "maskot": "senyum",
+   "narasi": "Kenalan sama PKN STAN, Politeknik Keuangan Negara.",
+   "ucapan": "Kenalan sama PKN Stan, Politeknik Keuangan Negara.",
+   "id": 2,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "card",
+   "label": "milik",
+   "ikon": "19-ikon-gedung-kampus",
+   "baris": [
+    "Kementerian",
+    "Keuangan"
+   ],
+   "sub": [
+    "kampus di Tangerang Selatan"
+   ],
+   "maskot": "senyum",
+   "narasi": "Sekolah kedinasan milik Kementerian Keuangan, kampusnya di Tangerang Selatan.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Sekolah kedinasan milik Kementerian Keuangan, kampusnya di Tangerang Selatan."
+  },
+  {
+   "tipe": "big",
+   "label": "kursi seleksi 2026",
+   "angka": "1.000 kursi",
+   "sub": "untuk 4 program studi",
+   "maskot": "kaget",
+   "narasi": "Di seleksi 2026, ada seribu kursi untuk empat program studi.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Di seleksi 2026, ada seribu kursi untuk empat program studi."
+  },
+  {
+   "tipe": "chips",
+   "judul": "prodinya:",
+   "item": [
+    [
+     "D4 Akuntansi Sektor Publik",
+     "sarjana terapan"
+    ],
+    [
+     "D4 Manajemen Keuangan Negara",
+     "sarjana terapan"
+    ],
+    [
+     "D4 Manajemen Aset Publik",
+     "sarjana terapan"
+    ]
+   ],
+   "maskot": "tegas",
+   "narasi": "D4 Akuntansi Sektor Publik, D4 Manajemen Keuangan Negara, D4 Manajemen Aset Publik,",
+   "ucapan": "De empat Akuntansi Sektor Publik, De empat Manajemen Keuangan Negara, De empat Manajemen Aset Publik,",
+   "id": 5,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "dan satu lagi"
+   ],
+   "hl": "D3 Akuntansi",
+   "maskot": "tegas",
+   "narasi": "dan D3 Akuntansi.",
+   "ucapan": "dan De tiga Akuntansi.",
+   "id": 6,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "tags",
+   "judul": "jalur masuk:",
+   "item": [
+    "reguler",
+    "afirmasi kewilayahan",
+    "pembibitan"
+   ],
+   "maskot": "mikir",
+   "narasi": "Jalurnya ada tiga: reguler, afirmasi kewilayahan, dan pembibitan.",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Jalurnya ada tiga: reguler, afirmasi kewilayahan, dan pembibitan."
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "BOLEH",
+    "item": [
+     "pilih 1 prodi"
+    ]
+   },
+   "kanan": {
+    "judul": "NGGAK BOLEH",
+    "item": [
+     "pilih 2 prodi"
+    ]
+   },
+   "maskot": "tegas",
+   "narasi": "Ingat, setiap pendaftar cuma boleh pilih satu program studi.",
+   "id": 8,
+   "durasi": 3.0,
+   "ucapan": "Ingat, setiap pendaftar cuma boleh pilih satu program studi."
+  },
+  {
+   "tipe": "ilustrasi",
+   "ilus": "peta",
+   "judul": "lulusannya",
+   "maskot": "senyum",
+   "narasi": "Lulusannya mengisi formasi di Kemenkeu, kementerian lain, atau pemerintah daerah.",
+   "id": 9,
+   "durasi": 3.0,
+   "ucapan": "Lulusannya mengisi formasi di Kemenkeu, kementerian lain, atau pemerintah daerah."
+  },
+  {
+   "tipe": "kuis",
+   "label": "CEK PAHAM",
+   "soal": "PKN STAN milik kementerian apa?",
+   "opsi": [
+    "Kemendagri",
+    "Kemenkeu",
+    "Kemenhub",
+    "BPS"
+   ],
+   "jawab": 1,
+   "kunci_kata": "jawabannya",
+   "maskot": "mikir",
+   "narasi": "Cek: PKN STAN milik siapa? Kemendagri, Kemenkeu, Kemenhub, atau BPS? Jawabannya: B, Kemenkeu!",
+   "ucapan": "Cek: [curious] PKN Stan milik siapa? Kemendagri, Kemenkeu, Kemenhub, atau BPS? ... Jawabannya: Be, Kemenkeu!",
+   "id": 10,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: syarat daftar",
+   "label": "episode 11",
+   "baris": [
+    "syarat umum",
+    "daftar kedinasan"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, syarat umum daftar kedinasan. Follow ya!",
+   "ucapan": "Next, syarat umum daftar kedinasan. [excited] Follow ya!",
+   "id": 11,
+   "durasi": 3.0
+  }
+ ]
+}

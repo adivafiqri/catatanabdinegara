@@ -1,0 +1,148 @@
+{
+ "judul": "Ep 16 — IPDN",
+ "sampul": {
+  "ep": "EP 16",
+  "atas": [
+   "calon pamong praja"
+  ],
+  "hl": "kenalan IPDN",
+  "bawah": [
+   "formasi terbanyak",
+   "di seleksi 2026"
+  ],
+  "stiker": "PROFIL",
+  "maskot": "senyum"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "PROFIL",
+   "teks": [
+    "mau jadi aparatur pemerintahan?"
+   ],
+   "hl": "kenalan IPDN",
+   "maskot": "kaget",
+   "narasi": "Mau jadi aparatur pemerintahan? Kenalan sama IPDN.",
+   "ucapan": "[curious] Mau jadi aparatur pemerintahan? Kenalan sama IPDN.",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "ilustrasi",
+   "ilus": "pemerintahan",
+   "judul": "IPDN",
+   "maskot": "senyum",
+   "narasi": "IPDN itu Institut Pemerintahan Dalam Negeri.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "IPDN itu Institut Pemerintahan Dalam Negeri."
+  },
+  {
+   "tipe": "card",
+   "label": "milik",
+   "ikon": "19-ikon-gedung-kampus",
+   "baris": [
+    "Kementerian",
+    "Dalam Negeri"
+   ],
+   "sub": [
+    "Kemendagri"
+   ],
+   "maskot": "senyum",
+   "narasi": "Sekolah kedinasan milik Kementerian Dalam Negeri.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Sekolah kedinasan milik Kementerian Dalam Negeri."
+  },
+  {
+   "tipe": "big",
+   "label": "formasi seleksi 2026",
+   "angka": "1.410 kursi",
+   "sub": "terbanyak di antara sekolah kedinasan",
+   "maskot": "kaget",
+   "narasi": "Di seleksi 2026, formasinya seribu empat ratus sepuluh, terbanyak dibanding sekolah lain.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Di seleksi 2026, formasinya seribu empat ratus sepuluh, terbanyak dibanding sekolah lain."
+  },
+  {
+   "tipe": "foto",
+   "foto": "foto/ipdn-antara.jpg",
+   "kredit": "Foto: ANTARA",
+   "judul": "disebut praja",
+   "maskot": "tegas",
+   "narasi": "Mahasiswanya disebut praja, dan tinggal di asrama dengan aturan ketat.",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Mahasiswanya disebut praja, dan tinggal di asrama dengan aturan ketat."
+  },
+  {
+   "tipe": "ilustrasi",
+   "ilus": "peta",
+   "judul": "lulusannya",
+   "maskot": "senyum",
+   "narasi": "Lulusannya disiapkan mengisi formasi di pemerintah daerah dan pusat.",
+   "id": 6,
+   "durasi": 3.0,
+   "ucapan": "Lulusannya disiapkan mengisi formasi di pemerintah daerah dan pusat."
+  },
+  {
+   "tipe": "checks",
+   "label": "cocok buat kamu yang",
+   "item": [
+    "suka organisasi",
+    "siap hidup berasrama",
+    "mau melayani masyarakat"
+   ],
+   "maskot": "senyum",
+   "narasi": "Cocok buat kamu yang suka organisasi, siap hidup berasrama, dan mau melayani masyarakat.",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Cocok buat kamu yang suka organisasi, siap hidup berasrama, dan mau melayani masyarakat."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "formasinya banyak,"
+   ],
+   "hl": "peminatnya juga!",
+   "maskot": "tegas",
+   "narasi": "Tapi ingat, formasinya banyak, peminatnya juga banyak. Siapkan SKD dari sekarang.",
+   "ucapan": "Tapi ingat, formasinya banyak, [serious] peminatnya juga banyak. Siapkan SKD dari sekarang.",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kuis",
+   "label": "CEK PAHAM",
+   "soal": "Mahasiswa IPDN disebut?",
+   "opsi": [
+    "taruna",
+    "praja",
+    "kadet",
+    "santri"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Cek: mahasiswa IPDN disebut apa? Taruna, praja, kadet, atau santri? Tulis jawabanmu di kolom komentar!",
+   "ucapan": "Cek: [curious] mahasiswa IPDN disebut apa? Taruna, praja, kadet, atau santri? [excited] Tulis jawabanmu di kolom komentar!",
+   "id": 9,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: Poltek SSN",
+   "label": "episode 17",
+   "baris": [
+    "sekolah siber",
+    "dan sandi negara"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, sekolah kedinasan buat anak IT. Follow ya!",
+   "ucapan": "Next, sekolah kedinasan buat anak IT. [excited] Follow ya!",
+   "id": 10,
+   "durasi": 3.0
+  }
+ ]
+}

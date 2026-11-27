@@ -1,0 +1,153 @@
+{
+ "judul": "Ep 9 — Kedinasan vs kuliah biasa",
+ "sampul": {
+  "ep": "EP 9",
+  "atas": [
+   "kedinasan atau"
+  ],
+  "hl": "kuliah biasa?",
+  "bawah": [
+   "untung-ruginya",
+   "biar nggak salah pilih"
+  ],
+  "stiker": "PILIH MANA?",
+  "maskot": "mikir"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "PILIH MANA?",
+   "teks": [
+    "kedinasan atau"
+   ],
+   "hl": "kuliah biasa?",
+   "maskot": "mikir",
+   "narasi": "Kedinasan atau kuliah biasa? Ini untung ruginya.",
+   "ucapan": "[curious] Kedinasan atau kuliah biasa? Ini untung ruginya.",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "KEDINASAN",
+    "item": [
+     "biaya ditanggung negara"
+    ]
+   },
+   "kanan": {
+    "judul": "KULIAH BIASA",
+    "item": [
+     "bayar UKT"
+    ]
+   },
+   "maskot": "tegas",
+   "narasi": "Soal biaya, kedinasan ditanggung negara, kuliah biasa bayar UKT.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "Soal biaya, kedinasan ditanggung negara, kuliah biasa bayar UKT."
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "KEDINASAN",
+    "item": [
+     "ikatan dinas"
+    ]
+   },
+   "kanan": {
+    "judul": "KULIAH BIASA",
+    "item": [
+     "cari kerja sendiri"
+    ]
+   },
+   "maskot": "senyum",
+   "narasi": "Soal kerja, lulusan kedinasan menjalani ikatan dinas, kuliah biasa cari kerja sendiri.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Soal kerja, lulusan kedinasan menjalani ikatan dinas, kuliah biasa cari kerja sendiri."
+  },
+  {
+   "tipe": "tags",
+   "judul": "tapi jurusannya:",
+   "item": [
+    "kedinasan: terbatas",
+    "kampus biasa: banyak"
+   ],
+   "maskot": "mikir",
+   "narasi": "Tapi pilihan jurusan di kedinasan terbatas, di kampus biasa jauh lebih banyak.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Tapi pilihan jurusan di kedinasan terbatas, di kampus biasa jauh lebih banyak."
+  },
+  {
+   "tipe": "ilustrasi",
+   "ilus": "peta",
+   "judul": "penempatan",
+   "maskot": "tegas",
+   "narasi": "Penempatan kerja juga ditentukan instansi, sementara lulusan kampus biasa bebas memilih.",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Penempatan kerja juga ditentukan instansi, sementara lulusan kampus biasa bebas memilih."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "banyak yang"
+   ],
+   "hl": "berasrama!",
+   "maskot": "kaget",
+   "narasi": "Dan banyak sekolah kedinasan berasrama, dengan aturan yang ketat.",
+   "id": 6,
+   "durasi": 3.0,
+   "ucapan": "Dan banyak sekolah kedinasan berasrama, dengan aturan yang ketat."
+  },
+  {
+   "tipe": "checks",
+   "label": "pilih kedinasan kalau",
+   "item": [
+    "siap ikatan dinas",
+    "siap ditempatkan di mana saja",
+    "suka hidup disiplin"
+   ],
+   "maskot": "senyum",
+   "narasi": "Pilih kedinasan kalau kamu siap ikatan dinas, siap ditempatkan di mana saja, dan suka hidup disiplin.",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Pilih kedinasan kalau kamu siap ikatan dinas, siap ditempatkan di mana saja, dan suka hidup disiplin."
+  },
+  {
+   "tipe": "kuis",
+   "label": "CEK PAHAM",
+   "soal": "Mana yang BUKAN ciri kedinasan?",
+   "opsi": [
+    "biaya ditanggung",
+    "ada ikatan dinas",
+    "bebas pilih tempat kerja",
+    "seleksi lewat SKD"
+   ],
+   "jawab": 2,
+   "kunci_kata": "jawabannya",
+   "maskot": "mikir",
+   "narasi": "Cek: mana yang bukan ciri kedinasan? Biaya ditanggung, ada ikatan dinas, bebas pilih tempat kerja, atau seleksi lewat SKD? Jawabannya: C!",
+   "ucapan": "Cek: [curious] mana yang bukan ciri kedinasan? Biaya ditanggung, ada ikatan dinas, bebas pilih tempat kerja, atau seleksi lewat SKD? ... Jawabannya: Ce!",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: PKN STAN",
+   "label": "episode 10",
+   "baris": [
+    "sekolah calon",
+    "pegawai Kemenkeu"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, kita bedah PKN STAN. Follow ya!",
+   "ucapan": "Next, kita bedah PKN Stan. [excited] Follow ya!",
+   "id": 9,
+   "durasi": 3.0
+  }
+ ]
+}

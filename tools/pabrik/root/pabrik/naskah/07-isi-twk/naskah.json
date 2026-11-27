@@ -1,0 +1,166 @@
+{
+ "judul": "Ep 7 — Isi TWK",
+ "sampul": {
+  "ep": "EP 7",
+  "atas": [
+   "TWK itu"
+  ],
+  "hl": "isinya apa aja?",
+  "bawah": [
+   "bedah materi",
+   "Tes Wawasan Kebangsaan"
+  ],
+  "stiker": "SKD",
+  "maskot": "mikir"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "SKD",
+   "teks": [
+    "TWK itu"
+   ],
+   "hl": "isinya apa aja?",
+   "maskot": "mikir",
+   "narasi": "TWK itu isinya apa aja, sih?",
+   "ucapan": "[curious] TWK itu isinya apa aja, sih?",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "card",
+   "label": "TWK",
+   "ikon": "18-ikon-bendera",
+   "baris": [
+    "Tes Wawasan",
+    "Kebangsaan"
+   ],
+   "sub": [
+    "bagian pertama SKD"
+   ],
+   "maskot": "senyum",
+   "narasi": "TWK itu Tes Wawasan Kebangsaan, bagian pertama dari SKD.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "TWK itu Tes Wawasan Kebangsaan, bagian pertama dari SKD."
+  },
+  {
+   "tipe": "big",
+   "label": "jumlah soal",
+   "angka": "30 soal",
+   "sub": "dari total 110 soal SKD",
+   "maskot": "tegas",
+   "narasi": "Jumlahnya tiga puluh soal, dari total seratus sepuluh soal SKD.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Jumlahnya tiga puluh soal, dari total seratus sepuluh soal SKD."
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "BENAR",
+    "item": [
+     "nilai 5"
+    ]
+   },
+   "kanan": {
+    "judul": "SALAH/KOSONG",
+    "item": [
+     "nilai 0"
+    ]
+   },
+   "maskot": "tegas",
+   "narasi": "Jawaban benar dapat lima, salah atau kosong dapat nol.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Jawaban benar dapat lima, salah atau kosong dapat nol."
+  },
+  {
+   "tipe": "tags",
+   "judul": "materinya:",
+   "item": [
+    "nasionalisme",
+    "integritas",
+    "bela negara"
+   ],
+   "maskot": "senyum",
+   "narasi": "Materinya ada lima. Nasionalisme, integritas, bela negara,",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Materinya ada lima. Nasionalisme, integritas, bela negara,"
+  },
+  {
+   "tipe": "tags",
+   "judul": "lalu:",
+   "item": [
+    "pilar negara",
+    "bahasa negara"
+   ],
+   "maskot": "senyum",
+   "narasi": "pilar negara, dan bahasa negara.",
+   "id": 6,
+   "durasi": 3.0,
+   "ucapan": "pilar negara, dan bahasa negara."
+  },
+  {
+   "tipe": "checks",
+   "label": "4 pilar negara",
+   "item": [
+    "Pancasila",
+    "UUD 1945",
+    "NKRI",
+    "Bhinneka Tunggal Ika"
+   ],
+   "maskot": "tegas",
+   "narasi": "Pilar negara itu Pancasila, UUD 1945, NKRI, dan Bhinneka Tunggal Ika.",
+   "ucapan": "Pilar negara itu Pancasila, Undang-Undang Dasar empat lima, NKRI, dan Bhinneka Tunggal Ika.",
+   "id": 7,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "jangan cuma"
+   ],
+   "hl": "hafalan!",
+   "maskot": "kaget",
+   "narasi": "Tapi jangan cuma hafalan. Banyak soal berupa kasus, jadi pahami maknanya.",
+   "id": 8,
+   "durasi": 3.0,
+   "ucapan": "Tapi jangan cuma hafalan. Banyak soal berupa kasus, jadi pahami maknanya."
+  },
+  {
+   "tipe": "kuis",
+   "label": "LATIHAN TWK",
+   "soal": "Sila keempat Pancasila dilambangkan dengan?",
+   "opsi": [
+    "bintang",
+    "rantai",
+    "kepala banteng",
+    "pohon beringin"
+   ],
+   "jawab": 2,
+   "kunci_kata": "jawabannya",
+   "maskot": "mikir",
+   "narasi": "Coba jawab: sila keempat dilambangkan dengan apa? Bintang, rantai, kepala banteng, atau pohon beringin? Jawabannya: C, kepala banteng!",
+   "ucapan": "Coba jawab: [curious] sila keempat dilambangkan dengan apa? Bintang, rantai, kepala banteng, atau pohon beringin? ... Jawabannya: Ce, kepala banteng!",
+   "id": 9,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: masuk asrama",
+   "label": "episode 8",
+   "baris": [
+    "hari pertama",
+    "jadi taruna"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, cerita hari pertama masuk asrama. Follow ya!",
+   "ucapan": "Next, cerita hari pertama masuk asrama. [excited] Follow ya!",
+   "id": 10,
+   "durasi": 3.0
+  }
+ ]
+}

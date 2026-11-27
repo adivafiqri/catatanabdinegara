@@ -1,0 +1,159 @@
+{
+ "judul": "Ep 32 — Latihan TIU: deret angka",
+ "sampul": {
+  "ep": "EP 32",
+  "atas": [
+   "latihan TIU"
+  ],
+  "hl": "deret angka",
+  "bawah": [
+   "3 soal +",
+   "trik cari pola"
+  ],
+  "stiker": "LATIHAN!",
+  "maskot": "mikir"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "LATIHAN!",
+   "teks": [
+    "deret angka"
+   ],
+   "hl": "cari polanya!",
+   "maskot": "kaget",
+   "narasi": "Soal deret angka? Tenang, cari polanya!",
+   "ucapan": "[curious] Soal deret angka? [excited] Tenang, cari polanya!",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "steps",
+   "judul": "urutan cek pola",
+   "item": [
+    "cek selisih",
+    "cek kali atau bagi",
+    "cek kuadrat",
+    "cek pola lompat"
+   ],
+   "maskot": "tegas",
+   "narasi": "Urutan ceknya: cek selisih, cek kali atau bagi, cek kuadrat, lalu cek pola lompat.",
+   "ucapan": "Urutan ceknya: cek selisih, cek kali atau bagi, cek kuadrat, lalu cek pola lompat.",
+   "id": 2,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kuis",
+   "label": "LATIHAN TIU",
+   "soal": "2, 5, 11, 23, ... angka berikutnya?",
+   "opsi": [
+    "46",
+    "47",
+    "45",
+    "35"
+   ],
+   "jawab": 1,
+   "kunci_kata": "jawabannya",
+   "maskot": "mikir",
+   "narasi": "Coba: dua, lima, sebelas, dua puluh tiga, berikutnya? Empat puluh enam, empat puluh tujuh, empat puluh lima, atau tiga puluh lima? Jawabannya: B, empat puluh tujuh.",
+   "ucapan": "Coba: [curious] dua, lima, sebelas, dua puluh tiga, berikutnya? Empat puluh enam, empat puluh tujuh, empat puluh lima, atau tiga puluh lima? ... Jawabannya: Be, empat puluh tujuh.",
+   "id": 3,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "dikali",
+    "ditambah"
+   ],
+   "maskot": "senyum",
+   "narasi": "Polanya dikali dua lalu ditambah satu. Dua puluh tiga kali dua, tambah satu, jadi empat puluh tujuh.",
+   "ucapan": "Polanya dikali dua lalu ditambah satu. Dua puluh tiga kali dua, tambah satu, jadi empat puluh tujuh.",
+   "id": 4,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kuis",
+   "label": "LATIHAN TIU",
+   "soal": "3, 4, 7, 11, 18, ... angka berikutnya?",
+   "opsi": [
+    "25",
+    "27",
+    "29",
+    "32"
+   ],
+   "jawab": 2,
+   "kunci_kata": "jawabannya",
+   "maskot": "mikir",
+   "narasi": "Soal kedua: tiga, empat, tujuh, sebelas, delapan belas, berikutnya? Dua puluh lima, dua puluh tujuh, dua puluh sembilan, atau tiga puluh dua? Jawabannya: C, dua puluh sembilan.",
+   "ucapan": "Soal kedua: [curious] tiga, empat, tujuh, sebelas, delapan belas, berikutnya? Dua puluh lima, dua puluh tujuh, dua puluh sembilan, atau tiga puluh dua? ... Jawabannya: Ce, dua puluh sembilan.",
+   "id": 5,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "BUKAN",
+    "item": [
+     "selisih tetap"
+    ]
+   },
+   "kanan": {
+    "judul": "TAPI",
+    "item": [
+     "jumlah 2 angka sebelumnya",
+     "11 + 18 = 29"
+    ]
+   },
+   "maskot": "mikir",
+   "narasi": "Selisihnya nggak tetap. Ternyata tiap angka adalah jumlah dua angka sebelumnya. Sebelas tambah delapan belas, dua puluh sembilan.",
+   "ucapan": "Selisihnya nggak tetap. Ternyata tiap angka adalah jumlah dua angka sebelumnya. Sebelas tambah delapan belas, dua puluh sembilan.",
+   "id": 6,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "kalau buntu"
+   ],
+   "hl": "lewati dulu",
+   "maskot": "tegas",
+   "narasi": "Kalau buntu lebih dari satu menit, lewati dulu, balik lagi nanti.",
+   "ucapan": "[serious] Kalau buntu lebih dari satu menit, lewati dulu, balik lagi nanti.",
+   "id": 7,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kuis",
+   "label": "GILIRAN KAMU",
+   "soal": "2, 6, 12, 20, 30, ... angka berikutnya?",
+   "opsi": [
+    "40",
+    "42",
+    "36",
+    "44"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Soal terakhir, giliran kamu. Dua, enam, dua belas, dua puluh, tiga puluh, berikutnya? Empat puluh, empat puluh dua, tiga puluh enam, atau empat puluh empat? Tulis jawabanmu di kolom komentar!",
+   "ucapan": "Soal terakhir, giliran kamu. [curious] Dua, enam, dua belas, dua puluh, tiga puluh, berikutnya? Empat puluh, empat puluh dua, tiga puluh enam, atau empat puluh empat? [excited] Tulis jawabanmu di kolom komentar!",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: latihan TKP",
+   "label": "episode 33",
+   "baris": [
+    "latihan TKP",
+    "pelayanan publik"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, latihan TKP soal pelayanan publik. Follow ya!",
+   "ucapan": "Next, latihan TKP soal pelayanan publik. [excited] Follow ya!",
+   "id": 9,
+   "durasi": 3.0
+  }
+ ]
+}

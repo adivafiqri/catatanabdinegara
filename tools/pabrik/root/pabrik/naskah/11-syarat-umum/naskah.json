@@ -1,0 +1,166 @@
+{
+ "judul": "Ep 11 — Syarat umum daftar kedinasan",
+ "sampul": {
+  "ep": "EP 11",
+  "atas": [
+   "cek dulu"
+  ],
+  "hl": "syarat umumnya",
+  "bawah": [
+   "sebelum daftar",
+   "sekolah kedinasan"
+  ],
+  "stiker": "WAJIB CEK",
+  "maskot": "tegas"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "WAJIB CEK",
+   "teks": [
+    "mau daftar kedinasan?"
+   ],
+   "hl": "cek syaratnya!",
+   "maskot": "tegas",
+   "narasi": "Mau daftar kedinasan? Cek dulu syaratnya, biar nggak gugur di awal.",
+   "ucapan": "Mau daftar kedinasan? [serious] Cek dulu syaratnya, biar nggak gugur di awal.",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "card",
+   "label": "syarat #1",
+   "ikon": "18-ikon-bendera",
+   "baris": [
+    "Warga Negara",
+    "Indonesia"
+   ],
+   "sub": [
+    "dibuktikan KTP atau KK"
+   ],
+   "maskot": "senyum",
+   "narasi": "Pertama, warga negara Indonesia.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "Pertama, warga negara Indonesia."
+  },
+  {
+   "tipe": "card",
+   "label": "syarat #2",
+   "ikon": "16-ikon-kalender",
+   "baris": [
+    "batas usia"
+   ],
+   "sub": [
+    "tiap sekolah beda"
+   ],
+   "maskot": "mikir",
+   "narasi": "Kedua, batas usia. Biasanya belasan sampai awal dua puluhan, tapi tiap sekolah beda.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Kedua, batas usia. Biasanya belasan sampai awal dua puluhan, tapi tiap sekolah beda."
+  },
+  {
+   "tipe": "card",
+   "label": "syarat #3",
+   "ikon": "21-ikon-dokumen-syarat",
+   "baris": [
+    "nilai ijazah",
+    "minimal"
+   ],
+   "sub": [
+    "umumnya sekitar 70"
+   ],
+   "maskot": "tegas",
+   "narasi": "Ketiga, nilai rata-rata ijazah, umumnya minimal sekitar tujuh puluh. Beberapa sekolah juga minta nilai mata pelajaran tertentu.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Ketiga, nilai rata-rata ijazah, umumnya minimal sekitar tujuh puluh. Beberapa sekolah juga minta nilai mata pelajaran tertentu."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "belum menikah &"
+   ],
+   "hl": "tidak menikah",
+   "maskot": "kaget",
+   "narasi": "Keempat, belum pernah menikah, dan bersedia tidak menikah selama pendidikan.",
+   "ucapan": "Keempat, [serious] belum pernah menikah, dan bersedia tidak menikah selama pendidikan.",
+   "id": 5,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "checks",
+   "label": "syarat #5: sehat",
+   "item": [
+    "sehat jasmani & rohani",
+    "bebas narkoba",
+    "tidak buta warna (sebagian)"
+   ],
+   "maskot": "tegas",
+   "narasi": "Kelima, sehat jasmani dan rohani, bebas narkoba, dan untuk sebagian sekolah, tidak buta warna.",
+   "id": 6,
+   "durasi": 3.0,
+   "ucapan": "Kelima, sehat jasmani dan rohani, bebas narkoba, dan untuk sebagian sekolah, tidak buta warna."
+  },
+  {
+   "tipe": "tags",
+   "judul": "sekolah tertentu:",
+   "item": [
+    "tinggi badan",
+    "tanpa tato & tindik",
+    "nilai Matematika/Inggris"
+   ],
+   "maskot": "mikir",
+   "narasi": "Ada juga syarat khusus di sekolah tertentu, seperti tinggi badan, tanpa tato dan tindik, atau nilai Matematika dan Bahasa Inggris.",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Ada juga syarat khusus di sekolah tertentu, seperti tinggi badan, tanpa tato dan tindik, atau nilai Matematika dan Bahasa Inggris."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "selalu cek"
+   ],
+   "hl": "pengumuman resmi!",
+   "maskot": "tegas",
+   "narasi": "Angka pastinya selalu cek di pengumuman resmi sekolah tujuan dan SSCASN, karena bisa berubah tiap tahun.",
+   "ucapan": "Angka pastinya selalu cek di pengumuman resmi sekolah tujuan dan SSCASN, karena bisa berubah tiap tahun.",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kuis",
+   "label": "CEK PAHAM",
+   "soal": "Mana yang BUKAN syarat umum?",
+   "opsi": [
+    "WNI",
+    "belum menikah",
+    "punya kendaraan",
+    "sehat jasmani"
+   ],
+   "jawab": 2,
+   "kunci_kata": "jawabannya",
+   "maskot": "mikir",
+   "narasi": "Cek: mana yang bukan syarat umum? WNI, belum menikah, punya kendaraan, atau sehat jasmani? Jawabannya: C!",
+   "ucapan": "Cek: [curious] mana yang bukan syarat umum? WNI, belum menikah, punya kendaraan, atau sehat jasmani? ... Jawabannya: Ce!",
+   "id": 9,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: kenalan TIU",
+   "label": "episode 12",
+   "baris": [
+    "verbal, numerik,",
+    "figural"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, kenalan sama soal TIU. Follow ya!",
+   "ucapan": "Next, kenalan sama soal TIU. [excited] Follow ya!",
+   "id": 10,
+   "durasi": 3.0
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+  "kantor": {
+    "video_selesai": 33,
+    "episode_berikut": "Ep33",
+    "catatan": "Tim AI pembuat konten sekolah kedinasan, dari topik sampai siap upload."
+  },
+  "agen": {
+    "boss":  {"status": "kerja",   "tugas": "Setujui naskah dan keputusan upload", "bubble": "Cek kerjaan tim", "hasil": "Menyetujui naskah Ep23–27 dan gambar Akmil–Akpol", "update": "2026-11-26T21:00:00+07:00"},
+    "rena":  {"status": "selesai", "tugas": "Rencana harian", "bubble": "Ep33–37 di run berikutnya", "hasil": "Ep0–32 sudah jadi", "update": "2026-11-26T22:40:00+07:00"},
+    "nasa":  {"status": "selesai", "tugas": "Naskah Ep28–32", "bubble": "Naskah Ep28–32 beres", "hasil": "Dokumen Naskah Ep28–32, sudah disetujui", "update": "2026-11-26T22:40:00+07:00"},
+    "suara": {"status": "selesai", "tugas": "Suara Ep28–32", "bubble": "Antrian suara kosong", "hasil": "5 narasi ElevenLabs, sekitar 4.600 karakter", "update": "2026-11-26T22:40:00+07:00"},
+    "edo":   {"status": "selesai", "tugas": "Render Ep28–32", "bubble": "5 video di siap-upload", "hasil": "Ep28–32 + sampul + caption di Movies/siap-upload", "update": "2026-11-26T22:40:00+07:00"},
+    "qiqi":  {"status": "selesai", "tugas": "Cek sinkron Ep28–32", "bubble": "Teks & suara sinkron", "hasil": "Ilustrasi Ep31 diganti ke peta penempatan (bukan pemda)", "update": "2026-11-26T22:40:00+07:00"},
+    "desi":  {"status": "selesai", "tugas": "Feed IG tryout 7 Des", "bubble": "Carousel tryout siap!", "hasil": "4 slide 1080×1350 + caption di siap-upload", "update": "2026-11-26T18:07:00+07:00"},
+    "sosi":  {"status": "blokir",  "tugas": "Upload ke Instagram", "bubble": "Butuh koneksi IG dulu", "hasil": "Caption Ep28–32 siap; upload masih manual", "update": "2026-11-26T22:40:00+07:00"}
+  },
+  "notif": [
+    {"dari": "nasa",  "teks": "menyelesaikan naskah Ep23–27 untuk direview", "waktu": "2026-11-26T16:20:00+07:00", "dibaca": true},
+    {"dari": "suara", "teks": "selesai merekam 5 narasi Ep23–27", "waktu": "2026-11-26T16:29:00+07:00", "dibaca": true},
+    {"dari": "qiqi",  "teks": "memperbaiki sorotan kata dan kredit foto Ep24", "waktu": "2026-11-26T16:36:00+07:00", "dibaca": true},
+    {"dari": "edo",   "teks": "mengirim Ep23–27 ke siap-upload", "waktu": "2026-11-26T16:38:00+07:00", "dibaca": false},
+    {"dari": "desi",  "teks": "menyelesaikan carousel tryout 7 Desember", "waktu": "2026-11-26T18:07:00+07:00", "dibaca": false},
+    {"dari": "sosi",  "teks": "menunggu koneksi Instagram untuk bisa upload", "waktu": "2026-11-26T20:52:00+07:00", "dibaca": false},
+    {"dari": "rena",  "teks": "menunggu perintah: lanjut Ep28–32?", "waktu": "2026-11-26T20:53:00+07:00", "dibaca": false},
+    {"dari": "nasa",  "teks": "menyelesaikan naskah Ep28–32 untuk direview", "waktu": "2026-11-26T22:10:00+07:00", "dibaca": false},
+    {"dari": "suara", "teks": "selesai merekam 5 narasi Ep28–32", "waktu": "2026-11-26T22:40:00+07:00", "dibaca": false},
+    {"dari": "qiqi",  "teks": "mengganti ilustrasi Ep31 jadi peta penempatan", "waktu": "2026-11-26T22:40:00+07:00", "dibaca": false},
+    {"dari": "edo",   "teks": "mengirim Ep28–32 ke siap-upload", "waktu": "2026-11-26T22:40:00+07:00", "dibaca": false}
+  ]
+}
