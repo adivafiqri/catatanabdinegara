@@ -5,9 +5,9 @@
     "catatan": "Tim AI pembuat konten sekolah kedinasan, dari topik sampai siap upload."
   },
   "agen": {
-    "boss":  {"status": "kerja",   "tugas": "Setujui naskah dan keputusan upload", "bubble": "Cek kerjaan tim", "hasil": "Menyetujui naskah Ep23–27 dan gambar Akmil–Akpol", "update": "2026-11-26T21:00:00+07:00"},
-    "rena":  {"status": "selesai", "tugas": "Rencana harian", "bubble": "Ep33–37 di run berikutnya", "hasil": "Ep0–32 sudah jadi", "update": "2026-11-26T22:40:00+07:00"},
-    "nasa":  {"status": "selesai", "tugas": "Naskah Ep28–32", "bubble": "Naskah Ep28–32 beres", "hasil": "Dokumen Naskah Ep28–32, sudah disetujui", "update": "2026-11-26T22:40:00+07:00"},
+    "boss":  {"status": "kerja", "tugas": "Setujui naskah dan keputusan upload", "bubble": "Cek naskah Ep33–38", "hasil": "Menyetujui naskah Ep23–27 dan gambar Akmil–Akpol", "update": "2026-11-28T18:37:00+07:00"},
+    "rena":  {"status": "tunggu", "tugas": "Rencana harian", "bubble": "Menunggu Boss cek naskah Ep33–38", "hasil": "6 naskah berstatus Naskah di sheet", "update": "2026-11-28T18:37:00+07:00"},
+    "nasa":  {"status": "selesai", "tugas": "Naskah Ep33–38", "bubble": "Naskah Ep33–38 beres", "hasil": "Dokumen Naskah Ep33–38, menunggu cek Boss", "update": "2026-11-28T18:37:00+07:00"},
     "suara": {"status": "selesai", "tugas": "Suara Ep28–32", "bubble": "Antrian suara kosong", "hasil": "5 narasi ElevenLabs, sekitar 4.600 karakter", "update": "2026-11-26T22:40:00+07:00"},
     "edo":   {"status": "selesai", "tugas": "Render Ep28–32", "bubble": "5 video di siap-upload", "hasil": "Ep28–32 + sampul + caption di Movies/siap-upload", "update": "2026-11-26T22:40:00+07:00"},
     "qiqi":  {"status": "selesai", "tugas": "Cek sinkron Ep28–32", "bubble": "Teks & suara sinkron", "hasil": "Ilustrasi Ep31 diganti ke peta penempatan (bukan pemda)", "update": "2026-11-26T22:40:00+07:00"},
@@ -25,6 +25,8 @@
     {"dari": "nasa",  "teks": "menyelesaikan naskah Ep28–32 untuk direview", "waktu": "2026-11-26T22:10:00+07:00", "dibaca": false},
     {"dari": "suara", "teks": "selesai merekam 5 narasi Ep28–32", "waktu": "2026-11-26T22:40:00+07:00", "dibaca": false},
     {"dari": "qiqi",  "teks": "mengganti ilustrasi Ep31 jadi peta penempatan", "waktu": "2026-11-26T22:40:00+07:00", "dibaca": false},
-    {"dari": "edo",   "teks": "mengirim Ep28–32 ke siap-upload", "waktu": "2026-11-26T22:40:00+07:00", "dibaca": false}
+    {"dari": "edo",   "teks": "mengirim Ep28–32 ke siap-upload", "waktu": "2026-11-26T22:40:00+07:00", "dibaca": false},
+    {"dari": "nasa",  "teks": "menyelesaikan naskah Ep33–38 untuk direview", "waktu": "2026-11-28T18:37:00+07:00", "dibaca": false},
+    {"dari": "rena",  "teks": "menunggu Boss cek naskah Ep33–38", "waktu": "2026-11-28T18:37:00+07:00", "dibaca": false}
   ]
 }

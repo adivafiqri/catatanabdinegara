@@ -1,0 +1,170 @@
+{
+ "judul": "Ep 34 — Bangun jam 04.30 tiap hari",
+ "sampul": {
+  "ep": "EP 34",
+  "atas": [
+   "bangun tiap hari"
+  ],
+  "hl": "jam 04.30",
+  "bawah": [
+   "kebiasaan taruna",
+   "yang kebawa kerja"
+  ],
+  "stiker": "TARUNA",
+  "maskot": "kaget"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "TARUNA",
+   "teks": [
+    "bangun tiap hari"
+   ],
+   "hl": "jam 04.30?",
+   "maskot": "kaget",
+   "narasi": "Bangun jam empat tiga puluh, tiap hari? Di banyak sekolah kedinasan, itu biasa.",
+   "ucapan": "[curious] Bangun jam empat tiga puluh, tiap hari? Di banyak sekolah kedinasan, itu biasa.",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "jadwal",
+   "label": "contoh pagi taruna",
+   "item": [
+    [
+     "04.30",
+     "bangun, rapikan kasur"
+    ],
+    [
+     "05.00",
+     "ibadah"
+    ],
+    [
+     "05.30",
+     "olahraga pagi"
+    ],
+    [
+     "06.30",
+     "apel dan sarapan"
+    ]
+   ],
+   "maskot": "senyum",
+   "narasi": "Contohnya: bangun dan rapikan kasur, ibadah, olahraga pagi, lalu apel dan sarapan.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "Contohnya: bangun dan rapikan kasur, ibadah, olahraga pagi, lalu apel dan sarapan."
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "berbeda",
+    "siap"
+   ],
+   "maskot": "tegas",
+   "narasi": "Jam persisnya berbeda di tiap sekolah, tapi intinya sama: pagi-pagi sudah siap.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Jam persisnya berbeda di tiap sekolah, tapi intinya sama: pagi-pagi sudah siap."
+  },
+  {
+   "tipe": "chat",
+   "item": [
+    [
+     "kiri",
+     "Kalau ketiduran gimana?"
+    ],
+    [
+     "kanan",
+     "Bisa kena teguran. Makanya biasakan dari sekarang."
+    ]
+   ],
+   "wajah": "mikir",
+   "maskot": "senyum",
+   "narasi": "Kalau ketiduran gimana? Bisa kena teguran. Makanya biasakan dari sekarang.",
+   "ucapan": "[curious] Kalau ketiduran gimana? Bisa kena teguran. Makanya biasakan dari sekarang.",
+   "id": 4,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "steps",
+   "judul": "biar kuat bangun pagi",
+   "item": [
+    "tidur sebelum jam 22",
+    "HP jauh dari kasur",
+    "alarm satu kali saja",
+    "langsung bangun"
+   ],
+   "maskot": "tegas",
+   "narasi": "Biar kuat: tidur sebelum jam sepuluh malam, HP jauh dari kasur, alarm satu kali saja, dan langsung bangun, jangan nego.",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Biar kuat: tidur sebelum jam sepuluh malam, HP jauh dari kasur, alarm satu kali saja, dan langsung bangun, jangan nego."
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "KALAU SEKARANG",
+    "item": [
+     "bangun jam 7",
+     "rebahan dulu"
+    ]
+   },
+   "kanan": {
+    "judul": "MULAI LATIHAN",
+    "item": [
+     "majukan bertahap",
+     "langsung gerak"
+    ]
+   },
+   "maskot": "senyum",
+   "narasi": "Kalau sekarang masih bangun jam tujuh dan rebahan dulu, mulai latihan: majukan bertahap, lima belas menit tiap minggu, lalu langsung gerak.",
+   "id": 6,
+   "durasi": 3.0,
+   "ucapan": "Kalau sekarang masih bangun jam tujuh dan rebahan dulu, mulai latihan: majukan bertahap, lima belas menit tiap minggu, lalu langsung gerak."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "kebiasaan ini"
+   ],
+   "hl": "kebawa sampai kerja",
+   "maskot": "hormat",
+   "narasi": "Kebiasaan ini biasanya kebawa sampai kerja nanti.",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Kebiasaan ini biasanya kebawa sampai kerja nanti."
+  },
+  {
+   "tipe": "kuis",
+   "label": "TANYA KAMU",
+   "soal": "Kamu biasanya bangun jam berapa?",
+   "opsi": [
+    "sebelum jam 5",
+    "jam 5 sampai 6",
+    "jam 6 sampai 7",
+    "lewat jam 7"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Jujur, kamu biasanya bangun jam berapa? Sebelum jam lima, jam lima sampai enam, jam enam sampai tujuh, atau lewat jam tujuh? Tulis di kolom komentar!",
+   "ucapan": "[curious] Jujur, kamu biasanya bangun jam berapa? Sebelum jam lima, jam lima sampai enam, jam enam sampai tujuh, atau lewat jam tujuh? [excited] Tulis di kolom komentar!",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: nilai SKD",
+   "label": "episode 35",
+   "baris": [
+    "nilai SKD",
+    "dihitung gimana?"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, cara nilai SKD dihitung. Follow ya!",
+   "ucapan": "Next, cara nilai SKD dihitung. [excited] Follow ya!",
+   "id": 9,
+   "durasi": 3.0
+  }
+ ]
+}

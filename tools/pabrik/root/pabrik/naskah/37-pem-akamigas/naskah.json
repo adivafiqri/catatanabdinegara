@@ -1,0 +1,167 @@
+{
+ "judul": "Ep 37 — PEM Akamigas: sekolah energi",
+ "sampul": {
+  "ep": "EP 37",
+  "atas": [
+   "sekolah migas"
+  ],
+  "hl": "PEM Akamigas",
+  "bawah": [
+   "kedinasan",
+   "atau bukan?"
+  ],
+  "stiker": "CEK FAKTA",
+  "maskot": "mikir"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "CEK FAKTA",
+   "teks": [
+    "sekolah migas di Cepu"
+   ],
+   "hl": "kedinasan?",
+   "maskot": "mikir",
+   "narasi": "Sekolah migas di Cepu ini sering dikira sekolah kedinasan. Benar nggak?",
+   "ucapan": "[curious] Sekolah migas di Cepu ini sering dikira sekolah kedinasan. Benar nggak?",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "card",
+   "label": "PEM Akamigas",
+   "ikon": "19-ikon-gedung-kampus",
+   "baris": [
+    "Politeknik Energi",
+    "dan Mineral"
+   ],
+   "sub": [
+    "di bawah Kementerian ESDM"
+   ],
+   "maskot": "senyum",
+   "narasi": "Namanya Politeknik Energi dan Mineral Akamigas, di bawah Kementerian ESDM, di Cepu, Blora.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "Namanya Politeknik Energi dan Mineral Akamigas, di bawah Kementerian ESDM, di Cepu, Blora."
+  },
+  {
+   "tipe": "steps",
+   "judul": "5 prodi sarjana terapan",
+   "item": [
+    "Produksi Migas",
+    "Pengolahan Migas",
+    "Instrumentasi Kilang",
+    "Mesin Kilang",
+    "Logistik Migas"
+   ],
+   "maskot": "tegas",
+   "narasi": "Ada lima prodi: Produksi Migas, Pengolahan Migas, Instrumentasi Kilang, Mesin Kilang, dan Logistik Migas.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Ada lima prodi: Produksi Migas, Pengolahan Migas, Instrumentasi Kilang, Mesin Kilang, dan Logistik Migas."
+  },
+  {
+   "tipe": "big",
+   "label": "daya tampung 2026/2027",
+   "angka": "390 kursi",
+   "sub": "jalur reguler",
+   "maskot": "kaget",
+   "narasi": "Daya tampung tahun ajaran ini tiga ratus sembilan puluh kursi.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Daya tampung tahun ajaran ini tiga ratus sembilan puluh kursi."
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "SEKOLAH KEDINASAN",
+    "item": [
+     "daftar di SSCASN",
+     "biaya ditanggung negara"
+    ]
+   },
+   "kanan": {
+    "judul": "PEM AKAMIGAS",
+    "item": [
+     "daftar di PMB sendiri",
+     "bayar UKT"
+    ]
+   },
+   "maskot": "mikir",
+   "narasi": "Bedanya: sekolah kedinasan daftar di SSCASN dan biaya ditanggung negara. PEM Akamigas daftar di PMB sendiri dan bayar UKT.",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Bedanya: sekolah kedinasan daftar di SSCASN dan biaya ditanggung negara. PEM Akamigas daftar di PMB sendiri dan bayar UKT."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "lulusannya"
+   ],
+   "hl": "tidak otomatis PNS",
+   "maskot": "tegas",
+   "narasi": "Lulusannya juga tidak otomatis jadi PNS.",
+   "ucapan": "[serious] Lulusannya juga tidak otomatis jadi PNS.",
+   "id": 6,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "direkrut",
+    "industri"
+   ],
+   "maskot": "senyum",
+   "narasi": "Tapi saat wisuda Juli lalu, sekitar empat puluh persen lulusannya sudah direkrut industri.",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Tapi saat wisuda Juli lalu, sekitar empat puluh persen lulusannya sudah direkrut industri."
+  },
+  {
+   "tipe": "checks",
+   "label": "syarat umum 2026/2027",
+   "item": [
+    "maksimal 21 tahun",
+    "belum menikah",
+    "tidak buta warna"
+   ],
+   "maskot": "tegas",
+   "narasi": "Syarat umumnya antara lain maksimal dua puluh satu tahun, belum menikah, dan tidak buta warna.",
+   "id": 8,
+   "durasi": 3.0,
+   "ucapan": "Syarat umumnya antara lain maksimal dua puluh satu tahun, belum menikah, dan tidak buta warna."
+  },
+  {
+   "tipe": "kuis",
+   "label": "TANYA KAMU",
+   "soal": "Kamu tertarik kuliah di sekolah energi?",
+   "opsi": [
+    "tertarik banget",
+    "tertarik, tapi biaya",
+    "lebih pilih kedinasan",
+    "belum tahu"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Kamu tertarik kuliah di sekolah energi? Tertarik banget, tertarik tapi mikir biaya, lebih pilih kedinasan, atau belum tahu? Tulis di kolom komentar!",
+   "ucapan": "[curious] Kamu tertarik kuliah di sekolah energi? Tertarik banget, tertarik tapi mikir biaya, lebih pilih kedinasan, atau belum tahu? [excited] Tulis di kolom komentar!",
+   "id": 9,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: UUD 1945",
+   "label": "episode 38",
+   "baris": [
+    "latihan TWK",
+    "UUD 1945"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, latihan TWK pasal UUD 1945. Follow ya!",
+   "ucapan": "Next, latihan TWK pasal UUD 1945. [excited] Follow ya!",
+   "id": 10,
+   "durasi": 3.0
+  }
+ ]
+}

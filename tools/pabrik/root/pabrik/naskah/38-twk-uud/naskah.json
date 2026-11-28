@@ -1,0 +1,155 @@
+{
+ "judul": "Ep 38 — Latihan TWK: UUD 1945",
+ "sampul": {
+  "ep": "EP 38",
+  "atas": [
+   "latihan TWK"
+  ],
+  "hl": "UUD 1945",
+  "bawah": [
+   "3 soal",
+   "pasal penting"
+  ],
+  "stiker": "LATIHAN!",
+  "maskot": "tegas"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "LATIHAN!",
+   "teks": [
+    "pasal UUD 1945"
+   ],
+   "hl": "yang sering keluar",
+   "maskot": "tegas",
+   "narasi": "Pasal UUD 1945 yang sering keluar di TWK. Siap?",
+   "ucapan": "Pasal UUD 1945 yang sering keluar di TWK. [excited] Siap?",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kuis",
+   "label": "LATIHAN TWK",
+   "soal": "\"Negara Indonesia adalah negara hukum.\" Bunyi pasal...",
+   "opsi": [
+    "Pasal 1 ayat 1",
+    "Pasal 1 ayat 2",
+    "Pasal 1 ayat 3",
+    "Pasal 3 ayat 1"
+   ],
+   "jawab": 2,
+   "kunci_kata": "jawabannya",
+   "maskot": "mikir",
+   "narasi": "Coba: Negara Indonesia adalah negara hukum. Itu bunyi pasal berapa? Pasal satu ayat satu, pasal satu ayat dua, pasal satu ayat tiga, atau pasal tiga ayat satu? Jawabannya: C, pasal satu ayat tiga.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "Coba: Negara Indonesia adalah negara hukum. Itu bunyi pasal berapa? Pasal satu ayat satu, pasal satu ayat dua, pasal satu ayat tiga, atau pasal tiga ayat satu? Jawabannya: C, pasal satu ayat tiga."
+  },
+  {
+   "tipe": "chips",
+   "judul": "Pasal 1 UUD 1945",
+   "item": [
+    [
+     "ayat 1",
+     "negara kesatuan, republik"
+    ],
+    [
+     "ayat 2",
+     "kedaulatan di tangan rakyat"
+    ],
+    [
+     "ayat 3",
+     "negara hukum"
+    ]
+   ],
+   "maskot": "tegas",
+   "narasi": "Ingat pasal satu: ayat satu negara kesatuan berbentuk republik, ayat dua kedaulatan di tangan rakyat, ayat tiga negara hukum.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Ingat pasal satu: ayat satu negara kesatuan berbentuk republik, ayat dua kedaulatan di tangan rakyat, ayat tiga negara hukum."
+  },
+  {
+   "tipe": "kuis",
+   "label": "LATIHAN TWK",
+   "soal": "Hak dan kewajiban ikut serta dalam usaha pertahanan dan keamanan negara ada di...",
+   "opsi": [
+    "Pasal 27 ayat 1",
+    "Pasal 28",
+    "Pasal 30 ayat 1",
+    "Pasal 31 ayat 1"
+   ],
+   "jawab": 2,
+   "kunci_kata": "jawabannya",
+   "maskot": "mikir",
+   "narasi": "Soal kedua: hak dan kewajiban ikut serta dalam usaha pertahanan dan keamanan negara ada di pasal berapa? Pasal dua puluh tujuh ayat satu, pasal dua puluh delapan, pasal tiga puluh ayat satu, atau pasal tiga puluh satu ayat satu? Jawabannya: C, pasal tiga puluh ayat satu.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Soal kedua: hak dan kewajiban ikut serta dalam usaha pertahanan dan keamanan negara ada di pasal berapa? Pasal dua puluh tujuh ayat satu, pasal dua puluh delapan, pasal tiga puluh ayat satu, atau pasal tiga puluh satu ayat satu? Jawabannya: C, pasal tiga puluh ayat satu."
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "PASAL 27 AYAT 3",
+    "item": [
+     "upaya pembelaan negara"
+    ]
+   },
+   "kanan": {
+    "judul": "PASAL 30 AYAT 1",
+    "item": [
+     "usaha pertahanan",
+     "dan keamanan negara"
+    ]
+   },
+   "maskot": "mikir",
+   "narasi": "Jangan tertukar: pasal dua puluh tujuh ayat tiga soal upaya pembelaan negara, pasal tiga puluh ayat satu soal usaha pertahanan dan keamanan negara.",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Jangan tertukar: pasal dua puluh tujuh ayat tiga soal upaya pembelaan negara, pasal tiga puluh ayat satu soal usaha pertahanan dan keamanan negara."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "trik hafal"
+   ],
+   "hl": "kata kunci!",
+   "maskot": "senyum",
+   "narasi": "Triknya: hafal kata kunci tiap pasal, bukan seluruh kalimatnya.",
+   "id": 6,
+   "durasi": 3.0,
+   "ucapan": "Triknya: hafal kata kunci tiap pasal, bukan seluruh kalimatnya."
+  },
+  {
+   "tipe": "kuis",
+   "label": "GILIRAN KAMU",
+   "soal": "Hak setiap warga negara untuk mendapat pendidikan ada di...",
+   "opsi": [
+    "Pasal 28",
+    "Pasal 29 ayat 2",
+    "Pasal 31 ayat 1",
+    "Pasal 33 ayat 1"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Giliran kamu. Hak setiap warga negara untuk mendapat pendidikan ada di pasal berapa? Pasal dua puluh delapan, pasal dua puluh sembilan ayat dua, pasal tiga puluh satu ayat satu, atau pasal tiga puluh tiga ayat satu? Tulis jawabanmu di kolom komentar!",
+   "ucapan": "[curious] Giliran kamu. Hak setiap warga negara untuk mendapat pendidikan ada di pasal berapa? Pasal dua puluh delapan, pasal dua puluh sembilan ayat dua, pasal tiga puluh satu ayat satu, atau pasal tiga puluh tiga ayat satu? [excited] Tulis jawabanmu di kolom komentar!",
+   "id": 7,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: tes kesehatan",
+   "label": "episode 39",
+   "baris": [
+    "tes kesehatan",
+    "yang bikin gugur"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, tes kesehatan yang sering bikin gugur. Follow ya!",
+   "ucapan": "Next, tes kesehatan yang sering bikin gugur. [excited] Follow ya!",
+   "id": 8,
+   "durasi": 3.0
+  }
+ ]
+}
