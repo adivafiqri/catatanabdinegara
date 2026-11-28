@@ -1,0 +1,157 @@
+{
+ "judul": "Ep 36 — Latihan TIU: analogi kata",
+ "sampul": {
+  "ep": "EP 36",
+  "atas": [
+   "latihan TIU"
+  ],
+  "hl": "analogi kata",
+  "bawah": [
+   "3 soal +",
+   "cara cari hubungan"
+  ],
+  "stiker": "LATIHAN!",
+  "maskot": "mikir"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "LATIHAN!",
+   "teks": [
+    "analogi kata"
+   ],
+   "hl": "cari hubungannya!",
+   "maskot": "mikir",
+   "narasi": "Soal analogi kata? Kuncinya: cari hubungannya!",
+   "ucapan": "[curious] Soal analogi kata? [excited] Kuncinya: cari hubungannya!",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "steps",
+   "judul": "cara cepat",
+   "item": [
+    "buat kalimat penghubung",
+    "cek ke tiap pilihan",
+    "pilih yang hubungannya sama"
+   ],
+   "maskot": "tegas",
+   "narasi": "Caranya: buat kalimat penghubung, cek ke tiap pilihan, lalu pilih yang hubungannya sama.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "Caranya: buat kalimat penghubung, cek ke tiap pilihan, lalu pilih yang hubungannya sama."
+  },
+  {
+   "tipe": "kuis",
+   "label": "LATIHAN TIU",
+   "soal": "DOKTER : RUMAH SAKIT = GURU : ...",
+   "opsi": [
+    "murid",
+    "sekolah",
+    "buku",
+    "kapur"
+   ],
+   "jawab": 1,
+   "kunci_kata": "jawabannya",
+   "maskot": "mikir",
+   "narasi": "Coba: dokter berbanding rumah sakit, sama dengan guru berbanding apa? Murid, sekolah, buku, atau kapur? Jawabannya: B, sekolah.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Coba: dokter berbanding rumah sakit, sama dengan guru berbanding apa? Murid, sekolah, buku, atau kapur? Jawabannya: B, sekolah."
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "bekerja"
+   ],
+   "maskot": "senyum",
+   "narasi": "Kalimatnya: dokter bekerja di rumah sakit, guru bekerja di sekolah.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Kalimatnya: dokter bekerja di rumah sakit, guru bekerja di sekolah."
+  },
+  {
+   "tipe": "kuis",
+   "label": "LATIHAN TIU",
+   "soal": "PADI : PETANI = IKAN : ...",
+   "opsi": [
+    "laut",
+    "jala",
+    "nelayan",
+    "pasar"
+   ],
+   "jawab": 2,
+   "kunci_kata": "jawabannya",
+   "maskot": "mikir",
+   "narasi": "Soal kedua: padi berbanding petani, sama dengan ikan berbanding apa? Laut, jala, nelayan, atau pasar? Jawabannya: C, nelayan.",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Soal kedua: padi berbanding petani, sama dengan ikan berbanding apa? Laut, jala, nelayan, atau pasar? Jawabannya: C, nelayan."
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "JEBAKAN",
+    "item": [
+     "laut, tempat ikan"
+    ]
+   },
+   "kanan": {
+    "judul": "TEPAT",
+    "item": [
+     "nelayan, pencari ikan",
+     "seperti petani"
+    ]
+   },
+   "maskot": "mikir",
+   "narasi": "Laut itu jebakan, karena hanya tempat ikan. Yang tepat nelayan, pencari ikan, seperti petani yang menanam padi.",
+   "id": 6,
+   "durasi": 3.0,
+   "ucapan": "Laut itu jebakan, karena hanya tempat ikan. Yang tepat nelayan, pencari ikan, seperti petani yang menanam padi."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "urutan hubungan"
+   ],
+   "hl": "harus sama!",
+   "maskot": "tegas",
+   "narasi": "Hati-hati, urutan hubungannya harus sama, dari kiri ke kanan.",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Hati-hati, urutan hubungannya harus sama, dari kiri ke kanan."
+  },
+  {
+   "tipe": "kuis",
+   "label": "GILIRAN KAMU",
+   "soal": "PENA : MENULIS = GUNTING : ...",
+   "opsi": [
+    "kertas",
+    "memotong",
+    "tajam",
+    "kain"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Giliran kamu. Pena berbanding menulis, sama dengan gunting berbanding apa? Kertas, memotong, tajam, atau kain? Tulis jawabanmu di kolom komentar!",
+   "ucapan": "[curious] Giliran kamu. Pena berbanding menulis, sama dengan gunting berbanding apa? Kertas, memotong, tajam, atau kain? [excited] Tulis jawabanmu di kolom komentar!",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: PEM Akamigas",
+   "label": "episode 37",
+   "baris": [
+    "sekolah migas",
+    "kedinasan?"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, sekolah migas di Cepu, kedinasan atau bukan. Follow ya!",
+   "ucapan": "Next, sekolah migas di Cepu, kedinasan atau bukan. [excited] Follow ya!",
+   "id": 9,
+   "durasi": 3.0
+  }
+ ]
+}

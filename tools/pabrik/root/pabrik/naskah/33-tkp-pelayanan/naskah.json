@@ -1,0 +1,168 @@
+{
+ "judul": "Ep 33 — Latihan TKP: pelayanan publik",
+ "sampul": {
+  "ep": "EP 33",
+  "atas": [
+   "latihan TKP"
+  ],
+  "hl": "pelayanan publik",
+  "bawah": [
+   "2 soal +",
+   "kenapa skornya 5"
+  ],
+  "stiker": "LATIHAN!",
+  "maskot": "mikir"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "LATIHAN!",
+   "teks": [
+    "soal TKP"
+   ],
+   "hl": "pelayanan publik",
+   "maskot": "mikir",
+   "narasi": "Soal TKP pelayanan publik. Mana jawaban yang skornya paling tinggi?",
+   "ucapan": "[curious] Soal TKP pelayanan publik. Mana jawaban yang skornya paling tinggi?",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "big",
+   "label": "skor tiap pilihan TKP",
+   "angka": "1–5",
+   "sub": "cari yang paling tepat",
+   "maskot": "tegas",
+   "narasi": "Di TKP, tiap pilihan punya skor satu sampai lima. Tugasmu cari yang paling tepat.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "Di TKP, tiap pilihan punya skor satu sampai lima. Tugasmu cari yang paling tepat."
+  },
+  {
+   "tipe": "skala",
+   "label": "SOAL 1",
+   "soal": "Antrean panjang, ada lansia berdiri lama di belakang. Kamu petugas loket...",
+   "opsi": [
+    [
+     "abaikan saja",
+     1
+    ],
+    [
+     "suruh menunggu",
+     2
+    ],
+    [
+     "layani sesuai prioritas",
+     5
+    ]
+   ],
+   "maskot": "mikir",
+   "narasi": "Soal satu. Antrean panjang, ada lansia berdiri lama di belakang. Abaikan saja, skornya kecil. Suruh menunggu, masih kecil. Beri tempat duduk dan layani sesuai prioritas, skornya paling tinggi.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "Soal satu. Antrean panjang, ada lansia berdiri lama di belakang. Abaikan saja, skornya kecil. Suruh menunggu, masih kecil. Beri tempat duduk dan layani sesuai prioritas, skornya paling tinggi."
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "kelompok",
+    "rentan"
+   ],
+   "maskot": "senyum",
+   "narasi": "Pelayanan publik yang baik mendahulukan kelompok rentan, seperti lansia dan penyandang disabilitas.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Pelayanan publik yang baik mendahulukan kelompok rentan, seperti lansia dan penyandang disabilitas."
+  },
+  {
+   "tipe": "skala",
+   "label": "SOAL 2",
+   "soal": "Warga marah karena berkasnya hilang di kantormu. Kamu...",
+   "opsi": [
+    [
+     "balas dengan tegas",
+     1
+    ],
+    [
+     "suruh lapor atasan",
+     3
+    ],
+    [
+     "minta maaf, bantu urus ulang",
+     5
+    ]
+   ],
+   "maskot": "mikir",
+   "narasi": "Soal dua. Warga marah karena berkasnya hilang di kantormu. Balas dengan tegas, skornya kecil. Suruh lapor atasan, sedang. Minta maaf dan bantu urus ulang, skornya paling tinggi.",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Soal dua. Warga marah karena berkasnya hilang di kantormu. Balas dengan tegas, skornya kecil. Suruh lapor atasan, sedang. Minta maaf dan bantu urus ulang, skornya paling tinggi."
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "SKOR KECIL",
+    "item": [
+     "lempar tanggung jawab",
+     "ikut emosi"
+    ]
+   },
+   "kanan": {
+    "judul": "SKOR TINGGI",
+    "item": [
+     "ambil tanggung jawab",
+     "tenang dan solutif"
+    ]
+   },
+   "maskot": "tegas",
+   "narasi": "Jawaban skor kecil biasanya lempar tanggung jawab dan ikut emosi. Skor tinggi: ambil tanggung jawab, tenang dan solutif.",
+   "id": 6,
+   "durasi": 3.0,
+   "ucapan": "Jawaban skor kecil biasanya lempar tanggung jawab dan ikut emosi. Skor tinggi: ambil tanggung jawab, tenang dan solutif."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "abdi negara itu"
+   ],
+   "hl": "melayani!",
+   "maskot": "tegas",
+   "narasi": "Ingat, abdi negara itu melayani, bukan dilayani.",
+   "ucapan": "Ingat, [serious] abdi negara itu melayani, bukan dilayani.",
+   "id": 7,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kuis",
+   "label": "GILIRAN KAMU",
+   "soal": "Sistem antrean online error, warga mulai protes. Kamu...",
+   "opsi": [
+    "tutup loket sementara",
+    "jelaskan, buka antrean manual",
+    "minta warga pulang",
+    "tunggu perbaikan saja"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Giliran kamu. Sistem antrean online error, warga mulai protes. Tutup loket sementara, jelaskan dan buka antrean manual, minta warga pulang, atau tunggu perbaikan saja? Tulis jawabanmu di kolom komentar!",
+   "ucapan": "[curious] Giliran kamu. Sistem antrean online error, warga mulai protes. Tutup loket sementara, jelaskan dan buka antrean manual, minta warga pulang, atau tunggu perbaikan saja? [excited] Tulis jawabanmu di kolom komentar!",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: bangun jam 04.30",
+   "label": "episode 34",
+   "baris": [
+    "bangun subuh",
+    "tiap hari?"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, rasanya bangun jam empat tiga puluh tiap hari. Follow ya!",
+   "ucapan": "Next, rasanya bangun jam empat tiga puluh tiap hari. [excited] Follow ya!",
+   "id": 9,
+   "durasi": 3.0
+  }
+ ]
+}

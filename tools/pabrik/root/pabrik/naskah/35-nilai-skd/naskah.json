@@ -1,0 +1,157 @@
+{
+ "judul": "Ep 35 — Nilai SKD dihitung gimana?",
+ "sampul": {
+  "ep": "EP 35",
+  "atas": [
+   "nilai SKD"
+  ],
+  "hl": "dihitung gimana?",
+  "bawah": [
+   "TWK, TIU, TKP",
+   "+ passing grade"
+  ],
+  "stiker": "SAVE!",
+  "maskot": "mikir"
+ },
+ "adegan": [
+  {
+   "tipe": "hook",
+   "stiker": "SAVE!",
+   "teks": [
+    "nilai SKD"
+   ],
+   "hl": "dihitung gimana?",
+   "maskot": "mikir",
+   "narasi": "Nilai SKD itu dihitung gimana, sih?",
+   "ucapan": "[curious] Nilai SKD itu dihitung gimana, sih?",
+   "id": 1,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "chips",
+   "judul": "110 soal, 100 menit",
+   "item": [
+    [
+     "TWK",
+     "30 soal"
+    ],
+    [
+     "TIU",
+     "35 soal"
+    ],
+    [
+     "TKP",
+     "45 soal"
+    ]
+   ],
+   "maskot": "tegas",
+   "narasi": "Ada tiga bagian: TWK tiga puluh soal, TIU tiga puluh lima soal, dan TKP empat puluh lima soal.",
+   "id": 2,
+   "durasi": 3.0,
+   "ucapan": "Ada tiga bagian: TWK tiga puluh soal, TIU tiga puluh lima soal, dan TKP empat puluh lima soal."
+  },
+  {
+   "tipe": "vs",
+   "kiri": {
+    "judul": "TWK & TIU",
+    "item": [
+     "benar 5",
+     "salah atau kosong 0"
+    ]
+   },
+   "kanan": {
+    "judul": "TKP",
+    "item": [
+     "tiap pilihan 1 sampai 5",
+     "kosong 0"
+    ]
+   },
+   "maskot": "mikir",
+   "narasi": "TWK dan TIU: benar lima, salah atau kosong nol. TKP: tiap pilihan bernilai satu sampai lima, kosong nol.",
+   "id": 3,
+   "durasi": 3.0,
+   "ucapan": "TWK dan TIU: benar lima, salah atau kosong nol. TKP: tiap pilihan bernilai satu sampai lima, kosong nol."
+  },
+  {
+   "tipe": "big",
+   "label": "nilai maksimal",
+   "angka": "550",
+   "sub": "TWK 150 · TIU 175 · TKP 225",
+   "maskot": "kaget",
+   "narasi": "Nilai maksimalnya lima ratus lima puluh: TWK seratus lima puluh, TIU seratus tujuh puluh lima, TKP dua ratus dua puluh lima.",
+   "id": 4,
+   "durasi": 3.0,
+   "ucapan": "Nilai maksimalnya lima ratus lima puluh: TWK seratus lima puluh, TIU seratus tujuh puluh lima, TKP dua ratus dua puluh lima."
+  },
+  {
+   "tipe": "checks",
+   "label": "ambang batas 2026 (reguler)",
+   "item": [
+    "TWK minimal 65",
+    "TIU minimal 80",
+    "TKP minimal 156"
+   ],
+   "maskot": "tegas",
+   "narasi": "Ambang batas jalur reguler tahun ini: TWK minimal enam puluh lima, TIU minimal delapan puluh, TKP minimal seratus lima puluh enam.",
+   "id": 5,
+   "durasi": 3.0,
+   "ucapan": "Ambang batas jalur reguler tahun ini: TWK minimal enam puluh lima, TIU minimal delapan puluh, TKP minimal seratus lima puluh enam."
+  },
+  {
+   "tipe": "stamp",
+   "teks": [
+    "ketiganya"
+   ],
+   "hl": "harus lolos!",
+   "maskot": "kaget",
+   "narasi": "Ketiganya harus lolos. Satu saja kurang, gugur, walau totalnya tinggi.",
+   "ucapan": "[serious] Ketiganya harus lolos. Satu saja kurang, gugur, walau totalnya tinggi.",
+   "id": 6,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "kata",
+   "hl": [
+    "TKP",
+    "tertinggi"
+   ],
+   "maskot": "senyum",
+   "narasi": "Kalau total nilai sama, urutan ditentukan dari nilai TKP tertinggi dulu.",
+   "id": 7,
+   "durasi": 3.0,
+   "ucapan": "Kalau total nilai sama, urutan ditentukan dari nilai TKP tertinggi dulu."
+  },
+  {
+   "tipe": "kuis",
+   "label": "TANYA KAMU",
+   "soal": "Bagian mana yang paling sulit buat kamu?",
+   "opsi": [
+    "TWK",
+    "TIU",
+    "TKP",
+    "semua sama sulit"
+   ],
+   "kunci_kata": "komentar",
+   "maskot": "mikir",
+   "narasi": "Bagian mana yang paling sulit buat kamu? TWK, TIU, TKP, atau semua sama sulit? Tulis di kolom komentar!",
+   "ucapan": "[curious] Bagian mana yang paling sulit buat kamu? TWK, TIU, TKP, atau semua sama sulit? [excited] Tulis di kolom komentar!",
+   "id": 8,
+   "durasi": 3.0
+  },
+  {
+   "tipe": "cta",
+   "judul": "next: analogi kata",
+   "label": "episode 36",
+   "baris": [
+    "latihan TIU",
+    "analogi kata"
+   ],
+   "stiker": "FOLLOW!",
+   "maskot": "hormat",
+   "narasi": "Next, latihan TIU analogi kata. Follow ya!",
+   "ucapan": "Next, latihan TIU analogi kata. [excited] Follow ya!",
+   "id": 9,
+   "durasi": 3.0
+  }
+ ]
+}
